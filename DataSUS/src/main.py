@@ -17,8 +17,9 @@ def download_resource(resource_url, save_path):
         with open(save_path, 'wb') as file:
             file.write(response.content)
         print("Downloaded...")
-    else:
-        print("Already Downloaded")
+
+def clean_filename(filename):
+    return re.sub(r"[\n\t\s]*", "", filename)
 
 def main():
     URL = "https://opendatasus.saude.gov.br/organization/ministerio-da-saude"
@@ -57,9 +58,9 @@ def main():
 
                             response = requests.get(item["href"])
                             if file_type == "zip csv":
-                                file_name = re.sub(r"[\n\t\s]*", "", resource_item.text) + ".zip"
+                                file_name = clean_filename(resource_item.text) + ".zip"
                             else:
-                                file_name = re.sub(r"[\n\t\s]*", "", resource_item.text) + "." + file_type.lower()
+                                file_name = clean_filename(resource_item.text) + "." + file_type.lower()
                             file_path = os.path.join(dataset_path, file_name)
                             download_resource(item["href"], file_path)
 
@@ -68,13 +69,13 @@ def main():
                             item = data.find("div", class_="btn-group")
                             if item is not None:
                                 response = requests.get(item.find("a")["href"])
-                                file_name = re.sub(r"[\n\t\s]*", "", resource_item.text) + "." + file_type.lower()
+                                file_name = clean_filename(resource_item.text) + "." + file_type.lower()
                                 file_path = os.path.join(dataset_path, file_name)
                                 download_resource(item.find("a")["href"], file_path)
                             else:
                                 csvlist = data.find("div", class_="prose notes")
                                 for csvlink in csvlist.find_all("a", href=True):
-                                    csv_text = re.sub(r"[\n\t\s]*", "", csvlink.text)
+                                    csv_text = clean_filename(csvlink.text)
                                     file_name = csv_text + "." + file_type.lower()
                                     file_path = os.path.join(dataset_path, file_name)
                                     download_resource(csvlink['href'], file_path)
