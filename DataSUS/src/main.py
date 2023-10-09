@@ -1,4 +1,5 @@
 import requests
+from requests.auth import HTTPBasicAuth
 from bs4 import BeautifulSoup as soup
 import re
 import os
@@ -11,12 +12,17 @@ def create_directory(path):
     if not os.path.exists(path):
         os.makedirs(path)
 
-def download_resource(resource_url, save_path):
+def download_resource(resource_url, save_path, basic = ""):
     if not os.path.exists(save_path):
-        response = requests.get(resource_url)
+        if not basic == "":
+            response = requests.get(resource_url, auth=basic)
+        else:
+            response = requests.get(resource_url)
         with open(save_path, 'wb') as file:
             file.write(response.content)
         print("Downloaded...")
+    else:
+        print("Already Downloaded")
 
 def clean_filename(filename):
     return re.sub(r"[\n\t\s]*", "", filename)
@@ -52,18 +58,34 @@ def main():
                         print(resource_item.text)
                         file_type = resource_item.find("span").text
 
-                        if file_type in ["PDF", "XLSX", "XLS", "ODT", "ZIP", "zip csv"]:
+                        if file_type in ["PDF", "XLSX", "XLS", "ODT", "ZIP", "zip csv", "API"]:
                             data = get_page_content(PRE_URL + resource_item["href"])
                             item = data.find("div", class_="btn-group").find("a")
 
                             response = requests.get(item["href"])
                             if file_type == "zip csv":
                                 file_name = clean_filename(resource_item.text) + ".zip"
+                                file_path = os.path.join(dataset_path, file_name)                         
+                                download_resource(item["href"], file_path)
+                            if file_type == "API":  
+                                paragraph_tags = data.find_all('p')
+                                for tag in paragraph_tags:
+                                    text = tag.get_text()
+                                    if "Usuário:" in text:
+                                        usuario = text.split("Usuário:")[1].strip()
+                                    elif "Senha:" in text:
+                                        senha = text.split("Senha:")[1].strip()
+                                        
+                                basic = HTTPBasicAuth(usuario,senha)
+                                
+                                file_name = clean_filename(resource_item.text) + ".json"
+                                file_path = os.path.join(dataset_path, file_name)                         
+                                download_resource(item["href"], file_path, basic)
                             else:
                                 file_name = clean_filename(resource_item.text) + "." + file_type.lower()
-                            file_path = os.path.join(dataset_path, file_name)
-                            download_resource(item["href"], file_path)
-
+                                file_path = os.path.join(dataset_path, file_name)                         
+                                download_resource(item["href"], file_path)
+                                                      
                         if file_type == "CSV":
                             data = get_page_content(PRE_URL + resource_item["href"])
                             item = data.find("div", class_="btn-group")
@@ -79,7 +101,6 @@ def main():
                                     file_name = csv_text + "." + file_type.lower()
                                     file_path = os.path.join(dataset_path, file_name)
                                     download_resource(csvlink['href'], file_path)
-
                     print("\n")
 
 if __name__ == "__main__":
