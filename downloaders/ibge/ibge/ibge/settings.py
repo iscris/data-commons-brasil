@@ -65,8 +65,9 @@ DOWNLOAD_DELAY = 0.25
 # ITEM_PIPELINES = {
 #    "ibge.pipelines.IbgePipeline": 300,
 # }
-ITEM_PIPELINES = {"scrapy.pipelines.files.FilesPipeline": 1}
-FILES_STORE = "/home/brenomatos/Desktop/lixo/files"
+ITEM_PIPELINES = {
+    "scrapy.pipelines.files.FilesPipeline": 1}
+FILES_STORE = "./files"
 
 FILES_URLS_FIELD = "file_urls"
 FILES_RESULT_FIELD = "files"
