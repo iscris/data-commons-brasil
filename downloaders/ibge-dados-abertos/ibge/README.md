@@ -1,5 +1,5 @@
 # Execução
 
 ```
-scrapy ibge crawl
+scrapy crawl ibge
 ```
