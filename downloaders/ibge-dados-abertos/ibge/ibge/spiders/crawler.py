@@ -7,7 +7,7 @@ class IBGESpider(scrapy.Spider):
     name = "ibge"
     
     start_urls = [
-        "https://ftp.ibge.gov.br/Indices_de_Precos_Consumidor_Harmonizado/",
+        "https://ftp.ibge.gov.br/",
     ]
 
     def parse(self, response):

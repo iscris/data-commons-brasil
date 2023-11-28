@@ -62,11 +62,11 @@ DOWNLOAD_DELAY = 0.25
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-# ITEM_PIPELINES = {
-#    "ibge.pipelines.IbgePipeline": 300,
-# }
 ITEM_PIPELINES = {
-    "scrapy.pipelines.files.FilesPipeline": 1}
+   "ibge.pipelines.IbgePipeline": 1,
+}
+# ITEM_PIPELINES = {
+#     "scrapy.pipelines.files.FilesPipeline": 1}
 FILES_STORE = "./files"
 
 FILES_URLS_FIELD = "file_urls"
