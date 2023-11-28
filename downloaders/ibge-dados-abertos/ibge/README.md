@@ -1,0 +1,5 @@
+# Execução
+
+```
+scrapy ibge crawl
+```
