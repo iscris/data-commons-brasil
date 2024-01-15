@@ -2,7 +2,7 @@ FROM python:3.9-slim-bullseye
 
 WORKDIR /app
 
-WORKDIR /downloads
+WORKDIR /media
 
 COPY /src/requirements.txt /app/requirements.txt
 
