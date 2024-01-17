@@ -44,7 +44,8 @@ def main():
     URL = "https://opendatasus.saude.gov.br/organization/ministerio-da-saude"
     PRE_URL = "https://opendatasus.saude.gov.br"
     PRE_URL_API = "https://apidadosabertos.saude.gov.br"
-    mediaPath = "../media/"
+    mediaPath = "downloads/"
+    create_directory(mediaPath)
     usuario = None
     senha = None
 
@@ -76,54 +77,55 @@ def main():
                         file_type = resource_item.find("span").text.lower()
                         if file_type in ["pdf", "xlsx", "xls", "odt", "zip", "zip csv", "api"]:
                             data = get_page_content(PRE_URL + resource_item["href"])
-                            item = data.find("div", class_="btn-group").find("a")
-
-                            if file_type == "zip csv":
-                                file_name = clean_filename(resource_item.text) + ".zip"
-                                file_path = os.path.join(dataset_path, file_name)                         
-                                download_resource(item["href"], file_path)
-                            if file_type == "api":                                   
-                                paragraph_tags = data.find_all('p')
-                                for tag in paragraph_tags:
-                                    text = tag.get_text()
-                                    if "Usuário:" in text:
-                                        usuario = text.split("Usuário:")[1].strip()
-                                    elif "Senha:" in text:
-                                        senha = text.split("Senha:")[1].strip()                                
-                                                                   
-                                
-                                if usuario is None or senha is None:
-                                    apidata = get_page_content(item["href"])
-                                    script_tags = apidata.find_all('script')
+                            search_button = data.find("div", class_="btn-group")
+                            if search_button is not None:
+                                item = search_button.find("a")
+                                if file_type == "zip csv":
+                                    file_name = clean_filename(resource_item.text) + ".zip"
+                                    file_path = os.path.join(dataset_path, file_name)                         
+                                    download_resource(item["href"], file_path)
+                                if file_type == "api":                                   
+                                    paragraph_tags = data.find_all('p')
+                                    for tag in paragraph_tags:
+                                        text = tag.get_text()
+                                        if "Usuário:" in text:
+                                            usuario = text.split("Usuário:")[1].strip()
+                                        elif "Senha:" in text:
+                                            senha = text.split("Senha:")[1].strip()                                
+                                                                       
                                     
-                                    user_config = None
+                                    if usuario is None or senha is None:
+                                        apidata = get_page_content(item["href"])
+                                        script_tags = apidata.find_all('script')
+                                        
+                                        user_config = None
 
-                                    for script_tag in script_tags:
-                                        javascript_code = script_tag.string if script_tag else None
+                                        for script_tag in script_tags:
+                                            javascript_code = script_tag.string if script_tag else None
 
-                                        if javascript_code and 'var user_config' in javascript_code:
-                                            lines = javascript_code.split('\n')
+                                            if javascript_code and 'var user_config' in javascript_code:
+                                                lines = javascript_code.split('\n')
 
-                                            for line in lines:
-                                                if 'var user_config' in line:
-                                                    url_start = line.find('"url": "') + len('"url": "')
-                                                    url_end = line.find('"', url_start)
-                                                    url = line[url_start:url_end]
+                                                for line in lines:
+                                                    if 'var user_config' in line:
+                                                        url_start = line.find('"url": "') + len('"url": "')
+                                                        url_end = line.find('"', url_start)
+                                                        url = line[url_start:url_end]
 
-                                    item["href"] = PRE_URL_API + url
-                                    basic = ""
+                                        item["href"] = PRE_URL_API + url
+                                        basic = ""
+                                    else:
+                                        basic = HTTPBasicAuth(usuario,senha)
+                                    
+                                    file_name = clean_filename(resource_item.text) + ".json"
+                                    file_path = os.path.join(dataset_path, file_name)                         
+                                    download_resource(item["href"], file_path, basic)
+                                    usuario = None
+                                    senha = None
                                 else:
-                                    basic = HTTPBasicAuth(usuario,senha)
-                                
-                                file_name = clean_filename(resource_item.text) + ".json"
-                                file_path = os.path.join(dataset_path, file_name)                         
-                                download_resource(item["href"], file_path, basic)
-                                usuario = None
-                                senha = None
-                            else:
-                                file_name = clean_filename(resource_item.text) + "." + file_type
-                                file_path = os.path.join(dataset_path, file_name)                         
-                                download_resource(item["href"], file_path)
+                                    file_name = clean_filename(resource_item.text) + "." + file_type
+                                    file_path = os.path.join(dataset_path, file_name)                         
+                                    download_resource(item["href"], file_path)
                                                       
                         if file_type == "csv":
                             data = get_page_content(PRE_URL + resource_item["href"])
