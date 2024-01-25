@@ -9,7 +9,6 @@ def run(playwright: Playwright):
     page.goto("https://sidra.ibge.gov.br/home/abate/brasil")
 
     # getting to each table individually
-
     button_text = "Ir para a página da pesquisa"
 
     page.get_by_title(button_text).click()
@@ -25,6 +24,7 @@ def run(playwright: Playwright):
     # following table links
     for l in links:
         page.goto("https://sidra.ibge.gov.br"+l)
+        time.sleep(2)
         # essa logica aqui serve para todas as paginas de tabela. Generalizar
         for checkbox in page.get_by_title("Desmarcar todos os elementos listados").all()[:-1]:
             checkbox.click()
@@ -38,13 +38,13 @@ def run(playwright: Playwright):
 
         expect(page.get_by_role("heading", name="Download")).to_be_visible()
         page.get_by_role("checkbox", name="Comprimir (.zip)").check()
+
+        page.get_by_role("checkbox", name="Exibir siglas de níveis territoriais").check()
+        page.get_by_role("checkbox", name="Exibir códigos de territórios").check()
+        page.get_by_role("checkbox", name="Exibir nomes de territórios").check()
+        page.get_by_role("checkbox", name="Exibir unidades de medida como coluna").check()
+        
         page.click("#opcao-downloads")
-
-
-        break
-    page.pause()
-
-    # page.go_back()
 
     page.pause()
 
