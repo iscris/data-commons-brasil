@@ -1,8 +1,8 @@
 from playwright.sync_api import sync_playwright, Playwright, expect
 import time
 
-def run(playwright: Playwright):
-    browser = playwright.chromium.launch(headless=False, args=["--start-maximized"])
+def run(playwright: Playwright, downloads_path="downloads/"):
+    browser = playwright.chromium.launch(headless=False, args=["--start-maximized"],downloads_path=downloads_path)
     context = browser.new_context(no_viewport=True)
 
     page = context.new_page()
@@ -44,7 +44,17 @@ def run(playwright: Playwright):
         page.get_by_role("checkbox", name="Exibir nomes de territórios").check()
         page.get_by_role("checkbox", name="Exibir unidades de medida como coluna").check()
         
-        page.click("#opcao-downloads")
+
+        # Start waiting for the download
+        with page.expect_download() as download_info:
+            # Perform the action that initiates download
+            page.click("#opcao-downloads")
+            download = download_info.value
+
+            # Wait for the download process to complete and save the downloaded file somewhere
+            download.save_as(download.suggested_filename)
+
+
 
     page.pause()
 
