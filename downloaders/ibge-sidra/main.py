@@ -1,18 +1,22 @@
 from playwright.sync_api import sync_playwright, Playwright, expect
 import time
 
-def run(playwright: Playwright, downloads_path="downloads/"):
+def default_run(playwright: Playwright, url, switch_tab=False, downloads_path="downloads/"):
     browser = playwright.chromium.launch(headless=False, args=["--start-maximized"],downloads_path=downloads_path)
     context = browser.new_context(no_viewport=True)
 
     page = context.new_page()
-    page.goto("https://sidra.ibge.gov.br/home/abate/brasil")
+    page.goto(url)
 
     # getting to each table individually
     button_text = "Ir para a página da pesquisa"
 
     page.get_by_title(button_text).click()
     time.sleep(1)
+
+    if switch_tab:
+        new_page_url = page.url.replace("quadros","tabelas")
+        page.goto(new_page_url)
 
     links_table = page.get_by_title("Abrir Tabela").all()
     links = []
@@ -24,7 +28,7 @@ def run(playwright: Playwright, downloads_path="downloads/"):
     # following table links
     for l in links:
         page.goto("https://sidra.ibge.gov.br"+l)
-        time.sleep(2)
+        time.sleep(5)
         # essa logica aqui serve para todas as paginas de tabela. Generalizar
         for checkbox in page.get_by_title("Desmarcar todos os elementos listados").all()[:-1]:
             checkbox.click()
@@ -37,6 +41,7 @@ def run(playwright: Playwright, downloads_path="downloads/"):
         time.sleep(1)
 
         expect(page.get_by_role("heading", name="Download")).to_be_visible()
+
         page.get_by_role("checkbox", name="Comprimir (.zip)").check()
 
         page.get_by_role("checkbox", name="Exibir siglas de níveis territoriais").check()
@@ -54,11 +59,10 @@ def run(playwright: Playwright, downloads_path="downloads/"):
             # Wait for the download process to complete and save the downloaded file somewhere
             download.save_as(download.suggested_filename)
 
-
-
     page.pause()
 
     context.close()
 
+
 with sync_playwright() as playwright:
-    run(playwright)
+    default_run(playwright, url="https://sidra.ibge.gov.br/home/inpc/brasil", switch_tab=True)
