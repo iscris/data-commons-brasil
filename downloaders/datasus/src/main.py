@@ -1,12 +1,25 @@
 import requests
 from requests.auth import HTTPBasicAuth
 from bs4 import BeautifulSoup as soup
+import time
 import re
 import os
 
-def get_page_content(url):
-    response = requests.get(url)
-    return soup(response.content, "html.parser")
+def get_page_content(url, max_retries=5, delay_seconds=20):
+    retries = 0
+    while retries < max_retries:
+        response = requests.get(url)
+        content = soup(response.content, "html.parser")
+
+        if content is not None:
+            return content
+
+        print(f"Retrying {retries + 1}/{max_retries} after {delay_seconds} seconds...")
+        time.sleep(delay_seconds)
+        retries += 1
+
+    print(f"Max retries reached. Unable to retrieve content from {url}")
+    return None
 
 def create_directory(path):
     if not os.path.exists(path):
@@ -25,7 +38,7 @@ def download_resource(resource_url, save_path, basic = ""):
         print("Already Downloaded")
 
 def clean_filename(filename):
-    return re.sub(r"[\n\t\s]*", "", filename)
+    return re.sub(r"[\n\t\s/]*", "", filename)
 
 def main():
     URL = "https://opendatasus.saude.gov.br/organization/ministerio-da-saude"
@@ -122,13 +135,31 @@ def main():
                                 download_resource(item.find("a")["href"], file_path)
                             else:
                                 csvlist = data.find("div", class_="prose notes")
-                                for csvlink in csvlist.find_all("a", href=True):
-                                    csv_text = clean_filename(csvlink.text)
-                                    file_name = csv_text + "." + file_type
-                                    file_path = os.path.join(dataset_path, file_name)
-                                    download_resource(csvlink['href'], file_path)
+                                if csvlist is None:
+                                    retries = 0
+                                    while retries < 5:
+                                        time.sleep(20)
+                                        data = get_page_content(PRE_URL + resource_item["href"])
+                                        csvlist = data.find("div", class_="prose notes")
+                                        if csvlist is not None:
+                                            retries = 5
+                                            for csvlink in csvlist.find_all("a", href=True):
+                                                csv_text = clean_filename(csvlink.text)
+                                                file_name = csv_text + "." + file_type
+                                                file_path = os.path.join(dataset_path, file_name)
+                                                download_resource(csvlink['href'], file_path)
+                                        else:
+                                            retries += 1
+                                    print("Not possible to download")
+                                else:
+                                    for csvlink in csvlist.find_all("a", href=True):
+                                        csv_text = clean_filename(csvlink.text)
+                                        file_name = csv_text + "." + file_type
+                                        file_path = os.path.join(dataset_path, file_name)
+                                        download_resource(csvlink['href'], file_path)
                     print("\n")
 
 if __name__ == "__main__":
     main()
-
+    while True:
+        pass
