@@ -12,7 +12,7 @@ def get_values(localidade):
     if r.status_code != 200:
         print("Falha na requisição: Status", r.status_code)
         return {}
-
+    
     return r.json()
 
 
