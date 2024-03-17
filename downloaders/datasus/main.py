@@ -1,9 +1,10 @@
-import requests
-from requests.auth import HTTPBasicAuth
-from bs4 import BeautifulSoup as soup
-import time
-import re
 import os
+import re
+import time
+
+import requests
+from bs4 import BeautifulSoup as soup
+from requests.auth import HTTPBasicAuth
 
 
 def get_page_content(url, max_retries=5, delay_seconds=20):
