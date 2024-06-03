@@ -18,7 +18,7 @@ case $1 in
         script_name=$(basename -- "$script_path")
         script_name="${script_name%.*}"
         container_name="data_commons-$script_name"
-        docker run --name $container_name -it data_commons $script_path
+        docker run -d --name $container_name -it data_commons $script_path
         ;;
     copy)
         if [ "$#" -ne 2 ]; then
