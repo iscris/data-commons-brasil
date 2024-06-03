@@ -40,3 +40,4 @@ tzdata==2023.3
 urllib3==2.1.0
 w3lib==2.1.2
 zope.interface==6.1
+playwright==1.29.0
