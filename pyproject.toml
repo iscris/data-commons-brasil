@@ -1,0 +1,6 @@
+[project]
+name = "data-commons-brasil"
+version = "0.1.0"
+description = "Processador de dados DC Brasil"
+readme = "README.md"
+requires-python = ">=3.12"
