@@ -1,7 +1,7 @@
-from pathlib import Path
-import subprocess
 import argparse
 import os
+import subprocess
+from pathlib import Path
 
 
 def run():
@@ -14,14 +14,30 @@ def run():
     )
     args = parser.parse_args()
 
-    input_dir = Path.cwd() / args.input_dir
-    output_dir = Path.cwd() / args.output_dir
+    input_dir = parse_dir(args.input_dir)
+    output_dir = parse_dir(args.output_dir)
     os.makedirs(output_dir, exist_ok=True)
     run_dc_import_tool_local(input_dir, output_dir)
 
 
+def parse_dir(dir: str):
+    if dir.startswith("gs://"):
+        # TODO: garantir que termina com "/"
+        return dir
+    print(dir)
+    print(str(dir))
+
+    return Path.cwd() / dir
+
+
 def run_dc_import_tool_local(input_dir: Path, output_dir: Path):
     run_dc_import_tool("datacommons-data", "latest", input_dir, output_dir)
+
+
+def is_gcloud_path(path: Path | str):
+    path = path if isinstance(path, str) else str(path)
+
+    return path.startswith("gs://")
 
 
 def run_dc_import_tool(
@@ -30,28 +46,35 @@ def run_dc_import_tool(
     current_dir = os.getcwd()
     home_dir = os.path.expanduser("~")
 
+    volumes = []
+    if not is_gcloud_path(input_dir):
+        volumes.extend(["-v", f"{input_dir}:{input_dir}"])
+
+    if not is_gcloud_path(output_dir):
+        volumes.extend(["-v", f"{output_dir}:{output_dir}"])
+
     docker_command = [
         "docker",
         "run",
         "-it",
         "--env-file",
-        f"{current_dir}/env.list",
+        f"{current_dir}/.env",
+        "--env-file",
+        f"{current_dir}/.env.qa",
         "-e",
         f"INPUT_DIR={input_dir}",
         "-e",
         f"OUTPUT_DIR={output_dir}",
-        "-v",
-        f"{input_dir}:{input_dir}",
-        "-v",
-        f"{output_dir}:{output_dir}",
         "-e",
         "GOOGLE_APPLICATION_CREDENTIALS=/gcp/creds.json",
         "-v",
-        f"{home_dir}/.config/gcloud/application_default_credentials.json:/gcp/creds.json:ro",
-        f"{image_path}:{version}",
+        f"{home_dir}/.config/gcloud/application_default_credentials.json:/gcp/creds.json",
     ]
 
-    result = subprocess.run(docker_command, capture_output=True, text=True)
+    full_img = f"{image_path}:{version}"
+    full_cmd = docker_command + volumes + [full_img]
+
+    result = subprocess.run(full_cmd, capture_output=True, text=True)
     print(result.stdout)
 
     if result.returncode == 0:
