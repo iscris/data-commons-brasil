@@ -1,6 +1,0 @@
-dash==2.14.2
-dash-bootstrap-components==1.5.0
-plotly==5.18.0
-redis==5.0.1
-numpy==1.26.2
-beautifulsoup4==4.12.2
