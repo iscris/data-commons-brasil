@@ -21,7 +21,7 @@ def main():
 
     data_processor_parser = subparser.add_parser("format", help="")
     data_processor_parser.add_argument("--input", type=str, required=True, help="")
-    data_processor_parser.add_argument("--output", type=str, default="output", help="")
+    data_processor_parser.add_argument("--output", type=str, default="data_processor", help="")
     data_processor_parser.add_argument("--values", type=str, help="")
 
     importer_parser = subparser.add_parser("import", help="")
@@ -29,14 +29,15 @@ def main():
     importer_parser.add_argument("--output", type=str, required=True, help="")
 
     args = parser.parse_args()
+    base_output_path = "output" 
 
     if args.command == "download":
         handle_downloader_option(args.source)
     elif args.command == "data_processor":
         values_path = args.values if args.values else f"{args.input}/values"
-        run_processor(args.input, args.output, values_path)
+        run_processor(args.input, f"{base_output_path}/{args.output}", values_path)
     elif args.command == "import":
-        run_importer(args.input, args.output)
+        run_importer(args.input, f"{base_output_path}/{args.output}")
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
-FROM python:3.11.5 AS builder
+FROM python:3.12 AS builder
 WORKDIR /app
-COPY ./downloaders ./downloaders
+COPY ./data_tools ./data_tools
 COPY ./requirements.txt .
 RUN pip install -r requirements.txt
-ENTRYPOINT ["python"]
+ENTRYPOINT ["python", "-m", "data_tools"]
