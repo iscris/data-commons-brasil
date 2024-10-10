@@ -33,11 +33,13 @@ def main():
 
     if args.command == "download":
         handle_downloader_option(args.source)
-    elif args.command == "data_processor":
+    elif args.command == "format":
         values_path = args.values if args.values else f"{args.input}/values"
         run_processor(args.input, f"{base_output_path}/{args.output}", values_path)
     elif args.command == "import":
         run_importer(args.input, f"{base_output_path}/{args.output}")
+    else:
+        raise NotImplementedError(f"Operation not implemented: {args.command}")
 
 
 if __name__ == "__main__":
