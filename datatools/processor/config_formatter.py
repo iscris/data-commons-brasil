@@ -2,8 +2,8 @@ from collections import defaultdict
 
 import polars as pl
 
-from data_tools.data_processor import ContextInfo, ValueFileInfo
-from data_tools.data_processor.common import display_name_into_stat_var_name
+from datatools.processor import ContextInfo, ValueFileInfo
+from datatools.processor.common import display_name_into_stat_var_name
 
 
 def make_config_json(

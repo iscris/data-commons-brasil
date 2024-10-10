@@ -18,10 +18,10 @@ def get_values(code: str) -> tuple[bool, pd.DataFrame | None, str | None]:
         return False, None, traceback.format_exception(e)
 
 
-def save_file(code: str, data: pd.DataFrame) -> tuple[bool, str | None]:
+def save_file(path: str, code: str, data: pd.DataFrame) -> tuple[bool, str | None]:
     try:
-        os.makedirs("downloads/values", exist_ok=True)
-        data.to_csv(f"downloads/values/{code}.csv")
+        os.makedirs(f"{path}/values", exist_ok=True)
+        data.to_csv(f"{path}/values/{code}.csv")
 
         return True, None
 
@@ -29,33 +29,35 @@ def save_file(code: str, data: pd.DataFrame) -> tuple[bool, str | None]:
         return False, traceback.format_exception(e)
 
 
-def process_code(code: str) -> tuple[bool, str | None]:
+def process_code(save_path: str, code: str) -> tuple[bool, str | None]:
     is_values_ok, data_df, values_error = get_values(code)
     if not is_values_ok:
         return False, values_error
 
-    is_save_ok, save_error = save_file(code, data_df)
+    is_save_ok, save_error = save_file(save_path, code, data_df)
     if not is_save_ok:
         return False, save_error
 
     return True, None
 
 
-def download_ipea_data():
-    os.makedirs("downloads", exist_ok=True)
-    ipeadatapy.metadata().to_csv("downloads/metadata.csv", index=False)
-    ipeadatapy.countries().to_csv("downloads/countries.csv", index=False)
-    ipeadatapy.latest_updates().to_csv("downloads/latest_updates.csv", index=False)
-    ipeadatapy.sources().to_csv("downloads/sources.csv", index=False)
-    ipeadatapy.themes().to_csv("downloads/themes.csv", index=False)
-    ipeadatapy.territories().to_csv("downloads/territories.csv", index=False)
+def download_ipea_data(output_dir: str):
+    os.makedirs(output_dir, exist_ok=True)
+    downloads_dir = f"{output_dir}/ipea"
+    os.makedirs(f"{downloads_dir}", exist_ok=True)
+    ipeadatapy.metadata().to_csv(f"{downloads_dir}/metadata.csv", index=False)
+    ipeadatapy.countries().to_csv(f"{downloads_dir}/countries.csv", index=False)
+    ipeadatapy.latest_updates().to_csv(f"{downloads_dir}/latest_updates.csv", index=False)
+    ipeadatapy.sources().to_csv(f"{downloads_dir}/sources.csv", index=False)
+    ipeadatapy.themes().to_csv(f"{downloads_dir}/themes.csv", index=False)
+    ipeadatapy.territories().to_csv(f"{downloads_dir}/territories.csv", index=False)
 
     df = ipeadatapy.list_series()
     code_list = df["CODE"].tolist()
 
     with open("logs.txt", "w+") as log_file:
         with concurrent.futures.ThreadPoolExecutor() as executor:
-            results = executor.map(process_code, code_list)
+            results = executor.map(lambda code: process_code(downloads_dir, code), code_list)
             for result in results:
                 is_success, error = result
                 if error:

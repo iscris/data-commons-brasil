@@ -5,7 +5,7 @@ from pathlib import Path
 
 import polars as pl
 
-from data_tools.data_processor import LOG_HANDLER, CsvData
+from datatools.processor import LOG_HANDLER, CsvData
 
 logger = logging.getLogger(LOG_HANDLER)
 
