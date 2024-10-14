@@ -30,7 +30,8 @@ file_list = [
 column_names = ["direcaoVento","pressaoAtm","umidadeExt","precipitacao","temperaturaExt","velocidadeVento"]
 
 for column in column_names:
-    df = pd.read_csv("metereologia-"+column+".csv")
+    df = pd.read_csv("../metereologia-"+column+".csv")
     df.rename(columns={'dtHrLeitura': 'date'}, inplace=True)
     new_df = drop_na_in_column(df, column)
+    new_df.to_csv("../metereologia-"+column+".csv", index=False)
     print(len(df), len(new_df))
