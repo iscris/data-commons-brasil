@@ -1,4 +1,4 @@
-downloads
 output
 __pycache__
 .env*
+.dc.env

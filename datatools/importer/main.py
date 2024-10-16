@@ -3,11 +3,12 @@ import subprocess
 from pathlib import Path
 
 
-def run_importer(input_dir: str, output_dir: str):
-    input_dir = parse_dir(input_dir)
-    output_dir = parse_dir(output_dir)
+def run_importer(input_dir: str, output_dir: str, image: str | None):
+    # input_dir = parse_dir(input_dir)
+    # output_dir = parse_dir(output_dir)
     os.makedirs(output_dir, exist_ok=True)
-    run_dc_import_tool_local(input_dir, output_dir)
+    image = image or "datacommons-data:latest"
+    run_dc_import_tool_local(input_dir, output_dir, image)
 
 
 def parse_dir(dir: str):
@@ -20,8 +21,8 @@ def parse_dir(dir: str):
     return Path.cwd() / dir
 
 
-def run_dc_import_tool_local(input_dir: Path, output_dir: Path):
-    run_dc_import_tool("datacommons-data", "latest", input_dir, output_dir)
+def run_dc_import_tool_local(input_dir: Path, output_dir: Path, image: str):
+    run_dc_import_tool(input_dir, output_dir, image)
 
 
 def is_gcloud_path(path: Path | str):
@@ -30,9 +31,7 @@ def is_gcloud_path(path: Path | str):
     return path.startswith("gs://")
 
 
-def run_dc_import_tool(
-    image_path: Path, version: str, input_dir: Path, output_dir: Path
-):
+def run_dc_import_tool(input_dir: Path, output_dir: Path, image: str):
     current_dir = os.getcwd()
     home_dir = os.path.expanduser("~")
 
@@ -41,7 +40,7 @@ def run_dc_import_tool(
         volumes.extend(["-v", f"{input_dir}:{input_dir}"])
 
     if not is_gcloud_path(output_dir):
-        volumes.extend(["-v", f"{output_dir}:{output_dir}"])
+        volumes.extend(["-v", f"$PWD/{output_dir}:{output_dir}"])
 
     docker_command = [
         "docker",
@@ -61,8 +60,7 @@ def run_dc_import_tool(
         f"{home_dir}/.config/gcloud/application_default_credentials.json:/gcp/creds.json",
     ]
 
-    full_img = f"{image_path}:{version}"
-    full_cmd = docker_command + volumes + [full_img]
+    full_cmd = docker_command + volumes + [image]
 
     result = subprocess.run(full_cmd, capture_output=True, text=True)
     print(result.stdout)

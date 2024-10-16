@@ -26,6 +26,7 @@ def main():
     importer_parser = subparser.add_parser("import", help="")
     importer_parser.add_argument("--input", type=str, required=True, help="")
     importer_parser.add_argument("--output", type=str, required=True, help="")
+    importer_parser.add_argument("--image", type=str, help="")
 
     args = parser.parse_args()
     base_output_path = "output" 
@@ -36,7 +37,7 @@ def main():
         values_path = args.values if args.values else f"{args.input}/values"
         run_processor(args.input, f"{base_output_path}/processor", values_path)
     elif args.command == "import":
-        run_importer(args.input, f"{base_output_path}/{args.output}")
+        run_importer(args.input, f"{base_output_path}/{args.output}", args.image)
     else:
         raise NotImplementedError(f"Operation not implemented: {args.command}")
 

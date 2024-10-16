@@ -1,0 +1,28 @@
+services:
+  importer:
+    image: ghcr.io/iscris/dc-brasil-data:latest
+    volumes:
+      - ${PWD}/output/processor:/app/input/processor
+      - ${PWD}/output/importer:/app/output/importer
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${PWD}/.dc.env:/app/.env
+      - ${PWD}/.dc.env:/app/.env.qa
+      - ${PWD}/gcp.json:/gcp/creds.json",
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/gcp/creds.json
+      - INPUT_DIR=${PWD}/output/processor
+      - OUTPUT_DIR=${PWD}/output/importer
+    env_file: .dc.env
+    tty: true
+  web:
+    image: gcr.io/datcom-ci/datacommons-services:stable
+    volumes:
+      - ${PWD}/custom_dc/sample:${PWD}/custom_dc/sample
+    environment:
+      - INPUT_DIR=${PWD}/output/processor
+      - OUTPUT_DIR=${PWD}/output/importer
+      - DEBUG=true
+    env_file: .dc.env
+    ports:
+      - 8080:8080
+    tty: true
