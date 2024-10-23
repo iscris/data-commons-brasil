@@ -3,7 +3,7 @@ from collections import defaultdict
 import polars as pl
 
 from datatools.processor import ContextInfo, ValueFileInfo
-from datatools.processor.common import display_name_into_stat_var_name
+from datatools.processor.ipea.common import display_name_into_stat_var_name
 
 
 def make_config_json(

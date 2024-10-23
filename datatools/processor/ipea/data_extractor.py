@@ -4,8 +4,8 @@ from pathlib import Path
 import polars as pl
 
 from datatools.processor import LOG_HANDLER, IpeaInfo, ValueFileInfo
-from datatools.processor.common import read_csv
-from datatools.processor.gpt_interface import GptInterface
+from datatools.processor.ipea.common import read_csv
+from datatools.processor.ipea.gpt_interface import GptInterface
 
 gpt_interface = GptInterface()
 logger = logging.getLogger(LOG_HANDLER)

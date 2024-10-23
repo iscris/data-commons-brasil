@@ -149,7 +149,7 @@ def process_files(path: str, output_path: str, context_info: ContextInfo):
     return extracted_data, csv_content
 
 
-def run_processor(input_path: str, output_path: str, values_path: str):
+def process_ipea_data(input_path: str, output_path: str, values_path: str):
     logger.info(f"Reading files from: {input_path}")
     logger.info(f"The raw data is in: {values_path}")
     logger.info(f"Writing processed files to: {output_path}")
