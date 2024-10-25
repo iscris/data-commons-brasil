@@ -2,7 +2,11 @@ import logging
 from dataclasses import dataclass
 from typing import Literal
 
+import os
 import polars as pl
+
+MODULE_PATH = os.path.dirname(__file__)
+UTILS_PATH = os.path.join(MODULE_PATH, "utils")
 
 LOG_HANDLER = "datacommons"
 logger = logging.getLogger(LOG_HANDLER)

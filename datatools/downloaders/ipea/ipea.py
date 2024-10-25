@@ -51,7 +51,7 @@ def download_ipea_data(output_dir: str):
     ipeadatapy.territories().to_csv(f"{output_dir}/territories.csv", index=False)
 
     df = ipeadatapy.list_series()
-    code_list = df["CODE"].tolist()[:50]
+    code_list = df["CODE"].tolist()
 
     with open("logs.txt", "w+") as log_file:
         with concurrent.futures.ThreadPoolExecutor() as executor:

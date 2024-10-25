@@ -1,10 +1,11 @@
 import json
 import logging
 from traceback import format_exc
+import os
 
 import polars as pl
 
-from datatools.processor import LOG_HANDLER, ContextInfo, ValueFileInfo
+from datatools.processor import UTILS_PATH, LOG_HANDLER, ContextInfo, ValueFileInfo
 
 from .common import display_name_into_stat_var_name
 
@@ -48,7 +49,7 @@ def update_data(
             )
 
             if level == "Estados":
-                states_df = pl.read_csv("utils/wikidata/states.csv").with_columns(
+                states_df = pl.read_csv(os.path.join(UTILS_PATH, "wikidata/states.csv")).with_columns(
                     pl.col("UF Code").cast(pl.String)
                 )
 
@@ -64,7 +65,7 @@ def update_data(
                 final_df = result.select(["wikidataId", "date", stat_var_name])
 
             elif level == "Municípios":
-                with open("utils/localidades_ibge_api/municipios.json") as f:
+                with open(os.path.join(UTILS_PATH, "localidades_ibge_api/municipios.json")) as f:
                     municipality_json = json.load(f)
                 municipios_df = pl.DataFrame(municipality_json).with_columns(
                     pl.col("nome")
@@ -82,7 +83,7 @@ def update_data(
                 )
 
                 municipality_wikidata_df = pl.read_csv(
-                    "utils/wikidata/municipality.csv"
+                    os.path.join(UTILS_PATH, "wikidata/municipality.csv")
                 ).with_columns(
                     pl.col("City")
                     .map_elements(normalize_name, return_dtype=pl.String)
