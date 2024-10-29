@@ -1,37 +1,4 @@
 services:
-  datatools:
-    image: ghcr.io/iscris/datatools:latest
-    tty: true
-
-  download:
-    image: ghcr.io/iscris/datatools:latest
-    entrypoint: ["python", "-m", "datatools", "--", "download", "--source"]
-    volumes:
-      - $PWD/output/downloader:/app/output/downloader
-    tty: true
-
-  process:
-    image: ghcr.io/iscris/datatools:latest
-    entrypoint: ["python", "-m", "datatools", "--", "process", "--source"]
-    volumes:
-      - $PWD/output/downloader/ipea/20241023_033757:/app/output/downloader/ipea
-      - $PWD/output/processor:/app/output/processor
-    tty: true
-
-  import:
-    image: ghcr.io/iscris/dc-brasil-data:latest
-    volumes:
-      - ${PWD}/output/processor:/app/output/processor
-      - ${PWD}/output/importer:/app/output/importer
-      - ${PWD}/.dc.env:/app/.env
-      - ${PWD}/.dc.env:/app/.env.qa
-    environment:
-      - GOOGLE_APPLICATION_CREDENTIALS=/gcp/creds.json
-      - INPUT_DIR=/app/output/processor
-      - OUTPUT_DIR=/app/output/importer
-    env_file: .dc.env
-    tty: true
-
   web:
     image: gcr.io/datcom-ci/datacommons-services:stable
     volumes:

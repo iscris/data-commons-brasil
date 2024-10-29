@@ -49,9 +49,9 @@ def update_data(
             )
 
             if level == "Estados":
-                states_df = pl.read_csv(os.path.join(UTILS_PATH, "wikidata/states.csv")).with_columns(
-                    pl.col("UF Code").cast(pl.String)
-                )
+                states_df = pl.read_csv(
+                    os.path.join(UTILS_PATH, "wikidata/states.csv")
+                ).with_columns(pl.col("UF Code").cast(pl.String))
 
                 result = states_df.join(
                     filtered_df, left_on="UF Code", right_on="TERCODIGO", how="right"
@@ -65,7 +65,9 @@ def update_data(
                 final_df = result.select(["wikidataId", "date", stat_var_name])
 
             elif level == "Municípios":
-                with open(os.path.join(UTILS_PATH, "localidades_ibge_api/municipios.json")) as f:
+                with open(
+                    os.path.join(UTILS_PATH, "localidades_ibge_api/municipios.json")
+                ) as f:
                     municipality_json = json.load(f)
                 municipios_df = pl.DataFrame(municipality_json).with_columns(
                     pl.col("nome")
