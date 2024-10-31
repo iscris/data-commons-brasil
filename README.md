@@ -8,12 +8,12 @@
 
 2. In the same folder, include the new source in the `downloaders.py` file within the `pick_downloader` function (you don't need to modify anything else there);
 
-3. Note that the signature of the function that actually downloads the data can only have one parameter: the output path. 
+3. Note that the signature of the function that actually downloads the data can only have one parameter: the output path; 
 
 4. Finally, to download the data via docker, use the command bellow:
 
     ``` bash
-    $ ./dockercmd.sh download <source> 
+    $ ./dockercmd.sh download [source] 
     ```
   
 The command above will create a container, execute the downloader and the data will be saved at `.output/downloader/<source>/<time-stamp>/`. When this process is done, the container will be automatically stoped and removed from Docker. 
@@ -22,15 +22,15 @@ The command above will create a container, execute the downloader and the data w
 
 1. Within the `processor` directory, create a new module and name it according to the chosen source (the same name used for the downloader);
 
-2. In the same folder, include the new source in the `processor.py` file within the `process_source` function; 
+2. In the same folder, include the new source in the `processor.py` file within the `pick_processor` function; 
 
 3. Finally, to process the data via docker, use the command bellow:
 
     ``` bash
-    $ ./dockercmd.sh process <source>
+    $ ./dockercmd.sh process [source] <timestamp>
     ``` 
 
-The command above will process data (from a given source) with the latest timestamp by default. Resulting data will can be found in the path `./output/process/<source>`. 
+The command above will process data (from a given source) with the latest timestamp by default. Resulting data can be found in the path `./output/process/<source>`. 
 
 _If data from the same source is processed more than once, older results will be replaced._
 
