@@ -24,10 +24,15 @@ case $1 in
     process)
         source_output=$downloader_output/$2
         last_download=$(ls -td $source_output/* | tail -1)
+        if [ -n "$3" ]; then 
+            selected_timestamp="$source_output/$3"
+        else
+            selected_timestamp=$last_download
+        fi
 
         flags="-d --rm"
         container_name=downloader_$2
-        volumes="-v $last_download:/app/output/downloader/$2 -v $PWD/output/processor:/app/output/processor"
+        volumes="-v $selected_timestamp:/app/output/downloader/$2 -v $PWD/output/processor:/app/output/processor"
         image=ghcr.io/iscris/datatools:latest
         command="process --source $2 --input=/app/output/downloader/$2"
         docker run $flags --name $container_name $volumes $image $command
