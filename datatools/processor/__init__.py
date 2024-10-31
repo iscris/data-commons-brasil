@@ -1,8 +1,8 @@
 import logging
+import os
 from dataclasses import dataclass
 from typing import Literal
 
-import os
 import polars as pl
 
 MODULE_PATH = os.path.dirname(__file__)

@@ -1,11 +1,11 @@
 import json
 import logging
-from traceback import format_exc
 import os
+from traceback import format_exc
 
 import polars as pl
 
-from datatools.processor import UTILS_PATH, LOG_HANDLER, ContextInfo, ValueFileInfo
+from datatools.processor import LOG_HANDLER, UTILS_PATH, ContextInfo, ValueFileInfo
 
 from .common import display_name_into_stat_var_name
 
