@@ -6,14 +6,20 @@ from uuid import uuid4
 from .ipea.ipea import download_ipea_data
 
 
-def pick_downloader(source: str, download_path: str):
+# In this function, download_path represents a temporary directory.
+# This directory will only exist until the download completes and the
+# data is transferred to its final destination—a permanent directory
+# named with a unique identifying timestamp
+def pick_downloader(source: str, tmp_download_path: str):
     match source:
         case "ipea":
-            download_ipea_data(download_path)
+            download_ipea_data(tmp_download_path)
         case _:
             raise NotImplementedError
 
 
+# Nothing bellow this comment needs to be modified when adding
+# a new downloading source
 def download_from_source(source: str, download_path: str):
     download_id = uuid4()
     tmp_path = f"{download_path}/{source}/tmp_{download_id}"

@@ -8,7 +8,9 @@
 
 2. In the same folder, include the new source in the `downloaders.py` file within the `pick_downloader` function (you don't need to modify anything else there);
 
-3. Finally, to download the data via docker, use the command bellow:
+3. Note that the signature of the function that actually downloads the data can only have one parameter: the output path. 
+
+4. Finally, to download the data via docker, use the command bellow:
 
     ``` bash
     $ ./dockercmd.sh download <source> 
@@ -37,7 +39,7 @@ _If data from the same source is processed more than once, older results will be
 1. Simply execute the command bellow:
 
     ``` bash
-    $ ./dockercmd.sh import 
+    $ ./dockercmd.sh import <source> 
     ```
 
 The command above will create a database formatted specifically to be imported into the data commons environment.
@@ -50,6 +52,6 @@ $ ./dockercmd.sh download ipea
 
 $ ./dockercmd.sh process ipea
 
-$ ./dockercmd.sh import
+$ ./dockercmd.sh import ipea
 ``` 
 The commands listed above download, process and format data from IPEA (assuming that the modules included in the source code work properly). 
