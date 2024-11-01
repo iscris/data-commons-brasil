@@ -1,0 +1,5571 @@
+UF,City,ID
+AC,Acrelândia,Q953086
+AC,Assis Brasil,Q1754403
+AC,Brasiléia,Q899406
+AC,Bujari,Q1754408
+AC,Capixaba,Q1800737
+AC,Cruzeiro do Sul,Q941136
+AC,Epitaciolândia,Q1755395
+AC,Feijó,Q1994833
+AC,Jordão,Q1800793
+AC,Manoel Urbano,Q1772688
+AC,Marechal Thaumaturgo,Q1772613
+AC,Mâncio Lima,Q1772621
+AC,Plácido de Castro,Q964075
+AC,Porto Acre,Q1772602
+AC,Porto Walter,Q1772588
+AC,Rio Branco,Q171612
+AC,Rodrigues Alves,Q1800776
+AC,Santa Rosa do Purus,Q1772719
+AC,Sena Madureira,Q1754389
+AC,Senador Guiomard,Q771763
+AC,Tarauacá,Q979910
+AC,Xapuri,Q1012531
+AL,Anadia,Q2028005
+AL,Arapiraca,Q626175
+AL,Atalaia,Q928274
+AL,Barra de Santo Antônio,Q1795908
+AL,Barra de São Miguel,Q2027348
+AL,Batalha,Q2028288
+AL,Belo Monte,Q1795566
+AL,Belém,Q2028301
+AL,Boca da Mata,Q1772672
+AL,Branquinha,Q2021035
+AL,Cacimbinhas,Q1808791
+AL,Cajueiro,Q2019063
+AL,Campestre,Q2028637
+AL,Campo Alegre,Q2028275
+AL,Campo Grande,Q1814259
+AL,Canapi,Q1796020
+AL,Capela,Q1955261
+AL,Carneiros,Q1808880
+AL,Chã Preta,Q2021044
+AL,Coité do Nóia,Q1816142
+AL,Colônia Leopoldina,
+AL,Coqueiro Seco,Q1816094
+AL,Coruripe,Q1796426
+AL,Craíbas,Q1795950
+AL,Delmiro Gouveia,Q22024823
+AL,Dois Riachos,Q22024873
+AL,Estrela de Alagoas,Q1795573
+AL,Feira Grande,Q520936
+AL,Feliz Deserto,Q649495
+AL,Flexeiras,Q1816177
+AL,Girau do Ponciano,Q768122
+AL,Ibateguara,Q2021130
+AL,Igaci,Q1808097
+AL,Igreja Nova,Q594183
+AL,Inhapi,Q2021140
+AL,Jacaré dos Homens,Q1816248
+AL,Jacuípe,Q1808734
+AL,Japaratinga,Q1808087
+AL,Jaramataia,Q1815918
+AL,Jequiá da Praia,Q1808524
+AL,Joaquim Gomes,Q2027123
+AL,Jundiá,Q2020978
+AL,Junqueiro,Q1808328
+AL,Lagoa da Canoa,Q1795976
+AL,Limoeiro de Anadia,Q961349
+AL,Maceió,Q168888
+AL,Major Isidoro,Q1808271
+AL,Mar Vermelho,Q2028214
+AL,Maragogi,Q971736
+AL,Maravilha,Q1814508
+AL,Marechal Deodoro,Q985275
+AL,Maribondo,Q2021217
+AL,Mata Grande,Q2027641
+AL,Matriz de Camaragibe,Q2013614
+AL,Messias,Q2028160
+AL,Minador do Negrão,Q767029
+AL,Monteirópolis,Q2013634
+AL,Murici,Q1795628
+AL,Novo Lino,Q1816167
+AL,Olho d'Água Grande,Q1795548
+AL,Olho d'Água das Flores,Q1815966
+AL,Olho d'Água do Casado,Q1808294
+AL,Olivença,Q950712
+AL,Ouro Branco,Q2355814
+AL,Palestina,Q511396
+AL,Palmeira dos Índios,Q948268
+AL,Pariconha,Q1795935
+AL,Paripueira,Q1795979
+AL,Passo de Camaragibe,Q1772652
+AL,Paulo Jacinto,
+AL,Penedo,Q1772658
+AL,Piaçabuçu,Q1772595
+AL,Pilar,Q2013557
+AL,Pindoba,Q1800867
+AL,Piranhas,Q1998967
+AL,Porto Calvo,Q1772636
+AL,Porto Real do Colégio,Q1772685
+AL,Porto de Pedras,Q1796131
+AL,Poço das Trincheiras,Q1795960
+AL,Pão de Açúcar,Q2027100
+AL,Quebrangulo,Q1772591
+AL,Rio Largo,Q530211
+AL,Roteiro,Q2015625
+AL,Santa Luzia do Norte,Q1816274
+AL,Santana do Ipanema,Q2021116
+AL,Santana do Mundaú,Q1808118
+AL,Satuba,Q1795925
+AL,Senador Rui Palmeira,Q1795898
+AL,São Brás,Q2021424
+AL,São José da Laje,Q1808170
+AL,São José da Tapera,Q1808190
+AL,São Luís do Quitunde,Q1808105
+AL,São Miguel dos Campos,Q1816037
+AL,São Miguel dos Milagres,Q740975
+AL,São Sebastião,Q2014339
+AL,Tanque d'Arca,Q1772722
+AL,Taquarana,Q1800641
+AL,Teotônio Vilela,Q1795888
+AL,Traipu,Q1772703
+AL,União dos Palmares,Q22014882
+AL,Viçosa,Q2026896
+AL,Água Branca,Q1808899
+AM,Alvarães,Q1808573
+AM,Amaturá,Q1772609
+AM,Anamã,Q974915
+AM,Anori,Q931090
+AM,Apuí,Q1112525
+AM,Atalaia do Norte,Q1793319
+AM,Autazes,Q1772695
+AM,Barcelos,Q807939
+AM,Barreirinha,Q1772565
+AM,Benjamin Constant,Q1767926
+AM,Beruri,Q584172
+AM,Boa Vista do Ramos,Q940548
+AM,Boca do Acre,Q1793334
+AM,Borba,Q2089660
+AM,Caapiranga,Q945469
+AM,Canutama,Q1807050
+AM,Carauari,Q1794236
+AM,Careiro,Q1751325
+AM,Careiro da Várzea,Q1807045
+AM,Coari,Q645204
+AM,Codajás,Q1762074
+AM,Eirunepé,Q1646910
+AM,Envira,Q1750090
+AM,Fonte Boa,Q1793768
+AM,Guajará,Q1808440
+AM,Humaitá,Q1025760
+AM,Ipixuna,Q1794374
+AM,Iranduba,Q1761947
+AM,Itacoatiara,Q1750426
+AM,Itamarati,Q1102558
+AM,Itapiranga,Q1808448
+AM,Japurá,Q1757955
+AM,Juruá,Q1008285
+AM,Jutaí,Q684641
+AM,Lábrea,Q386631
+AM,Manacapuru,Q983526
+AM,Manaquiri,Q1807976
+AM,Manaus,Q40236
+AM,Manicoré,Q43490
+AM,Maraã,Q1763270
+AM,Maués,Q1808581
+AM,Nhamundá,Q1793306
+AM,Nova Olinda do Norte,Q1772535
+AM,Novo Airão,Q1750332
+AM,Novo Aripuanã,Q1793549
+AM,Parintins,Q926713
+AM,Pauini,Q1793494
+AM,Presidente Figueiredo,Q655097
+AM,Rio Preto da Eva,Q1793560
+AM,Santa Isabel do Rio Negro,Q1754543
+AM,Santo Antônio do Içá,Q970224
+AM,Silves,Q2089673
+AM,São Gabriel da Cachoeira,Q694840
+AM,São Paulo de Olivença,Q1794983
+AM,São Sebastião do Uatumã,Q1793440
+AM,Tabatinga,Q1750030
+AM,Tapauá,Q1794336
+AM,Tefé,Q975545
+AM,Tonantins,Q1793355
+AM,Uarini,Q517607
+AM,Urucará,Q1816370
+AM,Urucurituba,Q1793833
+AP,Amapá,Q586263
+AP,Calçoene,Q1754431
+AP,Cutias,
+AP,Ferreira Gomes,Q1647054
+AP,Itaubal,Q368933
+AP,Laranjal do Jari,Q1117969
+AP,Macapá,Q180215
+AP,Mazagão,Q1800704
+AP,Oiapoque,Q906717
+AP,Pedra Branca do Amapari,Q1772647
+AP,Porto Grande,Q1772692
+AP,Pracuúba,
+AP,Santana,Q22015743
+AP,Serra do Navio,Q1754413
+AP,Tartarugalzinho,
+AP,Vitória do Jari,Q1772675
+BA,Abaré,Q1647789
+BA,Abaíra,Q1645077
+BA,Acajutiba,Q1761962
+BA,Adustina,Q1762152
+BA,Aiquara,Q560381
+BA,Alagoinhas,Q818261
+BA,Alcobaça,Q22063205
+BA,Almadina,Q1762121
+BA,Amargosa,Q1648060
+BA,Amélia Rodrigues,Q654725
+BA,América Dourada,Q1762100
+BA,Anagé,Q1772546
+BA,Andaraí,Q490022
+BA,Andorinha,Q1796352
+BA,Angical,Q1762342
+BA,Anguera,Q22050312
+BA,Antas,Q22063195
+BA,Antônio Cardoso,Q1772510
+BA,Antônio Gonçalves,Q1772563
+BA,Aporá,Q1762391
+BA,Apuarema,Q1772630
+BA,Aracatu,Q1762365
+BA,Araci,Q22063188
+BA,Aramari,Q1762004
+BA,Arataca,Q1648079
+BA,Aratuípe,Q1762335
+BA,Araçás,Q1762140
+BA,Aurelino Leal,Q513600
+BA,Baianópolis,Q1761984
+BA,Baixa Grande,Q1762467
+BA,Banzaê,Q1761992
+BA,Barra,Q22048142
+BA,Barra da Estiva,Q1795377
+BA,Barra do Choça,Q1761997
+BA,Barra do Mendes,Q1761974
+BA,Barra do Rocha,Q1761936
+BA,Barreiras,Q1384520
+BA,Barro Alto,Q2028167
+BA,Barro Preto,Q1761886
+BA,Barrocas,Q1808142
+BA,Belmonte,Q816112
+BA,Belo Campo,Q642874
+BA,Biritinga,Q865464
+BA,Boa Nova,Q1772514
+BA,Boa Vista do Tupim,Q770067
+BA,Bom Jesus da Lapa,Q891727
+BA,Bom Jesus da Serra,Q1762021
+BA,Boninal,Q1795278
+BA,Bonito,Q1808128
+BA,Boquira,Q1772521
+BA,Botuporã,Q1762094
+BA,Brejolândia,Q1761968
+BA,Brejões,Q1800651
+BA,Brotas de Macaúbas,Q1762399
+BA,Brumado,Q22048853
+BA,Buerarema,Q1761955
+BA,Buritirama,Q1795342
+BA,Caatiba,Q1648887
+BA,Cabaceiras do Paraguaçu,Q980565
+BA,Cachoeira,Q985576
+BA,Caculé,Q1795313
+BA,Caetanos,Q1762013
+BA,Caetité,Q1795371
+BA,Cafarnaum,Q1808307
+BA,Cairu,Q960632
+BA,Caldeirão Grande,Q283971
+BA,Camacan,Q1772542
+BA,Camamu,Q1795776
+BA,Camaçari,Q1136204
+BA,Campo Alegre de Lourdes,Q1798839
+BA,Campo Formoso,Q1808046
+BA,Canarana,Q674476
+BA,Canavieiras,Q1772515
+BA,Candeal,Q1795769
+BA,Candeias,Q1762379
+BA,Candiba,Q1798833
+BA,Cansanção,Q508999
+BA,Canudos,Q653656
+BA,Canápolis,Q1806851
+BA,Capela do Alto Alegre,Q961459
+BA,Capim Grosso,Q22047292
+BA,Caravelas,Q985956
+BA,Caraíbas,Q1800637
+BA,Cardeal da Silva,Q1761958
+BA,Carinhanha,Q985608
+BA,Casa Nova,Q1795593
+BA,Castro Alves,Q1764155
+BA,Catolândia,Q747832
+BA,Catu,Q22047609
+BA,Caturama,Q1795587
+BA,Caém,Q1946795
+BA,Central,Q2021433
+BA,Chorrochó,Q1796395
+BA,Cipó,Q1762353
+BA,Coaraci,Q22046180
+BA,Cocos,Q2028150
+BA,Conceição da Feira,Q1762474
+BA,Conceição do Almeida,Q1772585
+BA,Conceição do Coité,Q1772525
+BA,Conceição do Jacuípe,Q988781
+BA,Conde,Q1003399
+BA,Condeúba,Q596466
+BA,Contendas do Sincorá,Q1796433
+BA,Coração de Maria,Q1762086
+BA,Cordeiros,Q1800634
+BA,Coribe,
+BA,Coronel João Sá,Q1772667
+BA,Correntina,Q1061205
+BA,Cotegipe,Q1761906
+BA,Cravolândia,Q1795391
+BA,Cristópolis,Q1761896
+BA,Crisópolis,Q578451
+BA,Cruz das Almas,Q1648067
+BA,Curaçá,Q677518
+BA,Cândido Sales,Q597716
+BA,Cícero Dantas,Q1761858
+BA,Dias d'Ávila,Q1761912
+BA,Dom Basílio,Q963778
+BA,Dom Macedo Costa,Q1761928
+BA,Dário Meira,Q776188
+BA,Elísio Medrado,Q1772552
+BA,Encruzilhada,Q1795353
+BA,Entre Rios,Q1806968
+BA,Esplanada,Q1772504
+BA,Euclides da Cunha,Q2013802
+BA,Eunápolis,Q1796277
+BA,Feira da Mata,Q1762060
+BA,Feira de Santana,Q194343
+BA,Filadélfia,Q2019006
+BA,Firmino Alves,Q1761918
+BA,Floresta Azul,Q1761890
+BA,Formosa do Rio Preto,Q1762128
+BA,Fátima,Q1808436
+BA,Gandu,Q727944
+BA,Gavião,Q1795321
+BA,Gentio do Ouro,Q1795290
+BA,Glória,Q632744
+BA,Gongogi,Q1762146
+BA,Governador Mangabeira,Q1761869
+BA,Guajeru,Q1796414
+BA,Guanambi,Q786924
+BA,Guaratinga,Q1798829
+BA,Heliópolis,Q2019055
+BA,Iaçu,Q22042341
+BA,Ibiassucê,Q1800654
+BA,Ibicaraí,Q741470
+BA,Ibicoara,Q968962
+BA,Ibicuí,Q22042355
+BA,Ibipeba,Q1798809
+BA,Ibipitanga,Q1800648
+BA,Ibiquera,Q1772606
+BA,Ibirapitanga,Q22042368
+BA,Ibirapuã,Q985979
+BA,Ibirataia,Q1772538
+BA,Ibitiara,Q1798843
+BA,Ibititá,Q1795384
+BA,Ibotirama,Q22042380
+BA,Ichu,Q1795380
+BA,Igaporã,Q1795332
+BA,Igrapiúna,Q1795302
+BA,Iguaí,Q22042398
+BA,Ilhéus,Q22042423
+BA,Inhambupe,Q22042515
+BA,Ipecaetá,Q605861
+BA,Ipiaú,Q1625857
+BA,Ipirá,Q2026825
+BA,Ipupiara,Q526769
+BA,Irajuba,Q1795122
+BA,Iramaia,Q1795815
+BA,Iraquara,Q1795271
+BA,Irará,Q1648734
+BA,Irecê,Q22042613
+BA,Itabela,Q1798824
+BA,Itaberaba,Q22042633
+BA,Itabuna,Q460750
+BA,Itacaré,Q22042650
+BA,Itaeté,Q509976
+BA,Itagi,Q22042672
+BA,Itagibá,Q22042717
+BA,Itagimirim,Q1795765
+BA,Itaguaçu da Bahia,Q1800628
+BA,Itaju do Colônia,Q1762055
+BA,Itajuípe,Q1772508
+BA,Itamaraju,Q943536
+BA,Itamari,Q1647799
+BA,Itambé,Q22042728
+BA,Itanagra,Q965644
+BA,Itanhém,Q1795733
+BA,Itaparica,Q1772662
+BA,Itapebi,Q966857
+BA,Itapetinga,Q921827
+BA,Itapicuru,Q1795161
+BA,Itapitanga,Q583180
+BA,Itapé,Q1796349
+BA,Itaquara,Q686137
+BA,Itarantim,Q1795784
+BA,Itatim,Q1795128
+BA,Itiruçu,Q609737
+BA,Itiúba,Q1807777
+BA,Itororó,Q1798854
+BA,Ituaçu,Q1795113
+BA,Ituberá,Q1795108
+BA,Iuiu,
+BA,Jaborandi,Q2027295
+BA,Jacaraci,Q683315
+BA,Jacobina,Q1798719
+BA,Jaguaquara,Q733973
+BA,Jaguarari,Q22039728
+BA,Jaguaripe,Q1761843
+BA,Jandaíra,Q1999691
+BA,Jequié,Q630203
+BA,Jeremoabo,Q22063017
+BA,Jiquiriçá,Q1795144
+BA,Jitaúna,Q22039911
+BA,João Dourado,Q1795137
+BA,Juazeiro,Q753044
+BA,Jucuruçu,Q1795150
+BA,Jussara,Q1431410
+BA,Jussari,Q338795
+BA,Jussiape,Q935612
+BA,Lafaiete Coutinho,Q1795742
+BA,Lagoa Real,Q1794388
+BA,Laje,Q1793368
+BA,Lajedinho,Q1761765
+BA,Lajedo do Tabocal,Q1794888
+BA,Lajedão,Q988768
+BA,Lamarão,Q1794383
+BA,Lapão,
+BA,Lauro de Freitas,Q905164
+BA,Lençóis,Q1762223
+BA,Licínio de Almeida,Q1793470
+BA,Livramento de Nossa Senhora,Q1793460
+BA,Luís Eduardo Magalhães,Q1808537
+BA,Macajuba,Q1761781
+BA,Macarani,Q1794428
+BA,Macaúbas,Q22040556
+BA,Macururé,Q1793587
+BA,Madre de Deus,Q22040595
+BA,Maetinga,Q1794883
+BA,Maiquinique,Q1794943
+BA,Mairi,Q1795253
+BA,Malhada,Q743654
+BA,Malhada de Pedras,Q1794419
+BA,Manoel Vitorino,Q1772681
+BA,Mansidão,Q1761788
+BA,Maracás,Q1795100
+BA,Maragogipe,Q1761467
+BA,Maraú,Q2028783
+BA,Marcionílio Souza,
+BA,Mascote,Q956401
+BA,Mata de São João,Q648152
+BA,Matina,Q2021098
+BA,Medeiros Neto,Q1794359
+BA,Miguel Calmon,Q22038067
+BA,Milagres,Q1807019
+BA,Mirangaba,Q677956
+BA,Mirante,Q1794459
+BA,Monte Santo,Q1808562
+BA,Morpará,Q1794435
+BA,Morro do Chapéu,Q1807821
+BA,Mortugaba,Q1793482
+BA,Mucugê,Q1762166
+BA,Mucuri,Q1761474
+BA,Mulungu do Morro,Q1794935
+BA,Mundo Novo,Q1984590
+BA,Muniz Ferreira,Q1793732
+BA,Muquém do São Francisco,
+BA,Muritiba,Q988684
+BA,Mutuípe,Q975660
+BA,Nazaré,Q1808393
+BA,Nilo Peçanha,Q1809660
+BA,Nordestina,Q1793758
+BA,Nova Canaã,Q1807966
+BA,Nova Fátima,Q1806993
+BA,Nova Ibiá,Q1762106
+BA,Nova Itarana,Q1795079
+BA,Nova Redenção,Q1794393
+BA,Nova Soure,Q22038557
+BA,Nova Viçosa,Q1794050
+BA,Novo Horizonte,Q609691
+BA,Novo Triunfo,Q1762358
+BA,Olindina,Q1648508
+BA,Oliveira dos Brejinhos,Q1795068
+BA,Ouriçangas,Q1793921
+BA,Ourolândia,Q943355
+BA,Palmas de Monte Alto,Q1793599
+BA,Palmeiras,Q924839
+BA,Paramirim,Q1793379
+BA,Paratinga,Q1793885
+BA,Paripiranga,Q1761881
+BA,Pau Brasil,Q1772557
+BA,Paulo Afonso,Q956008
+BA,Pedro Alexandre,Q928887
+BA,Pedrão,Q1795191
+BA,Piatã,
+BA,Pilão Arcado,Q1793323
+BA,Pindaí,Q1793873
+BA,Pindobaçu,Q1794448
+BA,Pintadas,Q1807758
+BA,Piraí do Norte,Q1807812
+BA,Piripá,Q1794920
+BA,Piritiba,Q1807706
+BA,Planaltino,Q1793630
+BA,Planalto,Q1807747
+BA,Pojuca,Q1794165
+BA,Ponto Novo,Q1935495
+BA,Porto Seguro,Q499922
+BA,Potiraguá,Q1793451
+BA,Poções,Q1793430
+BA,Prado,Q1807887
+BA,Presidente Dutra,Q1807030
+BA,Presidente Jânio Quadros,Q1772530
+BA,Presidente Tancredo Neves,Q1796453
+BA,Pé de Serra,Q1762483
+BA,Queimadas,Q1808402
+BA,Quijingue,Q22036877
+BA,Quixabeira,Q1811500
+BA,Rafael Jambeiro,Q733562
+BA,Remanso,Q1794265
+BA,Retirolândia,Q1793610
+BA,Riacho de Santana,Q2013792
+BA,Riachão das Neves,Q1762348
+BA,Riachão do Jacuípe,Q1794367
+BA,Ribeira do Amparo,Q1761834
+BA,Ribeira do Pombal,Q1793776
+BA,Ribeirão do Largo,Q775530
+BA,Rio Real,Q965807
+BA,Rio de Contas,Q1649466
+BA,Rio do Antônio,Q2345752
+BA,Rio do Pires,Q582989
+BA,Rodelas,Q1795086
+BA,Ruy Barbosa,Q1807858
+BA,Salinas da Margarida,Q1907408
+BA,Salvador,Q14818832
+BA,Santa Brígida,Q1808347
+BA,Santa Bárbara,Q2027840
+BA,Santa Cruz Cabrália,Q22034706
+BA,Santa Cruz da Vitória,Q1761901
+BA,Santa Inês,Q512109
+BA,Santa Luzia,Q1808500
+BA,Santa Maria da Vitória,Q1761852
+BA,Santa Rita de Cássia,Q1795224
+BA,Santa Terezinha,
+BA,Santaluz,Q1793861
+BA,Santana,Q2018997
+BA,Santanópolis,Q1795202
+BA,Santo Amaro,Q22034892
+BA,Santo Antônio de Jesus,Q1764163
+BA,Santo Estêvão,Q22034985
+BA,Sapeaçu,Q1793944
+BA,Saubara,Q22032749
+BA,Saúde,Q2247752
+BA,Seabra,Q22032768
+BA,Sebastião Laranjeiras,Q1762159
+BA,Senhor do Bonfim,Q22032807
+BA,Sento Sé,Q1793620
+BA,Serra Dourada,Q1794876
+BA,Serra Preta,Q1793663
+BA,Serra do Ramalho,Q600869
+BA,Serrinha,Q1008215
+BA,Serrolândia,Q1807060
+BA,Simões Filho,Q1645080
+BA,Sobradinho,Q646901
+BA,Souto Soares,Q1793851
+BA,Sátiro Dias,Q939237
+BA,São Desidério,Q1761582
+BA,São Domingos,Q2019014
+BA,São Felipe,Q1794400
+BA,São Francisco do Conde,Q1648073
+BA,São Félix,Q1939306
+BA,São Félix do Coribe,Q1794977
+BA,São Gabriel,Q2019037
+BA,São Gonçalo dos Campos,Q1793783
+BA,São José da Vitória,
+BA,São José do Jacuípe,Q1807737
+BA,São Miguel das Matas,Q1794868
+BA,São Sebastião do Passé,Q1793748
+BA,Sítio do Mato,Q934110
+BA,Sítio do Quinto,
+BA,Tabocas do Brejo Velho,Q1761827
+BA,Tanhaçu,Q1794964
+BA,Tanque Novo,Q1793296
+BA,Tanquinho,Q1793683
+BA,Taperoá,Q2021109
+BA,Tapiramutá,Q646894
+BA,Teixeira de Freitas,Q282335
+BA,Teodoro Sampaio,Q22062859
+BA,Teofilândia,Q1794862
+BA,Teolândia,Q1761874
+BA,Terra Nova,Q22062856
+BA,Tremedal,Q1795094
+BA,Tucano,Q598704
+BA,Uauá,Q22014829
+BA,Ubaitaba,Q22033874
+BA,Ubatã,Q22062851
+BA,Ubaíra,Q22062853
+BA,Uibaí,Q1761773
+BA,Umburanas,Q1794957
+BA,Una,Q1794007
+BA,Urandi,Q1793579
+BA,Uruçuca,Q22062848
+BA,Utinga,Q22062847
+BA,Valente,Q22030806
+BA,Valença,Q22030804
+BA,Varzedo,Q1794173
+BA,Vera Cruz,Q22062840
+BA,Vereda,Q631107
+BA,Vitória da Conquista,Q330208
+BA,Várzea Nova,Q1807767
+BA,Várzea da Roça,Q1793392
+BA,Várzea do Poço,Q1807715
+BA,Wagner,Q1793811
+BA,Wanderley,Q596359
+BA,Wenceslau Guimarães,
+BA,Xique-Xique,Q1762114
+BA,Água Fria,Q1762459
+BA,Érico Cardoso,Q1793641
+CE,Abaiara,Q1796441
+CE,Acarape,Q1808379
+CE,Acaraú,Q1796706
+CE,Acopiara,Q544694
+CE,Aiuaba,Q641440
+CE,Alcântaras,Q2027670
+CE,Altaneira,Q2021103
+CE,Alto Santo,Q2021254
+CE,Amontada,Q947378
+CE,Antonina do Norte,Q2021007
+CE,Apuiarés,Q2028851
+CE,Aquiraz,Q1794121
+CE,Aracati,Q1754397
+CE,Aracoiaba,Q2289917
+CE,Ararendá,Q2020998
+CE,Araripe,Q2021237
+CE,Aratuba,Q2013968
+CE,Arneiroz,Q952686
+CE,Assaré,Q1808367
+CE,Aurora,Q2289941
+CE,Baixio,Q1808481
+CE,Banabuiú,Q1945041
+CE,Barbalha,Q602143
+CE,Barreira,Q2013899
+CE,Barro,Q2028645
+CE,Barroquinha,Q2020987
+CE,Baturité,Q2021082
+CE,Beberibe,Q22027407
+CE,Bela Cruz,Q2021089
+CE,Boa Viagem,Q1808337
+CE,Brejo Santo,Q2027070
+CE,Camocim,Q1807057
+CE,Campos Sales,Q1811948
+CE,Canindé,Q1008278
+CE,Capistrano,Q2021203
+CE,Caridade,Q2027136
+CE,Caririaçu,Q2028263
+CE,Cariré,Q2021245
+CE,Cariús,Q1811382
+CE,Carnaubal,Q2028395
+CE,Cascavel,Q22024111
+CE,Catarina,Q22059576
+CE,Catunda,Q22059575
+CE,Caucaia,Q817233
+CE,Cedro,Q2027857
+CE,Chaval,Q2028829
+CE,Chorozinho,Q22059571
+CE,Choró,Q2047506
+CE,Coreaú,Q2027322
+CE,Crateús,Q2021123
+CE,Crato,Q1004897
+CE,Croatá,Q1816979
+CE,Cruz,Q986510
+CE,Deputado Irapuan Pinheiro,Q2027304
+CE,Ererê,Q2021415
+CE,Eusébio,Q2027112
+CE,Farias Brito,Q2021026
+CE,Forquilha,Q587627
+CE,Fortaleza,Q43463
+CE,Fortim,Q2021064
+CE,Frecheirinha,Q2027699
+CE,General Sampaio,Q2021224
+CE,Granja,Q22020729
+CE,Granjeiro,Q2026909
+CE,Graça,Q2089608
+CE,Groaíras,Q2028083
+CE,Guaiúba,Q2028404
+CE,Guaraciaba do Norte,Q2027331
+CE,Guaramiranga,Q1761441
+CE,Hidrolândia,Q2347636
+CE,Horizonte,Q22059559
+CE,Ibaretama,Q2027727
+CE,Ibiapina,Q2028027
+CE,Ibicuitinga,Q1984853
+CE,Icapuí,Q734002
+CE,Icó,Q1807902
+CE,Iguatu,Q931326
+CE,Independência,Q284334
+CE,Ipaporanga,Q2028044
+CE,Ipaumirim,Q1807006
+CE,Ipu,Q2026922
+CE,Ipueiras,Q946408
+CE,Iracema,Q2130759
+CE,Irauçuba,Q22021045
+CE,Itaitinga,Q2013483
+CE,Itaiçaba,Q2006999
+CE,Itapajé,Q2021022
+CE,Itapipoca,Q504755
+CE,Itapiúna,Q684551
+CE,Itarema,Q2013979
+CE,Itatira,Q2014416
+CE,Jaguaretama,Q2027316
+CE,Jaguaribara,Q2028838
+CE,Jaguaribe,Q653619
+CE,Jaguaruana,Q2013987
+CE,Jardim,Q929116
+CE,Jati,Q2028694
+CE,Jijoca de Jericoacoara,Q1367980
+CE,Juazeiro do Norte,Q817227
+CE,Jucás,Q2027711
+CE,Lavras da Mangabeira,Q664219
+CE,Limoeiro do Norte,Q1795215
+CE,Madalena,Q1963649
+CE,Maracanaú,Q1794732
+CE,Maranguape,Q1795232
+CE,Marco,Q2289962
+CE,Martinópole,Q2028218
+CE,Massapê,Q2028110
+CE,Mauriti,Q1993771
+CE,Meruoca,Q2028094
+CE,Milagres,Q2092809
+CE,Milhã,Q2028613
+CE,Miraíma,Q1966370
+CE,Missão Velha,Q2027847
+CE,Mombaça,Q1920600
+CE,Monsenhor Tabosa,Q526892
+CE,Morada Nova,Q1807869
+CE,Moraújo,Q2027657
+CE,Morrinhos,Q2028310
+CE,Mucambo,Q2027361
+CE,Mulungu,Q2289857
+CE,Nova Olinda,Q1913711
+CE,Nova Russas,Q1824152
+CE,Novo Oriente,Q22059540
+CE,Ocara,Q22016823
+CE,Orós,Q526215
+CE,Pacajus,Q2021230
+CE,Pacatuba,Q2026817
+CE,Pacoti,Q2013474
+CE,Pacujá,Q2028383
+CE,Palhano,Q2028077
+CE,Palmácia,Q2013452
+CE,Paracuru,Q542347
+CE,Paraipaba,Q2013436
+CE,Parambu,Q770577
+CE,Paramoti,Q2028069
+CE,Pedra Branca,Q2028317
+CE,Penaforte,Q2028236
+CE,Pentecoste,Q1815210
+CE,Pereiro,Q2028227
+CE,Pindoretama,Q948079
+CE,Piquet Carneiro,Q2028684
+CE,Pires Ferreira,Q2027682
+CE,Poranga,Q2027595
+CE,Porteiras,Q2027628
+CE,Potengi,Q1112312
+CE,Potiretama,Q2028629
+CE,Quiterianópolis,Q2026870
+CE,Quixadá,Q2013932
+CE,Quixelô,Q1808458
+CE,Quixeramobim,Q999088
+CE,Quixeré,Q22015942
+CE,Redenção,Q2266648
+CE,Reriutaba,Q629638
+CE,Russas,Q1806654
+CE,Saboeiro,Q2021151
+CE,Salitre,Q2028051
+CE,Santa Quitéria,Q22016388
+CE,Santana do Acaraú,Q22016381
+CE,Santana do Cariri,Q2068856
+CE,Senador Pompeu,Q22014109
+CE,Senador Sá,Q1983626
+CE,Sobral,Q1815899
+CE,Solonópole,Q975946
+CE,São Benedito,Q2068831
+CE,São Gonçalo do Amarante,Q1999934
+CE,São João do Jaguaribe,Q2039779
+CE,São Luís do Curu,Q2039586
+CE,Tabuleiro do Norte,Q2059758
+CE,Tamboril,Q2068962
+CE,Tarrafas,Q1900852
+CE,Tauá,Q2021015
+CE,Tejuçuoca,Q2039497
+CE,Tianguá,Q965707
+CE,Trairi,Q1807039
+CE,Tururu,Q1814522
+CE,Ubajara,Q1821314
+CE,Umari,Q2068917
+CE,Umirim,Q778286
+CE,Uruburetama,Q2021056
+CE,Uruoca,Q2013443
+CE,Varjota,Q22014981
+CE,Viçosa do Ceará,Q2021075
+CE,Várzea Alegre,Q2068823
+DF,Brasília,
+ES,Afonso Cláudio,Q1793672
+ES,Alegre,Q1807909
+ES,Alfredo Chaves,Q596538
+ES,Alto Rio Novo,Q973430
+ES,Anchieta,Q2019024
+ES,Apiacá,Q2021210
+ES,Aracruz,Q1794219
+ES,Atílio Vivacqua,Q648890
+ES,Baixo Guandu,Q804041
+ES,Barra de São Francisco,Q1794183
+ES,Boa Esperança,Q2089691
+ES,Bom Jesus do Norte,Q1807022
+ES,Brejetuba,Q1982959
+ES,Cachoeiro de Itapemirim,Q1439193
+ES,Cariacica,Q841222
+ES,Castelo,Q1794952
+ES,Colatina,Q933380
+ES,Conceição da Barra,Q1998957
+ES,Conceição do Castelo,Q1795227
+ES,Divino de São Lourenço,Q1807012
+ES,Domingos Martins,Q616475
+ES,Dores do Rio Preto,Q993623
+ES,Ecoporanga,Q1794439
+ES,Fundão,Q1024927
+ES,Governador Lindenberg,Q1985082
+ES,Guarapari,Q267439
+ES,Guaçuí,Q1807792
+ES,Ibatiba,Q1795195
+ES,Ibiraçu,Q1807804
+ES,Ibitirama,Q1807726
+ES,Iconha,Q595222
+ES,Irupi,Q1807920
+ES,Itaguaçu,Q1793795
+ES,Itapemirim,Q1806710
+ES,Itarana,Q1806714
+ES,Iúna,Q1793709
+ES,Jaguaré,Q668992
+ES,Jerônimo Monteiro,Q1806739
+ES,João Neiva,Q1982819
+ES,Laranja da Terra,Q616506
+ES,Linhares,Q1755402
+ES,Mantenópolis,Q1806721
+ES,Marataízes,Q1806661
+ES,Marechal Floriano,Q1806664
+ES,Marilândia,Q1806633
+ES,Mimoso do Sul,Q1795062
+ES,Montanha,Q2013818
+ES,Mucurici,Q339532
+ES,Muniz Freire,Q1797483
+ES,Muqui,Q739272
+ES,Nova Venécia,Q734635
+ES,Pancas,Q505326
+ES,Pedro Canário,Q549543
+ES,Pinheiros,Q2018987
+ES,Piúma,Q1806645
+ES,Ponto Belo,Q1806678
+ES,Presidente Kennedy,Q2021405
+ES,Rio Bananal,Q1806671
+ES,Rio Novo do Sul,Q1994852
+ES,Santa Leopoldina,Q678885
+ES,Santa Maria de Jetibá,Q616486
+ES,Santa Teresa,Q2039418
+ES,Serra,Q206957
+ES,Sooretama,Q1806732
+ES,São Domingos do Norte,Q1806625
+ES,São Gabriel da Palha,Q1798735
+ES,São José do Calçado,Q1806727
+ES,São Mateus,Q1763574
+ES,São Roque do Canaã,Q1806620
+ES,Vargem Alta,Q762224
+ES,Venda Nova do Imigrante,Q1806745
+ES,Viana,Q2020315
+ES,Vila Pavão,Q505266
+ES,Vila Valério,Q1806653
+ES,Vila Velha,Q334197
+ES,Vitória,Q168376
+ES,Água Doce do Norte,Q652959
+ES,Águia Branca,Q1982827
+GO,Abadia de Goiás,Q304652
+GO,Abadiânia,Q304716
+GO,Acreúna,Q342682
+GO,Adelândia,Q986273
+GO,Alexânia,Q955680
+GO,Aloândia,Q988880
+GO,Alto Horizonte,Q443489
+GO,Alto Paraíso de Goiás,Q22060523
+GO,Alvorada do Norte,Q1795219
+GO,Amaralina,Q1793274
+GO,Americano do Brasil,Q467478
+GO,Amorinópolis,Q474121
+GO,Anhanguera,Q545263
+GO,Anicuns,Q22067260
+GO,Anápolis,Q48878612
+GO,Aparecida de Goiânia,Q459711
+GO,Aparecida do Rio Doce,Q1795248
+GO,Aporé,Q22067258
+GO,Aragarças,Q22067256
+GO,Aragoiânia,Q625067
+GO,Araguapaz,Q625267
+GO,Araçu,Q626832
+GO,Arenópolis,Q642448
+GO,Aruanã,Q716209
+GO,Aurilândia,Q776258
+GO,Avelinópolis,Q790382
+GO,Baliza,Q805016
+GO,Barro Alto,Q2155729
+GO,Bela Vista de Goiás,Q815101
+GO,Bom Jardim de Goiás,Q16827
+GO,Bom Jesus de Goiás,Q891725
+GO,Bonfinópolis,Q892385
+GO,Bonópolis,Q1806828
+GO,Brazabrantes,Q903009
+GO,Britânia,Q780494
+GO,Buriti Alegre,Q779122
+GO,Buriti de Goiás,Q988876
+GO,Buritinópolis,Q1805679
+GO,Cabeceiras,Q988807
+GO,Cachoeira Alta,Q988874
+GO,Cachoeira Dourada,Q1008207
+GO,Cachoeira de Goiás,Q732966
+GO,Caiapônia,Q1761543
+GO,Caldas Novas,Q120708
+GO,Caldazinha,Q138500
+GO,Campestre de Goiás,Q986240
+GO,Campinaçu,Q2365292
+GO,Campinorte,Q1806886
+GO,Campo Alegre de Goiás,Q988803
+GO,Campo Limpo de Goiás,Q989794
+GO,Campos Belos,Q991108
+GO,Campos Verdes,Q928117
+GO,Carmo do Rio Verde,Q1805778
+GO,Castelândia,Q656748
+GO,Catalão,Q35135
+GO,Caturaí,Q1008326
+GO,Cavalcante,Q22047632
+GO,Caçu,Q22046877
+GO,Ceres,Q2019995
+GO,Cezarina,Q857569
+GO,Chapadão do Céu,Q935208
+GO,Cidade Ocidental,Q988896
+GO,Cocalzinho de Goiás,Q991134
+GO,Colinas do Sul,Q1003417
+GO,Corumbaíba,Q985606
+GO,Corumbá de Goiás,Q985975
+GO,Cristalina,Q1012541
+GO,Cristianópolis,Q1003462
+GO,Crixás,Q177030
+GO,Cromínia,Q934443
+GO,Cumari,Q986238
+GO,Córrego do Ouro,Q985612
+GO,Damianópolis,Q1806869
+GO,Damolândia,Q986286
+GO,Davinópolis,Q1008292
+GO,Diorama,Q1004912
+GO,Divinópolis de Goiás,Q986500
+GO,Doverlândia,Q1793418
+GO,Edealina,Q1793310
+GO,Edéia,Q1794351
+GO,Estrela do Norte,Q940568
+GO,Faina,Q988788
+GO,Fazenda Nova,Q986512
+GO,Firminópolis,Q22045181
+GO,Flores de Goiás,Q1806815
+GO,Formosa,Q1003392
+GO,Formoso,Q1805729
+GO,Gameleira de Goiás,Q301331
+GO,Goiandira,Q1003443
+GO,Goianira,Q22041940
+GO,Goianápolis,Q22041935
+GO,Goianésia,Q988771
+GO,Goiatuba,Q1797061
+GO,Goiás,Q427697
+GO,Goiânia,Q83189
+GO,Gouvelândia,Q1003402
+GO,Guapó,Q22042233
+GO,Guarani de Goiás,Q767830
+GO,Guaraíta,Q1806860
+GO,Guarinos,Q1805800
+GO,Heitoraí,Q986254
+GO,Hidrolina,Q1793821
+GO,Hidrolândia,Q988811
+GO,Iaciara,Q1806877
+GO,Inaciolândia,Q928499
+GO,Indiara,Q1794347
+GO,Inhumas,Q986245
+GO,Ipameri,Q22042559
+GO,Ipiranga de Goiás,Q609451
+GO,Iporá,Q675142
+GO,Israelândia,Q985190
+GO,Itaberaí,Q22042636
+GO,Itaguari,Q986506
+GO,Itaguaru,Q986266
+GO,Itajá,Q1008317
+GO,Itapaci,Q1806982
+GO,Itapirapuã,Q988783
+GO,Itapuranga,Q1806805
+GO,Itarumã,Q991089
+GO,Itauçu,Q986279
+GO,Itumbiara,Q193350
+GO,Ivolândia,Q986497
+GO,Jandaia,Q1793406
+GO,Jaraguá,Q1022458
+GO,Jataí,Q963195
+GO,Jaupaci,Q985968
+GO,Jesúpolis,Q986249
+GO,Joviânia,Q301383
+GO,Jussara,Q1008360
+GO,Lagoa Santa,Q2099571
+GO,Leopoldo de Bulhões,Q383756
+GO,Luziânia,Q956017
+GO,Mairipotaba,Q988890
+GO,Mambaí,Q1805683
+GO,Mara Rosa,Q1806816
+GO,Marzagão,Q1806945
+GO,Matrinchã,Q991105
+GO,Maurilândia,Q1793262
+GO,Mimoso de Goiás,Q949279
+GO,Minaçu,Q1805694
+GO,Mineiros,Q1795244
+GO,Moiporá,Q986258
+GO,Monte Alegre de Goiás,Q650174
+GO,Montes Claros de Goiás,Q1003396
+GO,Montividiu,Q937082
+GO,Montividiu do Norte,Q2077824
+GO,Morrinhos,Q1025767
+GO,Morro Agudo de Goiás,Q1806964
+GO,Mossâmedes,Q1003407
+GO,Mozarlândia,Q1003419
+GO,Mundo Novo,Q1003468
+GO,Mutunópolis,Q1806898
+GO,Nazário,Q988756
+GO,Nerópolis,Q986284
+GO,Niquelândia,Q1794378
+GO,Nova América,Q1806847
+GO,Nova Aurora,Q1004916
+GO,Nova Crixás,Q549144
+GO,Nova Glória,Q1806952
+GO,Nova Iguaçu de Goiás,Q1806822
+GO,Nova Roma,Q1003412
+GO,Nova Veneza,Q1004221
+GO,Novo Brasil,Q985970
+GO,Novo Gama,Q986754
+GO,Novo Planalto,Q574738
+GO,Orizona,Q519154
+GO,Ouro Verde de Goiás,Q917314
+GO,Ouvidor,Q1000437
+GO,Padre Bernardo,Q1003435
+GO,Palestina de Goiás,Q939413
+GO,Palmeiras de Goiás,Q985972
+GO,Palmelo,Q523566
+GO,Palminópolis,Q1793286
+GO,Panamá,Q1004891
+GO,Paranaiguara,Q1003452
+GO,Paraúna,Q913766
+GO,Perolândia,Q1805725
+GO,Petrolina de Goiás,Q991127
+GO,Pilar de Goiás,Q1805760
+GO,Piracanjuba,Q985960
+GO,Piranhas,Q1025769
+GO,Pirenópolis,Q988797
+GO,Pires do Rio,Q987688
+GO,Planaltina,Q1004078
+GO,Pontalina,Q509804
+GO,Porangatu,Q1806864
+GO,Porteirão,Q988893
+GO,Portelândia,Q1798727
+GO,Posse,Q2021419
+GO,Professor Jamil,Q1003447
+GO,Quirinópolis,Q22036918
+GO,Rialma,Q258992
+GO,Rianápolis,Q1805819
+GO,Rio Quente,Q285551
+GO,Rio Verde,Q942064
+GO,Rubiataba,Q1793260
+GO,Sanclerlândia,Q922031
+GO,Santa Bárbara de Goiás,Q991113
+GO,Santa Cruz de Goiás,Q988766
+GO,Santa Fé de Goiás,Q988792
+GO,Santa Helena de Goiás,Q1795206
+GO,Santa Isabel,Q2077884
+GO,Santa Rita do Araguaia,Q961144
+GO,Santa Rita do Novo Destino,Q1805741
+GO,Santa Rosa de Goiás,Q657646
+GO,Santa Tereza de Goiás,Q1806837
+GO,Santa Terezinha de Goiás,Q1806809
+GO,Santo Antônio da Barra,Q1805688
+GO,Santo Antônio de Goiás,Q986282
+GO,Santo Antônio do Descoberto,Q986751
+GO,Senador Canedo,Q985503
+GO,Serranópolis,Q1805807
+GO,Silvânia,Q985489
+GO,Simolândia,Q1806958
+GO,São Domingos,Q1025764
+GO,São Francisco de Goiás,Q775601
+GO,São João d'Aliança,Q989515
+GO,São João da Paraúna,Q1794344
+GO,São Luiz do Norte,Q1805766
+GO,São Luís de Montes Belos,Q1008345
+GO,São Miguel do Araguaia,Q989524
+GO,São Miguel do Passa Quatro,
+GO,São Patrício,Q726966
+GO,São Simão,Q681631
+GO,Sítio d'Abadia,Q1806986
+GO,Taquaral de Goiás,Q1008236
+GO,Teresina de Goiás,Q988887
+GO,Terezópolis de Goiás,Q986264
+GO,Trindade,Q985583
+GO,Trombas,Q1806904
+GO,Três Ranchos,Q991098
+GO,Turvelândia,Q1795167
+GO,Turvânia,Q988759
+GO,Uirapuru,Q1008332
+GO,Uruana,Q22067077
+GO,Uruaçu,Q22030739
+GO,Urutaí,Q1003438
+GO,Valparaíso de Goiás,Q983480
+GO,Varjão,Q2013671
+GO,Vianópolis,Q986271
+GO,Vicentinópolis,Q940869
+GO,Vila Boa,Q1025753
+GO,Vila Propício,Q989519
+GO,Água Fria de Goiás,Q249738
+GO,Água Limpa,Q249765
+GO,Águas Lindas de Goiás,Q249830
+MA,Afonso Cunha,Q532160
+MA,Alcântara,Q939522
+MA,Aldeias Altas,Q2013348
+MA,Altamira do Maranhão,Q2013259
+MA,Alto Alegre do Maranhão,Q373783
+MA,Alto Alegre do Pindaré,Q2028638
+MA,Alto Parnaíba,Q1812998
+MA,Amapá do Maranhão,Q2013296
+MA,Amarante do Maranhão,Q22026796
+MA,Anajatuba,Q2013314
+MA,Anapurus,Q2013366
+MA,Apicum-Açu,Q2013356
+MA,Araguanã,Q2209464
+MA,Araioses,Q22026960
+MA,Arame,Q2036277
+MA,Arari,Q22027007
+MA,Axixá,Q630926
+MA,Açailândia,Q1763534
+MA,Bacabal,Q1807313
+MA,Bacabeira,Q2068936
+MA,Bacuri,Q2089681
+MA,Bacurituba,Q640733
+MA,Balsas,Q1813001
+MA,Barra do Corda,Q1807301
+MA,Barreirinhas,Q22027330
+MA,Barão de Grajaú,Q591015
+MA,Bela Vista do Maranhão,Q2013283
+MA,Belágua,Q2013308
+MA,Benedito Leite,Q2068847
+MA,Bequimão,Q22027434
+MA,Bernardo do Mearim,Q2008013
+MA,Boa Vista do Gurupi,Q2068253
+MA,Bom Jardim,Q2279959
+MA,Bom Jesus das Selvas,Q2068303
+MA,Bom Lugar,Q2068928
+MA,Brejo,Q659888
+MA,Brejo de Areia,Q2068871
+MA,Buriti,Q2135872
+MA,Buriti Bravo,Q2013234
+MA,Buriticupu,Q2013248
+MA,Buritirana,Q2013324
+MA,Cachoeira Grande,Q2013274
+MA,Cajapió,Q934637
+MA,Cajari,Q510992
+MA,Campestre do Maranhão,Q1122744
+MA,Cantanhede,Q22023816
+MA,Capinzal do Norte,Q2068268
+MA,Carolina,Q651807
+MA,Carutapera,Q2016480
+MA,Caxias,Q997107
+MA,Cedral,Q2095187
+MA,Central do Maranhão,Q2068312
+MA,Centro Novo do Maranhão,Q2013267
+MA,Centro do Guilherme,Q2068246
+MA,Chapadinha,Q22024267
+MA,Cidelândia,Q924546
+MA,Codó,Q2013225
+MA,Coelho Neto,Q22024395
+MA,Colinas,Q22024406
+MA,Conceição do Lago-Açu,
+MA,Coroatá,Q967552
+MA,Cururupu,Q1886395
+MA,Cândido Mendes,Q2068838
+MA,Davinópolis,Q2105097
+MA,Dom Pedro,Q22024884
+MA,Duque Bacelar,Q646515
+MA,Esperantinópolis,Q2013171
+MA,Estreito,Q2068863
+MA,Feira Nova do Maranhão,Q2068274
+MA,Fernando Falcão,Q2068889
+MA,Formosa da Serra Negra,Q2068944
+MA,Fortaleza dos Nogueiras,Q2068880
+MA,Fortuna,Q2034097
+MA,Godofredo Viana,Q939995
+MA,Gonçalves Dias,Q14629944
+MA,Governador Archer,Q2012522
+MA,Governador Edison Lobão,Q2012559
+MA,Governador Eugênio Barros,Q2068814
+MA,Governador Luiz Rocha,Q432254
+MA,Governador Newton Bello,Q2068907
+MA,Governador Nunes Freire,Q2068296
+MA,Grajaú,Q2043418
+MA,Graça Aranha,Q2082297
+MA,Guimarães,Q2101408
+MA,Humberto de Campos,Q22020864
+MA,Icatu,Q2068290
+MA,Igarapé Grande,Q2068280
+MA,Igarapé do Meio,Q1832376
+MA,Imperatriz,Q1797985
+MA,Itaipava do Grajaú,Q2068260
+MA,Itapecuru Mirim,Q2012733
+MA,Itinga do Maranhão,Q2012566
+MA,Jatobá,Q2103541
+MA,Jenipapo dos Vieiras,Q781692
+MA,Joselândia,Q2068225
+MA,João Lisboa,Q1875142
+MA,Junco do Maranhão,Q2068232
+MA,Lago Verde,Q2105837
+MA,Lago da Pedra,Q1008300
+MA,Lago do Junco,Q927111
+MA,Lago dos Rodrigues,Q305180
+MA,Lagoa Grande do Maranhão,Q2012551
+MA,Lagoa do Mato,Q2012976
+MA,Lajeado Novo,Q930035
+MA,Lima Campos,Q2068220
+MA,Loreto,Q2103736
+MA,Luís Domingues,Q2068240
+MA,Magalhães de Almeida,Q2012532
+MA,Maracaçumé,Q2064676
+MA,Marajá do Sena,Q743349
+MA,Maranhãozinho,Q1846576
+MA,Mata Roma,Q2012544
+MA,Matinha,Q1116758
+MA,Matões,Q2012513
+MA,Matões do Norte,Q2013059
+MA,Milagres do Maranhão,Q2013332
+MA,Mirador,Q2089741
+MA,Miranda do Norte,Q2066162
+MA,Mirinzal,Q2066198
+MA,Montes Altos,Q2012463
+MA,Monção,Q2103583
+MA,Morros,Q301700
+MA,Nina Rodrigues,Q2020346
+MA,Nova Colinas,Q2066151
+MA,Nova Iorque,Q568168
+MA,Nova Olinda do Maranhão,Q924503
+MA,Olho d'Água das Cunhãs,Q2066100
+MA,Olinda Nova do Maranhão,Q2065084
+MA,Palmeirândia,Q2064709
+MA,Paraibano,Q2261140
+MA,Parnarama,Q2013043
+MA,Passagem Franca,Q2043365
+MA,Pastos Bons,Q2066090
+MA,Paulino Neves,Q1876128
+MA,Paulo Ramos,Q2064653
+MA,Paço do Lumiar,Q628172
+MA,Pedreiras,Q1957216
+MA,Pedro do Rosário,Q661607
+MA,Penalva,Q2066111
+MA,Peri Mirim,Q2066022
+MA,Peritoró,Q1941672
+MA,Pindaré-Mirim,Q2065093
+MA,Pinheiro,Q1796449
+MA,Pio XII,Q1833985
+MA,Pirapemas,Q2089300
+MA,Porto Franco,Q2082418
+MA,Porto Rico do Maranhão,Q2066074
+MA,Poção de Pedras,Q2104834
+MA,Presidente Dutra,Q637452
+MA,Presidente Juscelino,Q2104269
+MA,Presidente Médici,Q2089748
+MA,Presidente Sarney,Q2013023
+MA,Presidente Vargas,Q2003321
+MA,Primeira Cruz,Q960537
+MA,Raposa,Q2065202
+MA,Riachão,Q685271
+MA,Ribamar Fiquene,Q2012967
+MA,Rosário,Q2106358
+MA,Sambaíba,Q2064949
+MA,Santa Filomena do Maranhão,Q2065314
+MA,Santa Helena,Q22016308
+MA,Santa Inês,Q22059856
+MA,Santa Luzia,Q1977528
+MA,Santa Luzia do Paruá,Q2064642
+MA,Santa Quitéria do Maranhão,Q2013052
+MA,Santa Rita,Q1915115
+MA,Santana do Maranhão,Q2012500
+MA,Santo Amaro do Maranhão,Q665255
+MA,Santo Antônio dos Lopes,Q2066051
+MA,Satubinha,Q2064663
+MA,Senador Alexandre Costa,Q1904786
+MA,Senador La Rocque,Q1967899
+MA,Serrano do Maranhão,Q1909011
+MA,Sucupira do Norte,Q1873577
+MA,Sucupira do Riachão,Q2065244
+MA,São Benedito do Rio Preto,Q1806571
+MA,São Bento,Q2104116
+MA,São Bernardo,Q2065297
+MA,São Domingos do Azeitão,Q1977781
+MA,São Domingos do Maranhão,Q2036695
+MA,São Francisco do Brejão,Q2012495
+MA,São Francisco do Maranhão,Q2065076
+MA,São Félix de Balsas,Q2065066
+MA,São José de Ribamar,Q1006367
+MA,São José dos Basílios,Q1907710
+MA,São João Batista,Q1919029
+MA,São João do Carú,
+MA,São João do Paraíso,Q2105216
+MA,São João do Soter,Q1966884
+MA,São João dos Patos,Q2064621
+MA,São Luís,Q28441
+MA,São Luís Gonzaga do Maranhão,Q2066188
+MA,São Mateus do Maranhão,Q2065276
+MA,São Pedro da Água Branca,Q2065266
+MA,São Pedro dos Crentes,Q693685
+MA,São Raimundo das Mangabeiras,Q2065231
+MA,São Raimundo do Doca Bezerra,Q1947813
+MA,São Roberto,Q744797
+MA,São Vicente Ferrer,Q2095193
+MA,Sítio Novo,Q2099666
+MA,Tasso Fragoso,
+MA,Timbiras,Q1008188
+MA,Timon,Q1017101
+MA,Trizidela do Vale,Q2065285
+MA,Tufilândia,Q2066033
+MA,Tuntum,Q1957192
+MA,Turiaçu,Q634717
+MA,Turilândia,Q2064492
+MA,Tutóia,Q2012483
+MA,Urbano Santos,Q2064632
+MA,Vargem Grande,Q22014977
+MA,Viana,Q2106072
+MA,Vila Nova dos Martírios,Q2065169
+MA,Vitorino Freire,Q1120902
+MA,Vitória do Mearim,Q2065110
+MA,Zé Doca,Q1806488
+MA,Água Doce do Maranhão,Q2013406
+MG,Abadia dos Dourados,Q582223
+MG,Abaeté,Q1615444
+MG,Abre Campo,Q1749816
+MG,Acaiaca,Q1749743
+MG,Aguanil,Q691275
+MG,Aimorés,Q1650790
+MG,Aiuruoca,Q1749739
+MG,Alagoa,Q678420
+MG,Albertina,Q986243
+MG,Alfenas,Q1755151
+MG,Alfredo Vasconcelos,Q614671
+MG,Almenara,Q979377
+MG,Alpercata,Q1792834
+MG,Alpinópolis,Q1757102
+MG,Alterosa,Q22050212
+MG,Alto Caparaó,Q118945
+MG,Alto Jequitibá,Q443518
+MG,Alto Rio Doce,Q1757130
+MG,Alvarenga,Q2007777
+MG,Alvinópolis,Q370048
+MG,Alvorada de Minas,Q1756297
+MG,Além Paraíba,Q1756032
+MG,Amparo do Serra,
+MG,Andradas,Q1754887
+MG,Andrelândia,Q503236
+MG,Angelândia,Q1756210
+MG,Antônio Carlos,Q1805349
+MG,Antônio Dias,Q611911
+MG,Antônio Prado de Minas,Q1791977
+MG,Aracitaba,Q968231
+MG,Araguari,Q1637522
+MG,Arantina,Q1756387
+MG,Araponga,Q1749824
+MG,Araporã,Q1756964
+MG,Arapuá,Q1793057
+MG,Araxá,Q586057
+MG,Araçaí,Q1756217
+MG,Araçuaí,Q1749750
+MG,Araújos,Q1756084
+MG,Arceburgo,Q1756612
+MG,Arcos,Q1804949
+MG,Areado,Q1756284
+MG,Argirita,Q1792090
+MG,Aricanduva,Q1793027
+MG,Arinos,Q617058
+MG,Astolfo Dutra,Q1756260
+MG,Ataléia,Q922716
+MG,Augusto de Lima,Q1791783
+MG,Açucena,Q1791887
+MG,Baependi,Q947342
+MG,Baldim,Q1756922
+MG,Bambuí,Q1756027
+MG,Bandeira,Q1756019
+MG,Bandeira do Sul,Q1756203
+MG,Barbacena,Q20454531
+MG,Barra Longa,Q425598
+MG,Barroso,Q1792962
+MG,Barão de Cocais,Q770910
+MG,Barão de Monte Alto,Q1791836
+MG,Bela Vista de Minas,Q1793085
+MG,Belmiro Braga,Q1793075
+MG,Belo Horizonte,Q42800
+MG,Belo Oriente,Q22062777
+MG,Belo Vale,Q1756538
+MG,Berilo,Q1756010
+MG,Berizal,Q1779991
+MG,Bertópolis,Q1756857
+MG,Betim,Q737644
+MG,Bias Fortes,Q950047
+MG,Bicas,Q1792282
+MG,Biquinhas,Q1791946
+MG,Boa Esperança,Q22048427
+MG,Bocaina de Minas,Q1756950
+MG,Bocaiúva,
+MG,Bom Despacho,Q22062765
+MG,Bom Jardim de Minas,Q1791774
+MG,Bom Jesus da Penha,Q1793211
+MG,Bom Jesus do Amparo,Q1754959
+MG,Bom Jesus do Galho,Q891733
+MG,Bom Repouso,Q784417
+MG,Bom Sucesso,Q1805732
+MG,Bonfim,Q22062759
+MG,Bonfinópolis de Minas,Q1792291
+MG,Bonito de Minas,Q1791871
+MG,Borda da Mata,Q1792820
+MG,Botelhos,Q22048747
+MG,Botumirim,Q1749817
+MG,Brasilândia de Minas,Q1792033
+MG,Brasília de Minas,Q22062752
+MG,Brazópolis,Q1749826
+MG,Braúnas,Q252608
+MG,Brumadinho,Q1751212
+MG,Brás Pires,Q668048
+MG,Bueno Brandão,Q1792008
+MG,Buenópolis,Q1756275
+MG,Bugre,Q1793226
+MG,Buritis,Q1792148
+MG,Buritizeiro,Q1792028
+MG,Cabeceira Grande,Q1756530
+MG,Cabo Verde,Q1815606
+MG,Cachoeira Dourada,Q2077925
+MG,Cachoeira da Prata,Q1792770
+MG,Cachoeira de Minas,Q1756102
+MG,Cachoeira de Pajeú,Q676007
+MG,Caetanópolis,Q1792016
+MG,Caeté,Q1755373
+MG,Caiana,Q1791846
+MG,Cajuri,Q1756147
+MG,Caldas,Q22062733
+MG,Camacho,Q1756303
+MG,Camanducaia,Q1754774
+MG,Cambuquira,Q22047057
+MG,Cambuí,Q1756818
+MG,Campanha,Q1780173
+MG,Campanário,Q1957976
+MG,Campestre,Q2077804
+MG,Campina Verde,Q1756064
+MG,Campo Azul,Q1792812
+MG,Campo Belo,Q595804
+MG,Campo Florido,Q744740
+MG,Campo do Meio,Q581679
+MG,Campos Altos,Q585412
+MG,Campos Gerais,Q1791960
+MG,Cana Verde,Q1756972
+MG,Canaã,Q610966
+MG,Candeias,Q1906206
+MG,Cantagalo,Q22062707
+MG,Canápolis,Q1805812
+MG,Caparaó,Q742409
+MG,Capela Nova,Q1792798
+MG,Capelinha,Q1756225
+MG,Capetinga,Q1791736
+MG,Capim Branco,Q1792057
+MG,Capinópolis,Q1791729
+MG,Capitão Andrade,Q1791913
+MG,Capitão Enéas,Q1791743
+MG,Capitólio,Q1257195
+MG,Caputira,Q1756268
+MG,Caranaíba,Q1791921
+MG,Carandaí,Q1792927
+MG,Carangola,Q22047439
+MG,Caratinga,Q905175
+MG,Caraí,Q584168
+MG,Carbonita,Q1756831
+MG,Careaçu,Q1791938
+MG,Carlos Chagas,Q1650857
+MG,Carmo da Cachoeira,Q1793236
+MG,Carmo da Mata,Q1792041
+MG,Carmo de Minas,Q1756231
+MG,Carmo do Cajuru,Q22062685
+MG,Carmo do Paranaíba,Q1792297
+MG,Carmo do Rio Claro,Q22047495
+MG,Carmésia,Q1791995
+MG,Carmópolis de Minas,Q988774
+MG,Carneirinho,Q734337
+MG,Carrancas,Q1756048
+MG,Carvalhos,Q741443
+MG,Carvalhópolis,Q1756420
+MG,Casa Grande,Q1074537
+MG,Cascalho Rico,Q1792827
+MG,Cataguases,Q22047588
+MG,Catas Altas,Q771327
+MG,Catas Altas da Noruega,Q567987
+MG,Catuji,Q1756976
+MG,Catuti,Q1756871
+MG,Caxambu,Q22045901
+MG,Cedro do Abaeté,Q1791928
+MG,Central de Minas,Q650650
+MG,Centralina,Q1792154
+MG,Chalé,Q1750610
+MG,Chapada Gaúcha,Q1755991
+MG,Chapada do Norte,Q1757078
+MG,Chiador,Q685517
+MG,Chácara,Q1805747
+MG,Cipotânea,Q985574
+MG,Claraval,Q747994
+MG,Claro dos Poções,Q1791860
+MG,Cláudio,Q22081182
+MG,Coimbra,Q2063933
+MG,Coluna,Q1780178
+MG,Comendador Gomes,Q1756070
+MG,Comercinho,Q1793138
+MG,Conceição da Aparecida,Q659342
+MG,Conceição da Barra de Minas,Q1756293
+MG,Conceição das Alagoas,Q745089
+MG,Conceição das Pedras,Q478514
+MG,Conceição de Ipanema,Q636229
+MG,Conceição do Mato Dentro,Q1792783
+MG,Conceição do Pará,Q1793134
+MG,Conceição do Rio Verde,Q1756600
+MG,Conceição dos Ouros,Q1792841
+MG,Confins,Q780786
+MG,Congonhal,Q1791942
+MG,Congonhas,Q275654
+MG,Congonhas do Norte,Q1792271
+MG,Conquista,Q2007414
+MG,Conselheiro Lafaiete,Q570312
+MG,Conselheiro Pena,Q1792851
+MG,Consolação,Q1805751
+MG,Contagem,Q271333
+MG,Coqueiral,Q1792777
+MG,Coração de Jesus,Q1779901
+MG,Cordisburgo,Q1792063
+MG,Cordislândia,Q1792968
+MG,Corinto,Q2008000
+MG,Coroaci,Q631277
+MG,Coromandel,Q1805792
+MG,Coronel Fabriciano,Q80004
+MG,Coronel Murta,Q1756364
+MG,Coronel Pacheco,Q1791759
+MG,Coronel Xavier Chaves,Q1756842
+MG,Couto de Magalhães de Minas,Q1792861
+MG,Cristais,Q1793151
+MG,Cristiano Otoni,Q1793189
+MG,Cristina,Q1796446
+MG,Cristália,Q1756196
+MG,Crisólita,Q650484
+MG,Crucilândia,Q640266
+MG,Cruzeiro da Fortaleza,Q1791569
+MG,Cruzília,Q1756446
+MG,Cuparaque,Q1791954
+MG,Curral de Dentro,Q1792791
+MG,Curvelo,Q1749748
+MG,Cássia,Q1793175
+MG,Córrego Danta,Q1756093
+MG,Córrego Fundo,Q1756378
+MG,Córrego Novo,Q1791989
+MG,Córrego do Bom Jesus,Q1792781
+MG,Cônego Marinho,Q1792069
+MG,Datas,Q1791966
+MG,Delfim Moreira,Q1780238
+MG,Delfinópolis,Q1792047
+MG,Delta,Q22062605
+MG,Descoberto,Q1792077
+MG,Desterro de Entre Rios,Q1791901
+MG,Desterro do Melo,Q1756796
+MG,Diamantina,Q34028
+MG,Diogo de Vasconcelos,Q2296402
+MG,Dionísio,Q1757121
+MG,Divino,Q19705983
+MG,Divino das Laranjeiras,Q22062598
+MG,Divinolândia de Minas,Q1791876
+MG,Divinésia,Q1793145
+MG,Divinópolis,Q926606
+MG,Divisa Alegre,Q1791217
+MG,Divisa Nova,Q1756059
+MG,Divisópolis,Q1756913
+MG,Dom Bosco,Q985964
+MG,Dom Cavati,Q22062592
+MG,Dom Joaquim,Q1791176
+MG,Dom Silvério,Q1756586
+MG,Dom Viçoso,Q1790610
+MG,Dona Eusébia,Q1756805
+MG,Dores de Campos,Q1790636
+MG,Dores de Guanhães,Q22062586
+MG,Dores do Indaiá,Q1757114
+MG,Dores do Turvo,Q1791405
+MG,Doresópolis,Q1756593
+MG,Douradoquara,Q1790742
+MG,Durandé,Q1756936
+MG,Elói Mendes,Q939717
+MG,Engenheiro Caldas,Q1791189
+MG,Engenheiro Navarro,Q1756184
+MG,Entre Folhas,Q1791121
+MG,Entre Rios de Minas,Q1790677
+MG,Ervália,Q1757071
+MG,Esmeraldas,Q1791724
+MG,Espera Feliz,Q1790572
+MG,Espinosa,Q1805786
+MG,Espírito Santo do Dourado,Q727483
+MG,Estiva,Q1790777
+MG,Estrela Dalva,Q1790684
+MG,Estrela do Indaiá,Q942731
+MG,Estrela do Sul,Q1790757
+MG,Eugenópolis,Q1790798
+MG,Ewbank da Câmara,Q1790705
+MG,Extrema,Q2008030
+MG,Fama,Q1900550
+MG,Faria Lemos,Q1791395
+MG,Felisburgo,
+MG,Felixlândia,Q1756309
+MG,Felício dos Santos,Q1790814
+MG,Fernandes Tourinho,Q1791271
+MG,Ferros,Q1791559
+MG,Fervedouro,Q1791201
+MG,Florestal,Q1791646
+MG,Formiga,Q1791720
+MG,Formoso,Q2007816
+MG,Fortaleza de Minas,Q1790792
+MG,Fortuna de Minas,Q1791141
+MG,Francisco Badaró,Q1756240
+MG,Francisco Dumont,Q1790761
+MG,Francisco Sá,Q936907
+MG,Franciscópolis,Q1757095
+MG,Frei Gaspar,Q1757083
+MG,Frei Inocêncio,Q1790695
+MG,Frei Lagonegro,Q1790769
+MG,Fronteira,Q999288
+MG,Fronteira dos Vales,Q1756110
+MG,Fruta de Leite,Q1791158
+MG,Frutal,Q22045383
+MG,Funilândia,Q1757125
+MG,Galiléia,Q1805355
+MG,Gameleiras,Q1756252
+MG,Glaucilândia,Q1756943
+MG,Goiabeira,Q1805781
+MG,Goianá,Q2007679
+MG,Gonzaga,Q745774
+MG,Gonçalves,Q1970369
+MG,Gouveia,Q2101396
+MG,Governador Valadares,Q462218
+MG,Grupiara,Q1791244
+MG,Grão Mogol,Q1754641
+MG,Guanhães,Q1756864
+MG,Guapé,Q1791322
+MG,Guaraciaba,Q2008016
+MG,Guaraciama,Q924739
+MG,Guarani,Q1998473
+MG,Guaranésia,Q1790645
+MG,Guarará,Q1791579
+MG,Guarda-Mor,Q1790555
+MG,Guaxupé,Q1791417
+MG,Guidoval,Q1791163
+MG,Guimarânia,Q1791357
+MG,Guiricema,Q1790795
+MG,Gurinhatã,Q1791508
+MG,Heliodora,Q2007752
+MG,Iapu,Q1790564
+MG,Ibertioga,Q1755880
+MG,Ibiaí,Q1790622
+MG,Ibiracatu,Q1791078
+MG,Ibiraci,Q1791289
+MG,Ibirité,Q1751207
+MG,Ibitiúra de Minas,Q642595
+MG,Ibituruna,Q375692
+MG,Ibiá,Q1756458
+MG,Icaraí de Minas,Q655607
+MG,Igarapé,Q2050036
+MG,Igaratinga,Q1791133
+MG,Iguatama,Q1755996
+MG,Ijaci,Q1790715
+MG,Ilicínea,Q1791254
+MG,Imbé de Minas,Q1791308
+MG,Inconfidentes,Q1755870
+MG,Indaiabira,Q1790732
+MG,Indianópolis,Q1805773
+MG,Ingaí,Q1790591
+MG,Inhapim,Q1791428
+MG,Inhaúma,Q1755861
+MG,Inimutaba,Q1756373
+MG,Ipaba,Q1791330
+MG,Ipanema,Q782347
+MG,Ipatinga,Q318314
+MG,Ipiaçu,Q1791349
+MG,Ipuiúna,Q921958
+MG,Iraí de Minas,Q1790584
+MG,Itabira,Q1638413
+MG,Itabirinha,Q1790752
+MG,Itabirito,Q22042641
+MG,Itacambira,Q1756848
+MG,Itacarambi,Q1790600
+MG,Itaguara,Q1791168
+MG,Itaipé,Q1756190
+MG,Itajubá,Q985585
+MG,Itamarandiba,Q22042722
+MG,Itamarati de Minas,Q510938
+MG,Itambacuri,Q1754657
+MG,Itambé do Mato Dentro,Q950561
+MG,Itamogi,Q1791149
+MG,Itamonte,Q1772699
+MG,Itanhandu,Q585119
+MG,Itanhomi,Q1791526
+MG,Itaobim,Q1790804
+MG,Itapagipe,Q1791208
+MG,Itapecerica,Q509584
+MG,Itapeva,Q22062477
+MG,Itatiaiuçu,Q985977
+MG,Itaverava,Q1791590
+MG,Itaú de Minas,Q1756039
+MG,Itaúna,Q628877
+MG,Itinga,Q934924
+MG,Itueta,Q616539
+MG,Ituiutaba,Q1756328
+MG,Itumirim,Q1791057
+MG,Iturama,Q1780277
+MG,Itutinga,Q1989895
+MG,Jaboticatubas,Q1749813
+MG,Jacinto,Q1791600
+MG,Jacutinga,Q1804332
+MG,Jacuí,Q1779955
+MG,Jaguaraçu,Q1790785
+MG,Jampruca,Q1791230
+MG,Janaúba,Q1791340
+MG,Januária,Q22062457
+MG,Japaraíba,Q1755923
+MG,Japonvar,Q931874
+MG,Jaíba,Q734146
+MG,Jeceaba,Q588890
+MG,Jenipapo de Minas,Q1756319
+MG,Jequeri,Q1756002
+MG,Jequitaí,Q958515
+MG,Jequitibá,Q1757089
+MG,Jequitinhonha,Q580753
+MG,Jesuânia,Q1791440
+MG,Joanésia,Q1791300
+MG,Joaquim Felício,Q1756837
+MG,Joaíma,Q1756235
+MG,Jordânia,Q1754836
+MG,Josenópolis,Q1755133
+MG,José Gonçalves de Minas,Q762593
+MG,José Raydan,Q1791503
+MG,João Monlevade,Q985508
+MG,João Pinheiro,Q675677
+MG,Juatuba,Q1790670
+MG,Juiz de Fora,Q193019
+MG,Juramento,Q1790506
+MG,Juruaia,Q1790502
+MG,Juvenília,Q730130
+MG,Ladainha,Q430128
+MG,Lagamar,Q1790657
+MG,Lagoa Dourada,Q1790717
+MG,Lagoa Formosa,Q22040110
+MG,Lagoa Grande,Q2007758
+MG,Lagoa Santa,Q178667
+MG,Lagoa da Prata,Q1749899
+MG,Lagoa dos Patos,Q1804893
+MG,Lajinha,Q641281
+MG,Lambari,Q1780214
+MG,Lamim,Q1790497
+MG,Laranjal,Q979042
+MG,Lassance,Q1790489
+MG,Lavras,Q1638425
+MG,Leandro Ferreira,Q1754743
+MG,Leme do Prado,Q1754665
+MG,Leopoldina,Q1805359
+MG,Liberdade,Q22062417
+MG,Lima Duarte,Q22040393
+MG,Limeira do Oeste,Q1805365
+MG,Lontra,Q2357138
+MG,Luisburgo,Q1789771
+MG,Luislândia,Q1790156
+MG,Luminárias,Q953848
+MG,Luz,Q22040494
+MG,Machacalis,Q1755726
+MG,Machado,Q22040564
+MG,Madre de Deus de Minas,Q595287
+MG,Malacacheta,Q1755703
+MG,Mamonas,Q1754973
+MG,Manga,Q283581
+MG,Manhuaçu,Q935191
+MG,Manhumirim,Q1789756
+MG,Mantena,Q2008042
+MG,Mar de Espanha,Q1754689
+MG,Maravilhas,Q1754703
+MG,Maria da Fé,Q1790481
+MG,Mariana,Q984567
+MG,Marilac,Q1790216
+MG,Maripá de Minas,Q1789764
+MG,Marliéria,Q1754892
+MG,Marmelópolis,Q686891
+MG,Martinho Campos,Q522303
+MG,Martins Soares,Q1790097
+MG,Mata Verde,Q1755144
+MG,Materlândia,Q338191
+MG,Mateus Leme,Q631022
+MG,Mathias Lobato,Q1790428
+MG,Matias Barbosa,Q1764539
+MG,Matias Cardoso,Q1755530
+MG,Matipó,Q1790074
+MG,Mato Verde,Q1790065
+MG,Matozinhos,Q1755730
+MG,Matutina,Q1761228
+MG,Medeiros,Q1755734
+MG,Medina,Q2104166
+MG,Mendes Pimentel,Q1790353
+MG,Mercês,Q376377
+MG,Mesquita,Q1022432
+MG,Minas Novas,Q1755693
+MG,Minduri,Q1790055
+MG,Mirabela,Q1790146
+MG,Miradouro,Q1805342
+MG,Miravânia,Q1790088
+MG,Miraí,Q1790116
+MG,Moeda,Q1804868
+MG,Moema,Q1789780
+MG,Monjolos,Q1754880
+MG,Monsenhor Paulo,Q642341
+MG,Montalvânia,Q1790238
+MG,Monte Alegre de Minas,Q1789748
+MG,Monte Azul,Q1790247
+MG,Monte Belo,Q1790449
+MG,Monte Carmelo,Q1877935
+MG,Monte Formoso,Q1754899
+MG,Monte Santo de Minas,Q1789740
+MG,Monte Sião,Q1755752
+MG,Montes Claros,Q651906
+MG,Montezuma,Q2063943
+MG,Morada Nova de Minas,Q1790181
+MG,Morro da Garça,Q1754851
+MG,Morro do Pilar,Q1790330
+MG,Munhoz,Q1790436
+MG,Muriaé,Q1637446
+MG,Mutum,Q945723
+MG,Muzambinho,Q1790124
+MG,Mário Campos,Q936682
+MG,Nacip Raydan,Q608559
+MG,Nanuque,Q83011
+MG,Naque,Q1789727
+MG,Natalândia,Q1789734
+MG,Natércia,Q749384
+MG,Nazareno,Q2007785
+MG,Nepomuceno,Q583832
+MG,Ninheira,Q1790335
+MG,Nova Belém,Q1754917
+MG,Nova Era,Q1789722
+MG,Nova Lima,Q1642662
+MG,Nova Módica,Q1790165
+MG,Nova Ponte,Q1754716
+MG,Nova Porteirinha,Q1790104
+MG,Nova Resende,Q1790260
+MG,Nova Serrana,Q1790206
+MG,Nova União,Q2661298
+MG,Novo Cruzeiro,Q1755515
+MG,Novo Oriente de Minas,Q1754871
+MG,Novorizonte,Q1790081
+MG,Olaria,Q2077934
+MG,Olhos-d'Água,Q1790196
+MG,Oliveira,Q22038621
+MG,Oliveira Fortes,Q1790303
+MG,Olímpio Noronha,Q1789744
+MG,Onça de Pitangui,Q1755759
+MG,Oratórios,Q1790225
+MG,Orizânia,Q595373
+MG,Ouro Branco,Q2007609
+MG,Ouro Fino,Q775319
+MG,Ouro Preto,Q188905
+MG,Ouro Verde de Minas,Q1755536
+MG,Padre Carvalho,Q596318
+MG,Padre Paraíso,Q1755581
+MG,Pai Pedro,Q1790130
+MG,Paineiras,Q1789613
+MG,Pains,Q1791617
+MG,Paiva,Q772793
+MG,Palma,Q2007701
+MG,Palmópolis,Q687032
+MG,Papagaios,Q1789565
+MG,Paracatu,Q1755739
+MG,Paraguaçu,Q283682
+MG,Paraisópolis,Q522717
+MG,Paraopeba,Q947240
+MG,Pará de Minas,Q1749821
+MG,Passa Quatro,Q1638378
+MG,Passa Tempo,Q1790325
+MG,Passa Vinte,
+MG,Passabém,Q429351
+MG,Passos,Q985579
+MG,Patis,Q1790473
+MG,Patos de Minas,Q984571
+MG,Patrocínio,Q960694
+MG,Patrocínio do Muriaé,Q1789573
+MG,Paula Cândido,Q571111
+MG,Paulistas,Q1789599
+MG,Pavão,Q1791666
+MG,Pedra Azul,Q1650924
+MG,Pedra Bonita,Q953379
+MG,Pedra Dourada,Q1754934
+MG,Pedra do Anta,Q1754928
+MG,Pedra do Indaiá,Q1754822
+MG,Pedralva,Q612995
+MG,Pedras de Maria da Cruz,Q1789584
+MG,Pedrinópolis,Q1754720
+MG,Pedro Leopoldo,Q1638732
+MG,Pedro Teixeira,Q1608543
+MG,Pequeri,Q1789537
+MG,Pequi,Q1813066
+MG,Perdigão,Q948637
+MG,Perdizes,Q1749830
+MG,Perdões,Q1789707
+MG,Periquito,Q1798051
+MG,Pescador,Q629223
+MG,Peçanha,Q584598
+MG,Piau,Q1790460
+MG,Piedade de Caratinga,Q1780206
+MG,Piedade de Ponte Nova,Q1789621
+MG,Piedade do Rio Grande,Q1790344
+MG,Piedade dos Gerais,Q1789608
+MG,Pimenta,Q1635025
+MG,Pingo d'Água,
+MG,Pintópolis,Q1789595
+MG,Piracema,Q1802239
+MG,Pirajuba,Q1789546
+MG,Piranga,Q1789518
+MG,Piranguinho,Q1755816
+MG,Piranguçu,Q1789559
+MG,Pirapetinga,Q1790309
+MG,Pirapora,Q1756358
+MG,Piraúba,Q1789588
+MG,Pitangui,Q749248
+MG,Piumhi,Q1755744
+MG,Planura,Q1755797
+MG,Pocrane,Q1789697
+MG,Pompéu,Q1789633
+MG,Ponte Nova,Q999139
+MG,Ponto Chique,Q1789626
+MG,Ponto dos Volantes,Q1755571
+MG,Porteirinha,Q1789713
+MG,Porto Firme,Q1789579
+MG,Poté,Q1755522
+MG,Pouso Alegre,Q949798
+MG,Pouso Alto,Q1789528
+MG,Poço Fundo,Q1754967
+MG,Poços de Caldas,Q817216
+MG,Prados,Q1779977
+MG,Prata,Q1815988
+MG,Pratinha,Q1755576
+MG,Pratápolis,Q1789690
+MG,Presidente Bernardes,Q1804762
+MG,Presidente Juscelino,Q948550
+MG,Presidente Kubitschek,Q1789682
+MG,Presidente Olegário,Q1750034
+MG,Prudente de Morais,Q1755006
+MG,Quartel Geral,Q629087
+MG,Queluzito,Q1790319
+MG,Raposos,Q1780289
+MG,Raul Soares,Q920002
+MG,Recreio,Q614267
+MG,Reduto,Q1789501
+MG,Resende Costa,Q1789305
+MG,Resplendor,Q986252
+MG,Ressaquinha,Q1754957
+MG,Riachinho,Q1789472
+MG,Riacho dos Machados,Q1754708
+MG,Ribeirão Vermelho,Q1754727
+MG,Ribeirão das Neves,Q737689
+MG,Rio Acima,Q732563
+MG,Rio Casca,Q1789345
+MG,Rio Doce,Q1780194
+MG,Rio Espera,Q1789479
+MG,Rio Manso,Q1780188
+MG,Rio Novo,Q1789460
+MG,Rio Paranaíba,Q1809966
+MG,Rio Pardo de Minas,Q1789409
+MG,Rio Piracicaba,Q1804734
+MG,Rio Pomba,Q1804907
+MG,Rio Preto,Q1789450
+MG,Rio Vermelho,Q1789441
+MG,Rio do Prado,Q1755699
+MG,Ritápolis,Q1789434
+MG,Rochedo de Minas,Q304119
+MG,Rodeiro,Q748047
+MG,Romaria,Q1789399
+MG,Rosário da Limeira,Q1789508
+MG,Rubelita,Q1789418
+MG,Rubim,Q1755566
+MG,Sabará,Q1451808
+MG,Sabinópolis,Q1755810
+MG,Sacramento,Q2007808
+MG,Salinas,Q22034521
+MG,Salto da Divisa,Q1755556
+MG,Santa Bárbara,Q22065207
+MG,Santa Bárbara do Leste,Q1789488
+MG,Santa Bárbara do Monte Verde,Q1789425
+MG,Santa Bárbara do Tugúrio,Q1754948
+MG,Santa Cruz de Minas,Q1752740
+MG,Santa Cruz de Salinas,Q1770708
+MG,Santa Cruz do Escalvado,Q1124627
+MG,Santa Efigênia de Minas,Q1789393
+MG,Santa Fé de Minas,Q1755784
+MG,Santa Helena de Minas,Q970778
+MG,Santa Juliana,Q1789496
+MG,Santa Luzia,Q942235
+MG,Santa Margarida,Q1789137
+MG,Santa Maria de Itabira,Q1789237
+MG,Santa Maria do Salto,Q1749736
+MG,Santa Maria do Suaçuí,Q385048
+MG,Santa Rita de Caldas,Q1755160
+MG,Santa Rita de Ibitipoca,Q22065181
+MG,Santa Rita de Jacutinga,Q1789193
+MG,Santa Rita de Minas,Q1789077
+MG,Santa Rita do Itueto,Q375274
+MG,Santa Rita do Sapucaí,Q1650861
+MG,Santa Rosa da Serra,Q1789257
+MG,Santa Vitória,Q2063952
+MG,Santana da Vargem,Q1804886
+MG,Santana de Cataguases,Q1789181
+MG,Santana de Pirapama,Q1789173
+MG,Santana do Deserto,Q1789205
+MG,Santana do Garambéu,Q1755777
+MG,Santana do Jacaré,Q678998
+MG,Santana do Manhuaçu,Q675814
+MG,Santana do Paraíso,Q929590
+MG,Santana do Riacho,Q1755714
+MG,Santana dos Montes,Q1789163
+MG,Santo Antônio do Amparo,Q986277
+MG,Santo Antônio do Aventureiro,Q22065176
+MG,Santo Antônio do Grama,Q22065175
+MG,Santo Antônio do Itambé,Q1788666
+MG,Santo Antônio do Jacinto,Q1772714
+MG,Santo Antônio do Monte,Q22065173
+MG,Santo Antônio do Retiro,Q732719
+MG,Santo Antônio do Rio Abaixo,Q1789213
+MG,Santo Hipólito,Q1754904
+MG,Santos Dumont,Q22065169
+MG,Sapucaí-Mirim,Q1789154
+MG,Sardoá,Q22065069
+MG,Sarzedo,Q1789187
+MG,Sem-Peixe,Q1789146
+MG,Senador Amaral,Q22065066
+MG,Senador Cortes,Q1789116
+MG,Senador Firmino,Q1789127
+MG,Senador José Bento,Q22065061
+MG,Senador Modestino Gonçalves,Q1788519
+MG,Senhora de Oliveira,Q1788595
+MG,Senhora do Porto,Q1788604
+MG,Senhora dos Remédios,Q1788643
+MG,Sericita,Q1788651
+MG,Seritinga,Q1789225
+MG,Serra Azul de Minas,Q432447
+MG,Serra da Saudade,Q1754911
+MG,Serra do Salitre,
+MG,Serra dos Aimorés,Q543282
+MG,Serrania,Q593028
+MG,Serranos,Q1788624
+MG,Serranópolis de Minas,Q683882
+MG,Serro,Q919904
+MG,Sete Lagoas,Q841226
+MG,Setubinha,Q588111
+MG,Silveirânia,Q1788659
+MG,Silvianópolis,Q1788562
+MG,Simonésia,Q767863
+MG,Simão Pereira,Q1788499
+MG,Sobrália,Q1788529
+MG,Soledade de Minas,Q22065036
+MG,São Bento Abade,Q1755164
+MG,São Brás do Suaçuí,Q1788539
+MG,São Domingos das Dores,Q1754673
+MG,São Domingos do Prata,Q635947
+MG,São Francisco,Q1904163
+MG,São Francisco de Paula,Q2382290
+MG,São Francisco de Sales,Q643392
+MG,São Francisco do Glória,Q1788549
+MG,São Félix de Minas,Q1788630
+MG,São Geraldo,Q1788508
+MG,São Geraldo da Piedade,Q1754651
+MG,São Geraldo do Baixio,Q1788615
+MG,São Gonçalo do Abaeté,Q959440
+MG,São Gonçalo do Pará,Q22065158
+MG,São Gonçalo do Rio Abaixo,Q1788395
+MG,São Gonçalo do Rio Preto,Q1787350
+MG,São Gonçalo do Sapucaí,Q952405
+MG,São Gotardo,Q1788283
+MG,São Joaquim de Bicas,Q666247
+MG,São José da Barra,Q1780266
+MG,São José da Lapa,Q1787340
+MG,São José da Safira,Q1787414
+MG,São José da Varginha,Q1755771
+MG,São José do Alegre,Q1788432
+MG,São José do Divino,Q2260044
+MG,São José do Goiabal,Q1787250
+MG,São José do Jacuri,Q1788487
+MG,São José do Mantimento,Q1760621
+MG,São João Batista do Glória,Q1787319
+MG,São João Evangelista,
+MG,São João Nepomuceno,Q919616
+MG,São João da Lagoa,Q785452
+MG,São João da Mata,Q1787264
+MG,São João da Ponte,Q1787105
+MG,São João das Missões,Q1787226
+MG,São João del Rei,
+MG,São João do Manhuaçu,Q1787194
+MG,São João do Manteninha,Q1787661
+MG,São João do Oriente,Q733528
+MG,São João do Pacuí,Q1787332
+MG,São João do Paraíso,Q2131667
+MG,São Lourenço,Q985496
+MG,São Miguel do Anta,Q1755544
+MG,São Pedro da União,Q1788043
+MG,São Pedro do Suaçuí,Q1787699
+MG,São Pedro dos Ferros,Q979308
+MG,São Romão,Q539353
+MG,São Roque de Minas,Q1755169
+MG,São Sebastião da Bela Vista,Q954848
+MG,São Sebastião da Vargem Alegre,Q1787237
+MG,São Sebastião do Anta,Q1787309
+MG,São Sebastião do Maranhão,Q1788027
+MG,São Sebastião do Oeste,
+MG,São Sebastião do Paraíso,Q1755708
+MG,São Sebastião do Rio Preto,Q1787288
+MG,São Sebastião do Rio Verde,Q1787301
+MG,São Thomé das Letras,
+MG,São Tiago,Q1787130
+MG,São Tomás de Aquino,Q1788424
+MG,São Vicente de Minas,Q1770722
+MG,Tabuleiro,Q608059
+MG,Taiobeiras,Q1787178
+MG,Taparuba,Q1787155
+MG,Tapira,Q1959484
+MG,Tapiraí,Q2345763
+MG,Taquaraçu de Minas,Q1787098
+MG,Tarumirim,Q737667
+MG,Teixeiras,Q616133
+MG,Teófilo Otoni,Q1637552
+MG,Timóteo,Q737237
+MG,Tiradentes,Q1003423
+MG,Tiros,Q516274
+MG,Tocantins,Q2077872
+MG,Tocos do Moji,Q1788440
+MG,Toledo,Q2064735
+MG,Tombos,Q2007466
+MG,Três Corações,Q1439211
+MG,Três Marias,Q1815539
+MG,Três Pontas,Q1749754
+MG,Tumiritinga,Q1788450
+MG,Tupaciguara,Q1787184
+MG,Turmalina,Q1962454
+MG,Turvolândia,Q1788481
+MG,Ubaporanga,Q1788403
+MG,Ubaí,Q952767
+MG,Uberaba,Q381733
+MG,Uberlândia,Q22065011
+MG,Ubá,Q922944
+MG,Umburatiba,Q1754681
+MG,Unaí,Q1780258
+MG,União de Minas,Q1787713
+MG,Uruana de Minas,Q1787170
+MG,Urucuia,Q1788050
+MG,Urucânia,Q1787686
+MG,Vargem Alegre,Q1805295
+MG,Vargem Bonita,Q1787582
+MG,Vargem Grande do Rio Pardo,Q22081070
+MG,Varginha,Q983524
+MG,Varjão de Minas,Q1787279
+MG,Varzelândia,Q1787139
+MG,Vazante,Q1754786
+MG,Verdelândia,Q1788238
+MG,Veredinha,Q1755586
+MG,Vermelho Novo,Q1754736
+MG,Veríssimo,Q1805386
+MG,Vespasiano,Q1012546
+MG,Vieiras,Q1788420
+MG,Virgem da Lapa,Q744690
+MG,Virginópolis,Q1787121
+MG,Virgolândia,Q1787203
+MG,Virgínia,Q1787215
+MG,Visconde do Rio Branco,Q1754796
+MG,Viçosa,Q1780182
+MG,Volta Grande,Q1778624
+MG,Várzea da Palma,Q1787088
+MG,Wenceslau Braz,Q658813
+MG,Água Boa,Q2059260
+MG,Água Comprida,Q1756079
+MG,Águas Formosas,Q1756605
+MG,Águas Vermelhas,Q1756246
+MS,Alcinópolis,Q2012238
+MS,Amambai,Q453479
+MS,Anastácio,Q22067433
+MS,Anaurilândia,Q1806340
+MS,Angélica,Q1793031
+MS,Antônio João,Q22067430
+MS,Aparecida do Taboado,Q22067429
+MS,Aquidauana,Q1792157
+MS,Aral Moreira,Q22067428
+MS,Bandeirantes,Q2012476
+MS,Bataguassu,Q1805582
+MS,Batayporã,Q1796657
+MS,Bela Vista,Q1148023
+MS,Bodoquena,Q966840
+MS,Bonito,Q768535
+MS,Brasilândia,Q1805829
+MS,Caarapó,Q279492
+MS,Camapuã,Q22067419
+MS,Campo Grande,Q168929
+MS,Caracol,Q2289933
+MS,Cassilândia,Q22047557
+MS,Chapadão do Sul,Q1805278
+MS,Corguinho,Q2012367
+MS,Coronel Sapucaia,Q1806310
+MS,Corumbá,Q271215
+MS,Costa Rica,Q1024894
+MS,Coxim,Q1793013
+MS,Deodápolis,Q1805488
+MS,Dois Irmãos do Buriti,Q777024
+MS,Douradina,Q1805588
+MS,Dourados,Q651874
+MS,Eldorado,Q2019293
+MS,Figueirão,Q2289863
+MS,Fátima do Sul,Q597397
+MS,Glória de Dourados,Q1806358
+MS,Guia Lopes da Laguna,Q1793002
+MS,Iguatemi,Q431778
+MS,Inocência,Q1805505
+MS,Itaporã,Q1805496
+MS,Itaquiraí,Q1805021
+MS,Ivinhema,Q2011871
+MS,Japorã,Q1805419
+MS,Jaraguari,Q1805001
+MS,Jardim,Q22471507
+MS,Jateí,Q971568
+MS,Juti,Q991137
+MS,Ladário,Q1798712
+MS,Laguna Carapã,Q384939
+MS,Maracaju,Q1792127
+MS,Miranda,Q519471
+MS,Mundo Novo,Q2289881
+MS,Naviraí,Q1793018
+MS,Nioaque,Q1805437
+MS,Nova Alvorada do Sul,Q1806336
+MS,Nova Andradina,Q746291
+MS,Novo Horizonte do Sul,Q1805007
+MS,Paranaíba,Q925758
+MS,Paranhos,Q522494
+MS,Paraíso das Águas,Q3910285
+MS,Pedro Gomes,Q1804993
+MS,Ponta Porã,Q928094
+MS,Porto Murtinho,Q1792999
+MS,Ribas do Rio Pardo,Q691658
+MS,Rio Brilhante,Q1793219
+MS,Rio Negro,Q2167306
+MS,Rio Verde de Mato Grosso,Q1805638
+MS,Rochedo,Q2012023
+MS,Santa Rita do Pardo,Q1806537
+MS,Selvíria,Q1806509
+MS,Sete Quedas,Q1794989
+MS,Sidrolândia,Q1792185
+MS,Sonora,Q2022558
+MS,São Gabriel do Oeste,Q1805031
+MS,Tacuru,Q1805286
+MS,Taquarussu,Q2082853
+MS,Terenos,Q22067369
+MS,Três Lagoas,Q1637454
+MS,Vicentina,Q1793009
+MS,Água Clara,Q1796727
+MT,Acorizal,Q507567
+MT,Alta Floresta,Q433574
+MT,Alto Araguaia,Q22050218
+MT,Alto Boa Vista,Q612610
+MT,Alto Garças,Q443458
+MT,Alto Paraguai,Q676719
+MT,Alto Taquari,Q1805426
+MT,Apiacás,Q2103560
+MT,Araguaiana,Q22050461
+MT,Araguainha,Q1806527
+MT,Araputanga,Q1806505
+MT,Arenápolis,Q22047849
+MT,Aripuanã,Q1805412
+MT,Barra do Bugres,Q22048171
+MT,Barra do Garças,Q577720
+MT,Barão de Melgaço,Q22048121
+MT,Bom Jesus do Araguaia,Q2012959
+MT,Brasnorte,Q1806329
+MT,Campinápolis,Q955067
+MT,Campo Novo do Parecis,Q1793164
+MT,Campo Verde,Q1891475
+MT,Campos de Júlio,Q1805540
+MT,Canabrava do Norte,Q22067347
+MT,Canarana,Q519706
+MT,Carlinda,Q1806323
+MT,Castanheira,Q749396
+MT,Chapada dos Guimarães,Q986247
+MT,Cláudia,Q2065373
+MT,Cocalinho,Q1793037
+MT,Colniza,Q2065396
+MT,Colíder,Q1805608
+MT,Comodoro,Q1221976
+MT,Confresa,Q1805601
+MT,Conquista D'Oeste,
+MT,Cotriguaçu,Q2013031
+MT,Cuiabá,Q170762
+MT,Curvelândia,Q2066057
+MT,Cáceres,Q986526
+MT,Denise,Q1847425
+MT,Diamantino,Q22044534
+MT,Dom Aquino,Q528293
+MT,Feliz Natal,Q930196
+MT,Figueirópolis D'Oeste,
+MT,Gaúcha do Norte,Q1805569
+MT,General Carneiro,Q548635
+MT,Glória D'Oeste,
+MT,Guarantã do Norte,Q2012390
+MT,Guiratinga,Q2011948
+MT,Indiavaí,Q781642
+MT,Ipiranga do Norte,Q2089652
+MT,Itanhangá,Q2089697
+MT,Itaúba,Q2012214
+MT,Itiquira,Q2020525
+MT,Jaciara,Q22039655
+MT,Jangada,Q678587
+MT,Jauru,Q2012195
+MT,Juara,Q1806599
+MT,Juruena,Q1869664
+MT,Juscimeira,Q1805629
+MT,Juína,Q1880608
+MT,Lambari D'Oeste,
+MT,Lucas do Rio Verde,Q2012618
+MT,Luciara,Q1805614
+MT,Marcelândia,Q2012355
+MT,Matupá,
+MT,Mirassol d'Oeste,Q2012414
+MT,Nobres,Q1805596
+MT,Nortelândia,Q22038530
+MT,Nossa Senhora do Livramento,Q2107985
+MT,Nova Bandeirantes,Q515107
+MT,Nova Brasilândia,Q773466
+MT,Nova Canaã do Norte,Q1805557
+MT,Nova Guarita,Q1805433
+MT,Nova Lacerda,Q744302
+MT,Nova Marilândia,Q665638
+MT,Nova Maringá,Q962134
+MT,Nova Monte Verde,Q960834
+MT,Nova Mutum,Q263731
+MT,Nova Nazaré,Q2012379
+MT,Nova Olímpia,Q22038552
+MT,Nova Santa Helena,Q2012034
+MT,Nova Ubiratã,Q1806494
+MT,Nova Xavantina,Q1806546
+MT,Novo Horizonte do Norte,Q1806349
+MT,Novo Mundo,Q2095122
+MT,Novo Santo Antônio,Q2107875
+MT,Novo São Joaquim,Q2011959
+MT,Paranatinga,Q1805618
+MT,Paranaíta,Q1805645
+MT,Pedra Preta,Q1857809
+MT,Peixoto de Azevedo,Q933251
+MT,Planalto da Serra,Q1806584
+MT,Poconé,Q166445
+MT,Pontal do Araguaia,Q1805578
+MT,Ponte Branca,Q1805547
+MT,Pontes e Lacerda,Q2011952
+MT,Porto Alegre do Norte,Q1805622
+MT,Porto Esperidião,Q2012385
+MT,Porto Estrela,Q738627
+MT,Porto dos Gaúchos,Q928704
+MT,Poxoréu,Q1920318
+MT,Primavera do Leste,Q2012361
+MT,Querência,Q729434
+MT,Reserva do Cabaçal,Q938084
+MT,Ribeirão Cascalheira,Q1805821
+MT,Ribeirãozinho,Q1806514
+MT,Rio Branco,Q2099595
+MT,Rondolândia,Q2012042
+MT,Rondonópolis,Q983714
+MT,Rosário Oeste,Q2012402
+MT,Salto do Céu,Q2012470
+MT,Santa Carmem,Q1805671
+MT,Santa Cruz do Xingu,Q2012489
+MT,Santa Rita do Trivelato,Q2065385
+MT,Santa Terezinha,Q2065041
+MT,Santo Afonso,Q2012245
+MT,Santo Antônio do Leste,Q1966520
+MT,Santo Antônio do Leverger,Q962587
+MT,Sapezal,Q1805417
+MT,Serra Nova Dourada,Q2065364
+MT,Sinop,Q180192
+MT,Sorriso,Q2012374
+MT,São Félix do Araguaia,Q1835499
+MT,São José do Povo,Q252242
+MT,São José do Rio Claro,Q1805405
+MT,São José do Xingu,Q1792165
+MT,São José dos Quatro Marcos,Q2012409
+MT,São Pedro da Cipa,Q1805550
+MT,Tabaporã,Q1806591
+MT,Tangará da Serra,Q1806373
+MT,Tapurah,Q2011944
+MT,Terra Nova do Norte,Q2012207
+MT,Tesouro,Q2081481
+MT,Torixoréu,Q1805562
+MT,União do Sul,Q1805536
+MT,Vale de São Domingos,Q2081565
+MT,Vera,Q2007965
+MT,Vila Bela da Santíssima Trindade,Q732088
+MT,Vila Rica,Q2082843
+MT,Várzea Grande,Q983884
+MT,Água Boa,Q1988205
+PA,Abaetetuba,Q1615298
+PA,Abel Figueiredo,Q942803
+PA,Acará,Q1804839
+PA,Afuá,Q389536
+PA,Alenquer,Q2289869
+PA,Almeirim,Q2342023
+PA,Altamira,Q434285
+PA,Anajás,Q1804346
+PA,Ananindeua,Q485887
+PA,Anapu,Q486142
+PA,Augusto Corrêa,Q1804338
+PA,Aurora do Pará,Q2008798
+PA,Aveiro,Q790342
+PA,Bagre,Q1804902
+PA,Baião,Q804068
+PA,Bannach,Q1804877
+PA,Barcarena,Q2009595
+PA,Belterra,Q609824
+PA,Belém,Q47593
+PA,Benevides,Q1804361
+PA,Bom Jesus do Tocantins,Q2130429
+PA,Bonito,Q2078868
+PA,Bragança,Q320487
+PA,Brasil Novo,Q2008779
+PA,Brejo Grande do Araguaia,Q1975881
+PA,Breu Branco,Q2008139
+PA,Breves,Q1804770
+PA,Bujaru,Q2009108
+PA,Cachoeira do Arari,Q1804813
+PA,Cachoeira do Piriá,Q947745
+PA,Cametá,Q1805206
+PA,Canaã dos Carajás,Q2009474
+PA,Capanema,Q1947031
+PA,Capitão Poço,Q955914
+PA,Castanhal,Q984581
+PA,Chaves,Q1899080
+PA,Colares,Q2008619
+PA,Conceição do Araguaia,Q1788037
+PA,Concórdia do Pará,Q2008125
+PA,Cumaru do Norte,Q2008271
+PA,Curionópolis,Q2008449
+PA,Curralinho,Q2011907
+PA,Curuá,Q2008226
+PA,Curuçá,Q1814514
+PA,Dom Eliseu,Q2008541
+PA,Eldorado do Carajás,
+PA,Faro,Q2246005
+PA,Floresta do Araguaia,Q2008493
+PA,Garrafão do Norte,Q2008750
+PA,Goianésia do Pará,Q2008317
+PA,Gurupá,Q2011913
+PA,Igarapé-Açu,Q2009058
+PA,Igarapé-Miri,Q651613
+PA,Inhangapi,Q1880531
+PA,Ipixuna do Pará,Q675175
+PA,Irituia,Q2008410
+PA,Itaituba,Q655734
+PA,Itupiranga,Q2008167
+PA,Jacareacanga,Q1805252
+PA,Jacundá,Q1967407
+PA,Juruti,Q1008242
+PA,Limoeiro do Ajuru,Q2008564
+PA,Magalhães Barata,Q2008546
+PA,Marabá,Q509818
+PA,Maracanã,Q2089279
+PA,Marapanim,Q1990477
+PA,Marituba,Q1805166
+PA,Medicilândia,Q2009048
+PA,Melgaço,Q2011923
+PA,Mocajuba,Q2008596
+PA,Moju,Q2008213
+PA,Mojuí dos Campos,Q10331562
+PA,Monte Alegre,Q2289897
+PA,Muaná,Q1804369
+PA,Mãe do Rio,Q2008401
+PA,Nova Esperança do Piriá,Q1121422
+PA,Nova Ipixuna,Q728098
+PA,Nova Timboteua,Q2009430
+PA,Novo Progresso,Q1787759
+PA,Novo Repartimento,Q769811
+PA,Oeiras do Pará,Q2008580
+PA,Oriximiná,Q2011919
+PA,Ourilândia do Norte,Q2008237
+PA,Ourém,Q1829502
+PA,Pacajá,Q592117
+PA,Palestina do Pará,Q2009230
+PA,Paragominas,Q935005
+PA,Parauapebas,Q1806100
+PA,Pau D'Arco,
+PA,Peixe-Boi,Q2009222
+PA,Piçarra,Q2008277
+PA,Placas,Q602405
+PA,Ponta de Pedras,Q1804377
+PA,Portel,Q2089210
+PA,Porto de Moz,Q2011894
+PA,Prainha,Q2009663
+PA,Primavera,Q2329733
+PA,Quatipuru,Q2008521
+PA,Redenção,Q2381693
+PA,Rio Maria,Q2008301
+PA,Rondon do Pará,Q2008429
+PA,Rurópolis,Q2009519
+PA,Salinópolis,Q1008198
+PA,Salvaterra,Q1921992
+PA,Santa Bárbara do Pará,Q2009202
+PA,Santa Cruz do Arari,Q640618
+PA,Santa Izabel do Pará,
+PA,Santa Luzia do Pará,Q2008573
+PA,Santa Maria das Barreiras,Q2009212
+PA,Santa Maria do Pará,Q1901157
+PA,Santana do Araguaia,Q2008589
+PA,Santarém,Q659450
+PA,Santarém Novo,Q1811192
+PA,Santo Antônio do Tauá,Q2009548
+PA,Sapucaia,Q2289887
+PA,Senador José Porfírio,Q609027
+PA,Soure,Q1016643
+PA,São Caetano de Odivelas,Q632789
+PA,São Domingos do Araguaia,Q1841455
+PA,São Domingos do Capim,
+PA,São Francisco do Pará,Q2008769
+PA,São Félix do Xingu,Q1807317
+PA,São Geraldo do Araguaia,Q2008501
+PA,São João da Ponta,Q2008293
+PA,São João de Pirabas,Q2008440
+PA,São João do Araguaia,Q2008417
+PA,São Miguel do Guamá,Q2008532
+PA,São Sebastião da Boa Vista,Q1868533
+PA,Tailândia,Q2289846
+PA,Terra Alta,Q2289951
+PA,Terra Santa,Q2003795
+PA,Tomé-Açu,Q1805230
+PA,Tracuateua,Q2008789
+PA,Trairão,Q2009409
+PA,Tucumã,Q2445520
+PA,Tucuruí,Q374432
+PA,Ulianópolis,Q2008337
+PA,Uruará,Q2009083
+PA,Vigia,Q1804913
+PA,Viseu,Q772569
+PA,Vitória do Xingu,Q2008512
+PA,Xinguara,Q2008249
+PA,Água Azul do Norte,Q1804899
+PA,Óbidos,
+PB,Aguiar,Q1998462
+PB,Alagoa Grande,Q1998976
+PB,Alagoa Nova,Q1816238
+PB,Alagoinha,Q2065239
+PB,Alcantil,Q1816058
+PB,Algodão de Jandaíra,Q1759357
+PB,Alhandra,Q22026752
+PB,Amparo,Q2010915
+PB,Aparecida,Q2077855
+PB,Arara,Q37378
+PB,Araruna,Q22027020
+PB,Araçagi,Q374669
+PB,Areia,Q1816283
+PB,Areia de Baraúnas,Q1800798
+PB,Areial,Q963490
+PB,Aroeiras,Q1808029
+PB,Assunção,Q1808674
+PB,Bananeiras,Q525672
+PB,Baraúna,Q2662559
+PB,Barra de Santa Rosa,Q1800788
+PB,Barra de Santana,Q1808715
+PB,Barra de São Miguel,Q2309706
+PB,Bayeux,Q2065978
+PB,Baía da Traição,Q978537
+PB,Belém,Q792606
+PB,Belém do Brejo do Cruz,Q285051
+PB,Bernardino Batista,Q1816080
+PB,Boa Ventura,Q677612
+PB,Boa Vista,Q2065971
+PB,Bom Jesus,Q2066065
+PB,Bom Sucesso,Q2087575
+PB,Bonito de Santa Fé,Q776733
+PB,Boqueirão,Q1808935
+PB,Borborema,Q22061522
+PB,Brejo do Cruz,Q1808002
+PB,Brejo dos Santos,Q1808661
+PB,Caaporã,Q1816118
+PB,Cabaceiras,Q606068
+PB,Cabedelo,Q986350
+PB,Cachoeira dos Índios,Q1816046
+PB,Cacimba de Areia,Q1807989
+PB,Cacimba de Dentro,Q1816227
+PB,Cacimbas,Q970131
+PB,Caiçara,Q1816219
+PB,Cajazeiras,Q1808637
+PB,Cajazeirinhas,Q1808910
+PB,Caldas Brandão,Q1808745
+PB,Camalaú,Q1816125
+PB,Campina Grande,Q193016
+PB,Capim,Q1808017
+PB,Caraúbas,Q284134
+PB,Carrapateira,Q749757
+PB,Casserengue,Q1816259
+PB,Catingueira,Q1816295
+PB,Catolé do Rocha,Q1808697
+PB,Caturité,Q1815927
+PB,Conceição,Q2010944
+PB,Condado,Q635267
+PB,Conde,Q1999780
+PB,Congo,Q2009615
+PB,Coremas,Q1843416
+PB,Coxixola,Q2009254
+PB,Cruz do Espírito Santo,Q512810
+PB,Cubati,Q2009277
+PB,Cuitegi,Q2011350
+PB,Cuité,Q2064364
+PB,Cuité de Mamanguape,Q977785
+PB,Curral Velho,Q2010383
+PB,Curral de Cima,Q1808490
+PB,Damião,Q663661
+PB,Desterro,Q2009945
+PB,Diamante,Q644558
+PB,Dona Inês,Q22024886
+PB,Duas Estradas,Q2006072
+PB,Emas,Q2040548
+PB,Esperança,Q1816186
+PB,Fagundes,Q2011192
+PB,Frei Martinho,Q2008657
+PB,Gado Bravo,Q674753
+PB,Guarabira,Q22020802
+PB,Gurinhém,Q1991293
+PB,Gurjão,Q1816212
+PB,Ibiara,Q2010365
+PB,Igaracy,Q2010961
+PB,Imaculada,Q2009933
+PB,Ingá,Q929040
+PB,Itabaiana,Q2103719
+PB,Itaporanga,Q22021126
+PB,Itapororoca,Q734484
+PB,Itatuba,Q22021145
+PB,Jacaraú,Q22021190
+PB,Jericó,Q2065204
+PB,Joca Claudino,Q2098422
+PB,João Pessoa,Q167436
+PB,Juarez Távora,Q2008677
+PB,Juazeirinho,Q1815979
+PB,Junco do Seridó,Q2008715
+PB,Juripiranga,Q2008351
+PB,Juru,Q1808550
+PB,Lagoa,Q1921322
+PB,Lagoa Seca,Q2010981
+PB,Lagoa de Dentro,Q2011329
+PB,Lastro,Q2009351
+PB,Livramento,Q2065825
+PB,Logradouro,Q2012226
+PB,Lucena,Q2078997
+PB,Malta,Q2329682
+PB,Mamanguape,Q1008338
+PB,Manaíra,Q2009309
+PB,Marcação,Q2010733
+PB,Mari,Q965785
+PB,Marizópolis,Q777156
+PB,Massaranduba,Q2079004
+PB,Mataraca,Q727109
+PB,Matinhas,Q2011935
+PB,Mato Grosso,Q2078731
+PB,Maturéia,
+PB,Mogeiro,Q22018283
+PB,Montadas,Q1808648
+PB,Monte Horebe,Q2010356
+PB,Monteiro,Q1808426
+PB,Mulungu,Q2341988
+PB,Mãe d'Água,Q2010590
+PB,Natuba,Q2008665
+PB,Nazarezinho,Q2009331
+PB,Nova Floresta,Q521125
+PB,Nova Olinda,Q2048449
+PB,Nova Palmeira,Q658619
+PB,Olho d'Água,Q2009341
+PB,Olivedos,Q1816157
+PB,Ouro Velho,Q2008376
+PB,Parari,Q2103106
+PB,Passagem,Q2104849
+PB,Patos,Q1966384
+PB,Paulista,Q2081885
+PB,Pedra Branca,Q2342000
+PB,Pedra Lavrada,Q2009239
+PB,Pedras de Fogo,Q2009248
+PB,Pedro Régis,Q2064424
+PB,Piancó,Q2009920
+PB,Picuí,Q2008685
+PB,Pilar,Q731296
+PB,Pilões,Q2067408
+PB,Pilõezinhos,Q2011307
+PB,Pirpirituba,Q1870026
+PB,Pitimbu,Q2008741
+PB,Pocinhos,Q1816070
+PB,Pombal,Q2078751
+PB,Poço Dantas,Q734849
+PB,Poço de José de Moura,Q1829476
+PB,Prata,Q2329634
+PB,Princesa Isabel,Q2095104
+PB,Puxinanã,Q22015853
+PB,Queimadas,Q782948
+PB,Quixaba,Q2077775
+PB,Remígio,Q289067
+PB,Riacho de Santo Antônio,Q2009287
+PB,Riacho dos Cavalos,Q1897689
+PB,Riachão,Q2329696
+PB,Riachão do Bacamarte,Q2008384
+PB,Riachão do Poço,Q969630
+PB,Rio Tinto,Q2085541
+PB,Salgadinho,Q2065031
+PB,Salgado de São Félix,Q2009391
+PB,Santa Cecília,Q2102814
+PB,Santa Cruz,Q2329762
+PB,Santa Helena,Q2329779
+PB,Santa Inês,Q649347
+PB,Santa Luzia,Q2329720
+PB,Santa Rita,Q1937304
+PB,Santa Teresinha,Q680275
+PB,Santana de Mangueira,Q2010753
+PB,Santana dos Garrotes,Q2009875
+PB,Santo André,Q2078761
+PB,Sapé,Q2008707
+PB,Serra Branca,Q2009097
+PB,Serra Grande,Q2010952
+PB,Serra Redonda,Q1979460
+PB,Serra da Raiz,Q1962737
+PB,Serraria,Q2064614
+PB,Sertãozinho,Q1973538
+PB,Sobrado,Q2078739
+PB,Soledade,Q2066120
+PB,Solânea,Q2010744
+PB,Sossêgo,Q2010762
+PB,Sousa,Q2011653
+PB,Sumé,Q2008324
+PB,São Bentinho,Q2009398
+PB,São Bento,Q767395
+PB,São Domingos,Q224967
+PB,São Domingos do Cariri,Q377255
+PB,São Francisco,Q375711
+PB,São José da Lagoa Tapada,Q2009321
+PB,São José de Caiana,Q2010404
+PB,São José de Espinharas,Q2010579
+PB,São José de Piranhas,Q2010773
+PB,São José de Princesa,Q1808707
+PB,São José do Bonfim,Q936607
+PB,São José do Brejo do Cruz,Q644127
+PB,São José do Sabugi,Q2008367
+PB,São José dos Cordeiros,Q2008760
+PB,São José dos Ramos,Q2009265
+PB,São João do Cariri,Q2008734
+PB,São João do Rio do Peixe,Q728790
+PB,São João do Tigre,Q2009071
+PB,São Mamede,Q1999321
+PB,São Miguel de Taipu,Q2008694
+PB,São Sebastião de Lagoa de Roça,Q2009298
+PB,São Sebastião do Umbuzeiro,Q2008699
+PB,São Vicente do Seridó,Q2008358
+PB,Tacima,Q1816133
+PB,Taperoá,Q2329707
+PB,Tavares,Q2099625
+PB,Teixeira,Q1004229
+PB,Tenório,Q1875004
+PB,Triunfo,Q2097715
+PB,Uiraúna,Q2010393
+PB,Umbuzeiro,Q1815057
+PB,Vieirópolis,Q2009892
+PB,Vista Serrana,Q2010563
+PB,Várzea,Q2065255
+PB,Zabelê,Q1808686
+PB,Água Branca,Q1847056
+PE,Abreu e Lima,Q536569
+PE,Afogados da Ingazeira,Q1761348
+PE,Afrânio,Q2065815
+PE,Agrestina,Q1787629
+PE,Alagoinha,Q938278
+PE,Aliança,Q2010570
+PE,Altinho,Q1844246
+PE,Amaraji,Q1839783
+PE,Angelim,Q1987808
+PE,Araripina,Q626344
+PE,Araçoiaba,Q2010873
+PE,Arcoverde,Q637902
+PE,Barra de Guabiraba,Q1811106
+PE,Barreiros,Q22027335
+PE,Belo Jardim,Q949079
+PE,Belém de Maria,Q746519
+PE,Belém do São Francisco,Q1811159
+PE,Betânia,Q2065057
+PE,Bezerros,Q22027443
+PE,Bodocó,Q524487
+PE,Bom Conselho,Q568749
+PE,Bom Jardim,Q2097751
+PE,Bonito,Q2341964
+PE,Brejinho,Q682185
+PE,Brejo da Madre de Deus,Q1807223
+PE,Brejão,Q2065806
+PE,Buenos Aires,
+PE,Buíque,Q1809636
+PE,Cabo de Santo Agostinho,Q1637538
+PE,Cabrobó,Q2010855
+PE,Cachoeirinha,Q2099535
+PE,Caetés,Q1008259
+PE,Calumbi,Q2010836
+PE,Calçado,Q2088907
+PE,Camaragibe,Q1761143
+PE,Camocim de São Félix,Q1811052
+PE,Camutanga,Q1814461
+PE,Canhotinho,Q2064820
+PE,Capoeiras,Q2064882
+PE,Carnaubeira da Penha,Q682035
+PE,Carnaíba,Q2064956
+PE,Carpina,Q1993877
+PE,Caruaru,Q622830
+PE,Casinhas,Q923741
+PE,Catende,Q2011032
+PE,Cedro,Q716874
+PE,Chã Grande,Q2010970
+PE,Chã de Alegria,Q1811142
+PE,Condado,Q507095
+PE,Correntes,Q776802
+PE,Cortês,Q2064746
+PE,Cumaru,Q2089188
+PE,Cupira,Q1916653
+PE,Custódia,
+PE,Dormentes,
+PE,Escada,Q22024951
+PE,Exu,Q2064727
+PE,Feira Nova,Q1869240
+PE,Fernando de Noronha,Q175057
+PE,Ferreiros,Q2078233
+PE,Flores,Q22020192
+PE,Floresta,Q2464842
+PE,Frei Miguelinho,Q2011848
+PE,Gameleira,Q2064836
+PE,Garanhuns,Q771575
+PE,Glória do Goitá,Q1804101
+PE,Goiana,Q22020517
+PE,Granito,Q2102421
+PE,Gravatá,Q535373
+PE,Iati,Q2011836
+PE,Ibimirim,Q1804109
+PE,Ibirajuba,Q1849689
+PE,Igarassu,Q1787619
+PE,Iguaracy,
+PE,Ilha de Itamaracá,Q22021094
+PE,Inajá,Q2309727
+PE,Ingazeira,Q2010935
+PE,Ipojuca,Q1796462
+PE,Ipubi,Q743369
+PE,Itacuruba,Q1804119
+PE,Itambé,Q2433604
+PE,Itapetim,Q2010880
+PE,Itapissuma,Q1804093
+PE,Itaquitinga,Q2010908
+PE,Itaíba,Q2011784
+PE,Jaboatão dos Guararapes,Q271393
+PE,Jaqueira,Q2011203
+PE,Jataúba,Q2064753
+PE,Jatobá,Q2472554
+PE,Joaquim Nabuco,Q1401082
+PE,João Alfredo,Q786899
+PE,Jucati,Q1852062
+PE,Jupi,Q2013547
+PE,Jurema,Q2104639
+PE,Lagoa Grande,Q2103088
+PE,Lagoa de Itaenga,Q1887813
+PE,Lagoa do Carro,Q2010890
+PE,Lagoa do Ouro,Q2013643
+PE,Lagoa dos Gatos,Q2013715
+PE,Lajedo,Q2078213
+PE,Limoeiro,Q2064902
+PE,Macaparana,Q2077831
+PE,Machados,Q2064965
+PE,Manari,Q1895257
+PE,Maraial,Q2011013
+PE,Mirandiba,Q2011780
+PE,Moreilândia,Q2011296
+PE,Moreno,Q2012258
+PE,Nazaré da Mata,Q1811182
+PE,Olinda,Q28301
+PE,Orobó,Q2013693
+PE,Orocó,Q2010863
+PE,Ouricuri,Q2064430
+PE,Palmares,Q547095
+PE,Palmeirina,Q2011342
+PE,Panelas,Q2013681
+PE,Paranatama,Q2011819
+PE,Parnamirim,Q2101450
+PE,Passira,Q2011285
+PE,Paudalho,Q674432
+PE,Paulista,Q949833
+PE,Pedra,Q2013605
+PE,Pesqueira,Q1008230
+PE,Petrolina,Q842143
+PE,Petrolândia,Q2106455
+PE,Pombos,Q2309699
+PE,Poção,Q1809609
+PE,Primavera,Q2099821
+PE,Quipapá,Q2011039
+PE,Quixaba,Q2034566
+PE,Recife,Q48344
+PE,Riacho das Almas,Q1964406
+PE,Ribeirão,Q2088935
+PE,Rio Formoso,Q2011054
+PE,Sairé,Q257236
+PE,Salgadinho,Q2278378
+PE,Salgueiro,Q2102772
+PE,Saloá,Q2065190
+PE,Sanharó,Q1991944
+PE,Santa Cruz,Q2430789
+PE,Santa Cruz da Baixa Verde,Q2010927
+PE,Santa Cruz do Capibaribe,Q2082237
+PE,Santa Filomena,Q2088926
+PE,Santa Maria da Boa Vista,Q2010898
+PE,Santa Maria do Cambucá,Q2013573
+PE,Santa Terezinha,Q2456298
+PE,Serra Talhada,Q2000133
+PE,Serrita,Q2013706
+PE,Sertânia,Q2011023
+PE,Sirinhaém,Q929655
+PE,Solidão,Q2064859
+PE,Surubim,Q2064701
+PE,São Benedito do Sul,Q2010993
+PE,São Bento do Una,Q2078660
+PE,São Caitano,
+PE,São Joaquim do Monte,Q2013565
+PE,São José da Coroa Grande,Q573729
+PE,São José do Belmonte,Q2011317
+PE,São José do Egito,Q1911145
+PE,São João,Q2355766
+PE,São Lourenço da Mata,Q1796467
+PE,São Vicente Férrer,Q2097693
+PE,Tabira,Q2078322
+PE,Tacaimbó,Q2013728
+PE,Tacaratu,Q2011003
+PE,Tamandaré,Q2011531
+PE,Taquaritinga do Norte,Q2011859
+PE,Terezinha,Q2064935
+PE,Terra Nova,Q2604168
+PE,Timbaúba,Q929867
+PE,Toritama,Q2013594
+PE,Tracunhaém,Q1870479
+PE,Trindade,Q2355756
+PE,Triunfo,Q679786
+PE,Tupanatinga,Q1804078
+PE,Tuparetama,Q2077835
+PE,Venturosa,Q1804048
+PE,Verdejante,Q2013582
+PE,Vertente do Lério,Q2013655
+PE,Vertentes,Q2065306
+PE,Vicência,Q2010783
+PE,Vitória de Santo Antão,Q985685
+PE,Xexéu,Q1111243
+PE,Água Preta,Q1804038
+PE,Águas Belas,Q2013722
+PI,Acauã,Q2066143
+PI,Agricolândia,Q1936312
+PI,Alagoinha do Piauí,Q2064226
+PI,Alegrete do Piauí,Q633346
+PI,Alto Longá,Q22026781
+PI,Altos,Q1940492
+PI,Alvorada do Gurguéia,Q1940535
+PI,Amarante,Q22026795
+PI,Angical do Piauí,Q1892127
+PI,Antônio Almeida,Q2064181
+PI,Anísio de Abreu,Q1938748
+PI,Aroazes,Q1940548
+PI,Aroeiras do Itaim,Q2095297
+PI,Arraial,Q2064170
+PI,Assunção do Piauí,Q2078771
+PI,Avelino Lopes,Q1809642
+PI,Baixa Grande do Ribeiro,Q2049334
+PI,Barra D'Alcântara,
+PI,Barras,Q22027317
+PI,Barreiras do Piauí,Q618000
+PI,Barro Duro,Q2064159
+PI,Batalha,Q2012017
+PI,Bela Vista do Piauí,Q378812
+PI,Belém do Piauí,Q1811039
+PI,Beneditinos,Q1981008
+PI,Bertolínia,Q769524
+PI,Betânia do Piauí,Q2064331
+PI,Boa Hora,Q1838960
+PI,Bocaina,Q2097681
+PI,Bom Jesus,Q891715
+PI,Bom Princípio do Piauí,Q2063977
+PI,Bonfim do Piauí,Q2089257
+PI,Boqueirão do Piauí,Q2078789
+PI,Brasileira,Q2329749
+PI,Brejo do Piauí,Q2089172
+PI,Buriti dos Lopes,Q2064004
+PI,Buriti dos Montes,Q1999799
+PI,Cabeceiras do Piauí,Q1938976
+PI,Cajazeiras do Piauí,Q2064526
+PI,Cajueiro da Praia,Q2064154
+PI,Caldeirão Grande do Piauí,Q2064592
+PI,Campinas do Piauí,Q1938871
+PI,Campo Alegre do Fidalgo,Q2064600
+PI,Campo Grande do Piauí,Q2064482
+PI,Campo Largo do Piauí,Q1938765
+PI,Campo Maior,Q22023708
+PI,Canavieira,Q2078429
+PI,Canto do Buriti,Q2079682
+PI,Capitão Gervásio Oliveira,Q636789
+PI,Capitão de Campos,Q2089202
+PI,Caracol,Q2104975
+PI,Caraúbas do Piauí,Q2064040
+PI,Caridade do Piauí,Q2064398
+PI,Castelo do Piauí,Q22024144
+PI,Caxingó,Q1938789
+PI,Cocal,Q511764
+PI,Cocal de Telha,Q2078362
+PI,Cocal dos Alves,Q1940520
+PI,Coivaras,Q2077715
+PI,Colônia do Gurguéia,
+PI,Colônia do Piauí,Q2066010
+PI,Conceição do Canindé,Q256489
+PI,Coronel José Dias,Q2078647
+PI,Corrente,Q2662106
+PI,Cristalândia do Piauí,Q1122557
+PI,Cristino Castro,Q1940564
+PI,Curimatá,Q655584
+PI,Currais,Q2065020
+PI,Curral Novo do Piauí,Q1936263
+PI,Curralinhos,Q1871203
+PI,Demerval Lobão,Q1851653
+PI,Dirceu Arcoverde,Q2079658
+PI,Dom Expedito Lopes,Q2064417
+PI,Dom Inocêncio,Q2089195
+PI,Domingos Mourão,Q1937344
+PI,Elesbão Veloso,Q2078352
+PI,Eliseu Martins,Q2064194
+PI,Esperantina,Q2009973
+PI,Fartura do Piauí,Q1936286
+PI,Flores do Piauí,Q1937384
+PI,Floresta do Piauí,Q1935819
+PI,Floriano,Q2008644
+PI,Francinópolis,Q2077745
+PI,Francisco Ayres,Q1938945
+PI,Francisco Macedo,Q2064534
+PI,Francisco Santos,Q2078798
+PI,Fronteiras,Q2064409
+PI,Geminiano,Q1852620
+PI,Gilbués,Q22020507
+PI,Guadalupe,Q2104157
+PI,Guaribas,Q1969397
+PI,Hugo Napoleão,Q1938815
+PI,Ilha Grande,Q2078225
+PI,Inhuma,Q2104143
+PI,Ipiranga do Piauí,Q2042128
+PI,Isaías Coelho,Q1935791
+PI,Itainópolis,Q662237
+PI,Itaueira,Q2079025
+PI,Jacobina do Piauí,Q2064385
+PI,Jaicós,Q953959
+PI,Jardim do Mulato,Q1991909
+PI,Jatobá do Piauí,Q2079666
+PI,Jerumenha,Q2089161
+PI,Joaquim Pires,Q961001
+PI,Joca Marques,Q2078313
+PI,José de Freitas,Q2078167
+PI,João Costa,Q762804
+PI,Juazeiro do Piauí,Q2078842
+PI,Jurema,Q1941164
+PI,Júlio Borges,Q369466
+PI,Lagoa Alegre,Q2077708
+PI,Lagoa de São Francisco,Q1114540
+PI,Lagoa do Barro do Piauí,Q2064717
+PI,Lagoa do Piauí,Q1938883
+PI,Lagoa do Sítio,Q1853146
+PI,Lagoinha do Piauí,Q2064145
+PI,Landri Sales,Q1938802
+PI,Luzilândia,Q1924294
+PI,Luís Correia,Q2064046
+PI,Madeiro,Q2064030
+PI,Manoel Emídio,Q2064262
+PI,Marcolândia,Q1878529
+PI,Marcos Parente,Q1938857
+PI,Massapê do Piauí,Q1940480
+PI,Matias Olímpio,Q1894372
+PI,Miguel Alves,Q677160
+PI,Miguel Leão,Q2078472
+PI,Milton Brandão,Q1938844
+PI,Monsenhor Gil,Q1935712
+PI,Monsenhor Hipólito,Q2060311
+PI,Monte Alegre do Piauí,Q1938896
+PI,Morro Cabeça no Tempo,Q2098784
+PI,Morro do Chapéu do Piauí,Q2064135
+PI,Murici dos Portelas,
+PI,Nazaré do Piauí,Q939833
+PI,Nazária,Q10335889
+PI,Nossa Senhora de Nazaré,Q963907
+PI,Nossa Senhora dos Remédios,Q2104808
+PI,Nova Santa Rita,Q2103222
+PI,Novo Oriente do Piauí,Q2077697
+PI,Novo Santo Antônio,Q2169201
+PI,Oeiras,Q2077764
+PI,Olho D'Água do Piauí,
+PI,Padre Marcos,Q2066171
+PI,Paes Landim,Q2078986
+PI,Pajeú do Piauí,Q519387
+PI,Palmeira do Piauí,Q1936298
+PI,Palmeirais,Q2064013
+PI,Paquetá,Q2065325
+PI,Parnaguá,Q2089339
+PI,Parnaíba,Q49360049
+PI,Passagem Franca do Piauí,Q1937308
+PI,Patos do Piauí,Q1940449
+PI,Pau D'Arco do Piauí,
+PI,Paulistana,Q2064687
+PI,Pavussu,Q2089236
+PI,Pedro II,Q1934329
+PI,Pedro Laurentino,Q1938919
+PI,Picos,Q1810825
+PI,Pimenteiras,Q2077685
+PI,Pio IX,Q2089220
+PI,Piracuruca,Q2063996
+PI,Piripiri,Q996763
+PI,Porto,Q2113232
+PI,Porto Alegre do Piauí,Q1935805
+PI,Prata do Piauí,Q2042707
+PI,Queimada Nova,Q1938832
+PI,Redenção do Gurguéia,
+PI,Regeneração,Q1879913
+PI,Riacho Frio,Q1936273
+PI,Ribeira do Piauí,Q521452
+PI,Ribeiro Gonçalves,Q2064254
+PI,Rio Grande do Piauí,Q629855
+PI,Santa Cruz do Piauí,Q1937333
+PI,Santa Cruz dos Milagres,Q2077726
+PI,Santa Filomena,Q2340263
+PI,Santa Luz,Q1938964
+PI,Santa Rosa do Piauí,Q2065835
+PI,Santana do Piauí,Q1938905
+PI,Santo Antônio de Lisboa,Q659267
+PI,Santo Antônio dos Milagres,Q1984524
+PI,Santo Inácio do Piauí,Q952549
+PI,Sebastião Barros,Q1977122
+PI,Sebastião Leal,Q2078343
+PI,Sigefredo Pacheco,Q2095087
+PI,Simplício Mendes,Q1943081
+PI,Simões,Q2089169
+PI,Socorro do Piauí,Q2065179
+PI,Sussuapara,Q2066083
+PI,São Braz do Piauí,Q2078851
+PI,São Francisco de Assis do Piauí,Q979443
+PI,São Francisco do Piauí,Q1899910
+PI,São Félix do Piauí,Q2078371
+PI,São Gonçalo do Gurguéia,
+PI,São Gonçalo do Piauí,Q2005540
+PI,São José do Divino,Q2105469
+PI,São José do Peixe,Q769359
+PI,São José do Piauí,Q2066044
+PI,São João da Canabrava,Q2064374
+PI,São João da Fronteira,Q2064127
+PI,São João da Serra,Q2099643
+PI,São João da Varjota,Q1938932
+PI,São João do Arraial,Q2064021
+PI,São João do Piauí,Q1937319
+PI,São Julião,Q1987363
+PI,São Lourenço do Piauí,Q518321
+PI,São Luis do Piauí,
+PI,São Miguel da Baixa Grande,Q1935660
+PI,São Miguel do Fidalgo,Q2079673
+PI,São Miguel do Tapuio,Q2078456
+PI,São Pedro do Piauí,Q2077678
+PI,São Raimundo Nonato,Q1935702
+PI,Tamboril do Piauí,Q1935687
+PI,Tanque do Piauí,Q2065348
+PI,Teresina,Q165341
+PI,União,Q2101441
+PI,Uruçuí,Q22059606
+PI,Valença do Piauí,Q22014961
+PI,Vera Mendes,Q2064975
+PI,Vila Nova do Piauí,Q1979610
+PI,Várzea Branca,Q2078860
+PI,Várzea Grande,Q2233145
+PI,Wall Ferraz,Q1935648
+PI,Água Branca,Q578114
+PR,Abatiá,Q784855
+PR,Adrianópolis,Q1779965
+PR,Agudos do Sul,Q398170
+PR,Almirante Tamandaré,Q1650078
+PR,Altamira do Paraná,Q1804753
+PR,Alto Paraná,Q22050223
+PR,Alto Paraíso,Q2064812
+PR,Alto Piquiri,Q1804740
+PR,Altônia,Q1805388
+PR,Alvorada do Sul,Q1805380
+PR,Amaporã,Q1773369
+PR,Ampére,Q2004241
+PR,Anahy,Q970744
+PR,Andirá,Q1804315
+PR,Antonina,Q599068
+PR,Antônio Olinto,Q1809601
+PR,Apucarana,Q1638385
+PR,Arapongas,Q1650073
+PR,Arapoti,Q1805391
+PR,Arapuã,Q1804297
+PR,Araruna,Q2034168
+PR,Araucária,Q1773313
+PR,Ariranha do Ivaí,Q958067
+PR,Assaí,Q2005491
+PR,Assis Chateaubriand,Q383890
+PR,Astorga,Q2007427
+PR,Atalaia,Q607931
+PR,Balsa Nova,Q1804262
+PR,Bandeirantes,Q2064780
+PR,Barbosa Ferraz,Q1773359
+PR,Barra do Jacaré,Q2005216
+PR,Barracão,Q628639
+PR,Bela Vista da Caroba,Q1804834
+PR,Bela Vista do Paraíso,Q22048367
+PR,Bituruna,Q1805140
+PR,Boa Esperança,Q963673
+PR,Boa Esperança do Iguaçu,Q1804747
+PR,Boa Ventura de São Roque,Q1804766
+PR,Boa Vista da Aparecida,Q1804828
+PR,Bocaiúva do Sul,Q1805304
+PR,Bom Jesus do Sul,Q1998947
+PR,Bom Sucesso,Q2355826
+PR,Bom Sucesso do Sul,Q2004481
+PR,Borrazópolis,Q1804272
+PR,Braganey,Q676325
+PR,Brasilândia do Sul,Q1804776
+PR,Cafeara,Q1773377
+PR,Cafelândia,Q2040790
+PR,Cafezal do Sul,Q2003753
+PR,Califórnia,Q2077893
+PR,Cambará,Q2007353
+PR,Cambira,Q509067
+PR,Cambé,Q1773340
+PR,Campina Grande do Sul,Q1773372
+PR,Campina da Lagoa,Q1804924
+PR,Campina do Simão,Q1804781
+PR,Campo Bonito,Q2003671
+PR,Campo Largo,Q1026376
+PR,Campo Magro,Q1804821
+PR,Campo Mourão,Q1773327
+PR,Campo do Tenente,Q2007378
+PR,Candói,Q594784
+PR,Cantagalo,Q2133488
+PR,Capanema,Q2004588
+PR,Capitão Leônidas Marques,Q1803932
+PR,Carambeí,Q22047427
+PR,Carlópolis,Q2005169
+PR,Cascavel,Q205681
+PR,Castro,Q2077411
+PR,Catanduvas,Q528463
+PR,Centenário do Sul,Q1775764
+PR,Cerro Azul,Q2201300
+PR,Chopinzinho,Q972174
+PR,Cianorte,Q1803580
+PR,Cidade Gaúcha,Q2003747
+PR,Clevelândia,Q1773364
+PR,Colombo,Q926688
+PR,Colorado,Q2077965
+PR,Congonhinhas,Q2007563
+PR,Conselheiro Mairinck,Q582743
+PR,Contenda,Q2004462
+PR,Corbélia,Q1804001
+PR,Cornélio Procópio,Q2007572
+PR,Coronel Domingos Soares,Q2004227
+PR,Coronel Vivida,Q1803573
+PR,Corumbataí do Sul,Q1803915
+PR,Cruz Machado,Q2004256
+PR,Cruzeiro do Iguaçu,Q1804194
+PR,Cruzeiro do Oeste,Q2003794
+PR,Cruzeiro do Sul,Q604656
+PR,Cruzmaltina,Q1803591
+PR,Curitiba,Q4361
+PR,Curiúva,Q2007405
+PR,Cândido de Abreu,Q1803993
+PR,Céu Azul,Q1804163
+PR,Diamante D'Oeste,
+PR,Diamante do Norte,Q1773337
+PR,Diamante do Sul,Q1803619
+PR,Dois Vizinhos,Q22044626
+PR,Douradina,Q2472540
+PR,Doutor Camargo,Q1773318
+PR,Doutor Ulysses,Q660697
+PR,Engenheiro Beltrão,Q1803653
+PR,Entre Rios do Oeste,Q1803939
+PR,Enéas Marques,Q1804240
+PR,Esperança Nova,Q732793
+PR,Espigão Alto do Iguaçu,Q1803585
+PR,Farol,Q1803557
+PR,Faxinal,Q2005159
+PR,Fazenda Rio Grande,Q2004440
+PR,Fernandes Pinheiro,Q2004472
+PR,Figueira,Q2029914
+PR,Flor da Serra do Sul,Q1773344
+PR,Floraí,Q734222
+PR,Floresta,Q2007339
+PR,Florestópolis,Q1863917
+PR,Flórida,Q2077862
+PR,Formosa do Oeste,Q1803593
+PR,Foz do Iguaçu,Q202316
+PR,Foz do Jordão,Q1804288
+PR,Francisco Alves,Q1804212
+PR,Francisco Beltrão,Q985577
+PR,Fênix,Q2064853
+PR,General Carneiro,Q785711
+PR,Godoy Moreira,Q1804247
+PR,Goioerê,Q1780032
+PR,Goioxim,Q1803874
+PR,Grandes Rios,Q1803568
+PR,Guairaçá,Q1804280
+PR,Guamiranga,Q2004248
+PR,Guapirama,Q1008311
+PR,Guaporema,Q779633
+PR,Guaraci,Q744471
+PR,Guaraniaçu,Q1803606
+PR,Guarapuava,Q326354
+PR,Guaraqueçaba,Q374648
+PR,Guaratuba,Q1779983
+PR,Guaíra,Q2004082
+PR,Honório Serpa,Q687445
+PR,Ibaiti,Q2005227
+PR,Ibema,Q1804322
+PR,Ibiporã,Q2006392
+PR,Icaraíma,Q1972297
+PR,Iguaraçu,Q672863
+PR,Iguatu,Q2322834
+PR,Imbaú,Q2097856
+PR,Imbituva,Q22042442
+PR,Inajá,Q2065963
+PR,Indianópolis,Q2050304
+PR,Inácio Martins,Q1804176
+PR,Ipiranga,Q2064845
+PR,Iporã,Q2027403
+PR,Iracema do Oeste,Q587203
+PR,Irati,Q2064763
+PR,Iretama,Q1804230
+PR,Itaguajé,Q1775800
+PR,Itaipulândia,Q1803946
+PR,Itambaracá,Q2007594
+PR,Itambé,Q2283708
+PR,Itapejara d'Oeste,Q2004451
+PR,Itaperuçu,Q2004535
+PR,Itaúna do Sul,Q1803867
+PR,Ivaiporã,Q652176
+PR,Ivatuba,Q628412
+PR,Ivaté,Q2003741
+PR,Ivaí,Q2004234
+PR,Jaboti,Q2007454
+PR,Jacarezinho,Q1814491
+PR,Jaguapitã,Q1775783
+PR,Jaguariaíva,Q1803599
+PR,Jandaia do Sul,Q1779910
+PR,Janiópolis,Q1803564
+PR,Japira,Q2011680
+PR,Japurá,Q2104210
+PR,Jardim Alegre,Q1804185
+PR,Jardim Olinda,Q1803889
+PR,Jataizinho,Q2004546
+PR,Jesuítas,Q2064891
+PR,Joaquim Távora,Q2005178
+PR,Jundiaí do Sul,Q765253
+PR,Juranda,Q1803956
+PR,Jussara,Q1025757
+PR,Kaloré,Q1775827
+PR,Lapa,Q2064788
+PR,Laranjal,Q2237581
+PR,Laranjeiras do Sul,Q1803900
+PR,Leópolis,Q978473
+PR,Lidianópolis,Q1803623
+PR,Lindoeste,Q1804201
+PR,Loanda,Q1804157
+PR,Lobato,Q303107
+PR,Londrina,Q192387
+PR,Luiziana,Q1804169
+PR,Lunardelli,Q1804254
+PR,Lupionópolis,Q1773309
+PR,Mallet,Q741333
+PR,Mamborê,Q1803549
+PR,Mandaguari,Q1803633
+PR,Mandaguaçu,Q675706
+PR,Mandirituba,Q2004489
+PR,Manfrinópolis,Q1803860
+PR,Mangueirinha,Q1992575
+PR,Manoel Ribas,Q1803614
+PR,Marechal Cândido Rondon,Q2003833
+PR,Maria Helena,Q2003784
+PR,Marialva,Q1003473
+PR,Marilena,Q2064871
+PR,Mariluz,Q2003711
+PR,Marilândia do Sul,Q1779883
+PR,Maringá,Q208669
+PR,Maripá,Q1803540
+PR,Mariópolis,Q1803821
+PR,Marmeleiro,Q1773350
+PR,Marquinho,Q1803569
+PR,Marumbi,Q1803525
+PR,Matelândia,Q1803927
+PR,Matinhos,Q206105
+PR,Mato Rico,Q1803881
+PR,Mauá da Serra,Q1779945
+PR,Medianeira,Q375318
+PR,Mercedes,Q957375
+PR,Mirador,Q930390
+PR,Miraselva,Q1113191
+PR,Missal,Q2004121
+PR,Moreira Sales,Q2005476
+PR,Morretes,Q781087
+PR,Munhoz de Melo,Q1775819
+PR,Nossa Senhora das Graças,Q2139450
+PR,Nova Aliança do Ivaí,Q2004065
+PR,Nova América da Colina,Q2007583
+PR,Nova Aurora,Q2283757
+PR,Nova Cantu,Q2004555
+PR,Nova Esperança,Q936233
+PR,Nova Esperança do Sudoeste,Q518649
+PR,Nova Fátima,Q22064132
+PR,Nova Laranjeiras,Q1804305
+PR,Nova Londrina,Q2004101
+PR,Nova Olímpia,Q2355791
+PR,Nova Prata do Iguaçu,Q1803517
+PR,Nova Santa Bárbara,Q2005130
+PR,Nova Santa Rosa,Q1803534
+PR,Nova Tebas,Q1803571
+PR,Novo Itacolomi,Q1779892
+PR,Ortigueira,Q2063986
+PR,Ourizona,Q952277
+PR,Ouro Verde do Oeste,Q1803907
+PR,Paiçandu,Q2005187
+PR,Palmas,Q928397
+PR,Palmeira,Q2039438
+PR,Palmital,Q2355843
+PR,Palotina,Q949670
+PR,Paranacity,Q592011
+PR,Paranaguá,Q503852
+PR,Paranapoema,Q2004112
+PR,Paranavaí,Q1773355
+PR,Paraíso do Norte,Q2003802
+PR,Pato Bragado,Q1803627
+PR,Pato Branco,Q1772650
+PR,Paula Freitas,Q1803769
+PR,Paulo Frontin,Q677042
+PR,Peabiru,Q1803641
+PR,Perobal,Q2004093
+PR,Pinhais,Q1788891
+PR,Pinhal de São Bento,Q372406
+PR,Pinhalão,Q2005059
+PR,Pinhão,Q935946
+PR,Piraquara,Q2004395
+PR,Piraí do Sul,Q1803311
+PR,Pitanga,Q1802922
+PR,Pitangueiras,Q2077794
+PR,Piên,Q1803835
+PR,Planaltina do Paraná,Q927206
+PR,Planalto,Q608674
+PR,Ponta Grossa,Q242906
+PR,Pontal do Paraná,Q1803813
+PR,Porecatu,Q2007362
+PR,Porto Amazonas,Q2005152
+PR,Porto Barreiro,Q1803346
+PR,Porto Rico,Q1985148
+PR,Porto Vitória,Q1803844
+PR,Prado Ferreira,Q2007391
+PR,Pranchita,Q1802900
+PR,Presidente Castelo Branco,Q22064092
+PR,Primeiro de Maio,Q1803826
+PR,Prudentópolis,Q751491
+PR,Pérola,Q1781000
+PR,Pérola d'Oeste,Q1803472
+PR,Quarto Centenário,Q2004523
+PR,Quatiguá,Q743136
+PR,Quatro Barras,Q22036817
+PR,Quatro Pontes,Q1803513
+PR,Quedas do Iguaçu,Q1802867
+PR,Querência do Norte,Q2004160
+PR,Quinta do Sol,Q1802877
+PR,Quitandinha,Q1988300
+PR,Ramilândia,Q1803492
+PR,Rancho Alegre,Q730276
+PR,Rancho Alegre D'Oeste,
+PR,Realeza,Q1802916
+PR,Rebouças,Q1991021
+PR,Renascença,Q1773323
+PR,Reserva,Q177325
+PR,Reserva do Iguaçu,Q1803317
+PR,Ribeirão Claro,Q1967081
+PR,Ribeirão do Pinhal,Q2007630
+PR,Rio Azul,Q1964938
+PR,Rio Bom,Q1802892
+PR,Rio Bonito do Iguaçu,Q1803367
+PR,Rio Branco do Ivaí,Q1803505
+PR,Rio Branco do Sul,Q2004402
+PR,Rio Negro,Q1878476
+PR,Rolândia,Q1008266
+PR,Roncador,Q2003693
+PR,Rondon,Q2083352
+PR,Rosário do Ivaí,Q1803485
+PR,Sabáudia,Q1775808
+PR,Salgado Filho,Q637930
+PR,Salto do Itararé,Q580298
+PR,Salto do Lontra,Q1803499
+PR,Santa Amélia,Q2007640
+PR,Santa Cecília do Pavão,Q2005109
+PR,Santa Cruz de Monte Castelo,Q2003729
+PR,Santa Fé,Q1811171
+PR,Santa Helena,Q2355851
+PR,Santa Inês,Q22064059
+PR,Santa Isabel do Ivaí,Q2003762
+PR,Santa Izabel do Oeste,Q1803324
+PR,Santa Lúcia,Q2077843
+PR,Santa Maria do Oeste,Q1995037
+PR,Santa Mariana,Q2065952
+PR,Santa Mônica,Q2003719
+PR,Santa Tereza do Oeste,Q1803495
+PR,Santa Terezinha de Itaipu,Q1802908
+PR,Santana do Itararé,Q2006435
+PR,Santo Antônio da Platina,Q929328
+PR,Santo Antônio do Caiuá,Q375907
+PR,Santo Antônio do Paraíso,Q2007649
+PR,Santo Antônio do Sudoeste,Q1803373
+PR,Santo Inácio,Q1775771
+PR,Sapopema,Q2005483
+PR,Sarandi,Q2351325
+PR,Saudade do Iguaçu,Q2004500
+PR,Sengés,Q1803479
+PR,Serranópolis do Iguaçu,Q1803292
+PR,Sertaneja,Q2064911
+PR,Sertanópolis,Q2005080
+PR,Siqueira Campos,Q2064771
+PR,Sulina,Q2104137
+PR,São Carlos do Ivaí,Q2003690
+PR,São Jerônimo da Serra,Q2005069
+PR,São Jorge d'Oeste,Q1803364
+PR,São Jorge do Ivaí,Q1773332
+PR,São Jorge do Patrocínio,Q2004142
+PR,São José da Boa Vista,Q2006425
+PR,São José das Palmeiras,Q2004131
+PR,São José dos Pinhais,Q478818
+PR,São João,Q2101599
+PR,São João do Caiuá,Q2004153
+PR,São João do Ivaí,Q1803358
+PR,São João do Triunfo,Q2006406
+PR,São Manoel do Paraná,Q2003820
+PR,São Mateus do Sul,
+PR,São Miguel do Iguaçu,Q1773060
+PR,São Pedro do Iguaçu,Q2003681
+PR,São Pedro do Ivaí,Q1802884
+PR,São Pedro do Paraná,Q2003774
+PR,São Sebastião da Amoreira,Q2007441
+PR,São Tomé,Q2019197
+PR,Tamarana,Q2006415
+PR,Tamboara,Q930867
+PR,Tapejara,Q2105955
+PR,Tapira,Q1966758
+PR,Teixeira Soares,Q2004218
+PR,Telêmaco Borba,
+PR,Terra Boa,Q22033437
+PR,Terra Rica,Q1814454
+PR,Terra Roxa,Q22064018
+PR,Tibagi,Q987328
+PR,Tijucas do Sul,Q1803774
+PR,Toledo,Q1776774
+PR,Tomazina,Q2006399
+PR,Três Barras do Paraná,Q1803338
+PR,Tunas do Paraná,Q2004599
+PR,Tuneiras do Oeste,Q1830118
+PR,Tupãssi,Q2003701
+PR,Turvo,Q1899023
+PR,Ubiratã,Q2004566
+PR,Umuarama,Q593948
+PR,Uniflor,Q1775795
+PR,União da Vitória,Q22030725
+PR,Uraí,Q2005140
+PR,Ventania,Q1803276
+PR,Vera Cruz do Oeste,Q1803331
+PR,Verê,Q1803304
+PR,Virmond,Q522096
+PR,Vitorino,Q2004576
+PR,Wenceslau Braz,Q2006930
+PR,Xambrê,Q2003811
+PR,Ângulo,Q1205078
+RJ,Angra dos Reis,Q542829
+RJ,Aperibé,Q1787636
+RJ,Araruama,Q1761549
+RJ,Areal,
+RJ,Armação dos Búzios,Q680119
+RJ,Arraial do Cabo,Q1750235
+RJ,Barra Mansa,Q808797
+RJ,Barra do Piraí,Q1750175
+RJ,Belford Roxo,
+RJ,Bom Jardim,Q628978
+RJ,Bom Jesus do Itabapoana,Q1750011
+RJ,Cabo Frio,Q735025
+RJ,Cachoeiras de Macacu,
+RJ,Cambuci,Q1787650
+RJ,Campos dos Goytacazes,Q689868
+RJ,Cantagalo,Q1763072
+RJ,Carapebus,Q1787642
+RJ,Cardoso Moreira,Q1807668
+RJ,Carmo,Q1765089
+RJ,Casimiro de Abreu,Q1761688
+RJ,Comendador Levy Gasparian,Q684387
+RJ,Conceição de Macabu,Q601169
+RJ,Cordeiro,Q534937
+RJ,Duas Barras,Q1786966
+RJ,Duque de Caxias,
+RJ,Engenheiro Paulo de Frontin,
+RJ,Guapimirim,
+RJ,Iguaba Grande,Q1761488
+RJ,Itaboraí,
+RJ,Itaguaí,
+RJ,Italva,Q1804116
+RJ,Itaocara,Q1804085
+RJ,Itaperuna,Q1675245
+RJ,Itatiaia,Q817223
+RJ,Japeri,
+RJ,Laje do Muriaé,Q519652
+RJ,Macaé,Q473250
+RJ,Macuco,Q1787503
+RJ,Magé,
+RJ,Mangaratiba,Q988680
+RJ,Maricá,
+RJ,Mendes,
+RJ,Mesquita,
+RJ,Miguel Pereira,
+RJ,Miracema,Q1804056
+RJ,Natividade,Q2057463
+RJ,Nilópolis,
+RJ,Niterói,
+RJ,Nova Friburgo,Q468563
+RJ,Nova Iguaçu,
+RJ,Paracambi,
+RJ,Paraty,Q926729
+RJ,Paraíba do Sul,Q304947
+RJ,Paty do Alferes,Q955927
+RJ,Petrópolis,Q189043
+RJ,Pinheiral,Q1843603
+RJ,Piraí,Q1015780
+RJ,Porciúncula,Q1802244
+RJ,Porto Real,Q765477
+RJ,Quatis,Q1800698
+RJ,Queimados,
+RJ,Quissamã,Q1803183
+RJ,Resende,Q913390
+RJ,Rio Bonito,
+RJ,Rio Claro,Q953901
+RJ,Rio das Flores,Q1761758
+RJ,Rio das Ostras,Q1787668
+RJ,Rio de Janeiro,Q8678
+RJ,Santa Maria Madalena,Q2013108
+RJ,Santo Antônio de Pádua,Q1788412
+RJ,Sapucaia,Q748985
+RJ,Saquarema,Q653716
+RJ,Seropédica,
+RJ,Silva Jardim,Q927311
+RJ,Sumidouro,Q1787520
+RJ,São Fidélis,Q1787793
+RJ,São Francisco de Itabapoana,Q1787681
+RJ,São Gonçalo,
+RJ,São José de Ubá,Q1802262
+RJ,São José do Vale do Rio Preto,Q941236
+RJ,São João da Barra,Q923201
+RJ,São João de Meriti,
+RJ,São Pedro da Aldeia,Q581213
+RJ,São Sebastião do Alto,Q1803089
+RJ,Tanguá,
+RJ,Teresópolis,Q622836
+RJ,Trajano de Moraes,Q1803189
+RJ,Três Rios,Q1787655
+RJ,Valença,Q1005931
+RJ,Varre-Sai,Q1803142
+RJ,Vassouras,Q1806430
+RJ,Volta Redonda,Q276176
+RN,Acari,Q2008611
+RN,Afonso Bezerra,Q1788960
+RN,Alexandria,Q2099372
+RN,Almino Afonso,Q1802697
+RN,Alto do Rodrigues,Q1787554
+RN,Angicos,Q22026867
+RN,Antônio Martins,Q1788470
+RN,Apodi,Q2008084
+RN,Areia Branca,Q2072691
+RN,Arês,Q928712
+RN,Augusto Severo,
+RN,Açu,
+RN,Baraúna,Q1970827
+RN,Barcelona,Q2011622
+RN,Baía Formosa,Q282133
+RN,Bento Fernandes,Q1802840
+RN,Bodó,Q1802663
+RN,Bom Jesus,Q2011643
+RN,Brejinho,Q2088956
+RN,Caicó,Q1751350
+RN,Caiçara do Norte,Q1787018
+RN,Caiçara do Rio do Vento,Q771693
+RN,Campo Redondo,Q1802775
+RN,Canguaretama,Q1787055
+RN,Caraúbas,Q2078721
+RN,Carnaubais,Q1788271
+RN,Carnaúba dos Dantas,Q1787511
+RN,Ceará-Mirim,Q1759622
+RN,Cerro Corá,Q22024259
+RN,Coronel Ezequiel,Q1802414
+RN,Coronel João Pessoa,Q1802324
+RN,Cruzeta,Q1787064
+RN,Currais Novos,Q1759405
+RN,Doutor Severiano,Q598179
+RN,Encanto,Q2089248
+RN,Equador,Q2002138
+RN,Espírito Santo,Q2064219
+RN,Extremoz,Q591577
+RN,Felipe Guerra,Q1787530
+RN,Fernando Pedroza,Q588380
+RN,Florânia,Q1787072
+RN,Francisco Dantas,Q2088951
+RN,Frutuoso Gomes,Q786174
+RN,Galinhos,Q1788257
+RN,Goianinha,Q1802289
+RN,Governador Dix-Sept Rosado,Q1787040
+RN,Grossos,Q1802633
+RN,Guamaré,Q1786961
+RN,Ielmo Marinho,Q649314
+RN,Ipanguaçu,Q1787080
+RN,Ipueira,Q1789047
+RN,Itajá,Q2077915
+RN,Itaú,Q379152
+RN,Jandaíra,Q2213742
+RN,Janduís,Q1759342
+RN,Januário Cicco,
+RN,Japi,Q1804068
+RN,Jardim de Angicos,Q1788386
+RN,Jardim de Piranhas,Q368917
+RN,Jardim do Seridó,Q1786973
+RN,Jaçanã,Q2008149
+RN,José da Penha,Q1787569
+RN,João Câmara,
+RN,João Dias,Q1802624
+RN,Jucurutu,Q1787030
+RN,Jundiá,Q2355804
+RN,Lagoa Nova,Q526249
+RN,Lagoa Salgada,Q973069
+RN,Lagoa d'Anta,Q1802281
+RN,Lagoa de Pedras,Q1802850
+RN,Lagoa de Velhos,Q534097
+RN,Lajes,Q1802253
+RN,Lajes Pintadas,Q1802336
+RN,Lucrécia,Q1802377
+RN,Luís Gomes,Q1802790
+RN,Macau,Q22017659
+RN,Macaíba,Q1786943
+RN,Major Sales,Q1802362
+RN,Marcelino Vieira,Q1786932
+RN,Martins,Q599726
+RN,Maxaranguape,Q1802383
+RN,Messias Targino,Q521491
+RN,Montanhas,Q548971
+RN,Monte Alegre,Q2078937
+RN,Monte das Gameleiras,Q1802831
+RN,Mossoró,Q694845
+RN,Natal,Q131620
+RN,Nova Cruz,Q1802859
+RN,Nísia Floresta,Q1116574
+RN,Olho d'Água do Borges,
+RN,Ouro Branco,Q2088917
+RN,Paraná,Q1845017
+RN,Parazinho,Q1786939
+RN,Paraú,Q1786926
+RN,Parelhas,Q1786896
+RN,Parnamirim,Q986261
+RN,Passa e Fica,
+RN,Passagem,Q2309743
+RN,Patu,Q2078782
+RN,Pau dos Ferros,Q1759093
+RN,Pedra Grande,Q1802585
+RN,Pedra Preta,Q1857718
+RN,Pedro Avelino,Q1786870
+RN,Pedro Velho,Q1786891
+RN,Pendências,Q1786911
+RN,Pilões,Q2008056
+RN,Portalegre,Q2079757
+RN,Porto do Mangue,Q390276
+RN,Poço Branco,Q1802657
+RN,Pureza,Q1802616
+RN,Rafael Fernandes,Q1786863
+RN,Rafael Godeiro,Q1802391
+RN,Riacho da Cruz,Q1802639
+RN,Riacho de Santana,Q2232145
+RN,Riachuelo,Q2066132
+RN,Rio do Fogo,Q614428
+RN,Rodolfo Fernandes,Q1802371
+RN,Ruy Barbosa,Q2309715
+RN,Santa Cruz,Q1854793
+RN,Santa Maria,Q1954847
+RN,Santana do Matos,Q1786881
+RN,Santana do Seridó,Q1786789
+RN,Santo Antônio,Q2008095
+RN,Senador Elói de Souza,Q1786778
+RN,Senador Georgino Avelino,Q428496
+RN,Serra Caiada,Q2298053
+RN,Serra Negra do Norte,Q1786695
+RN,Serra de São Bento,Q1802353
+RN,Serra do Mel,Q679650
+RN,Serrinha,Q589586
+RN,Serrinha dos Pintos,Q1802272
+RN,Severiano Melo,Q1802204
+RN,São Bento do Norte,Q1786782
+RN,São Bento do Trairí,
+RN,São Fernando,Q1786710
+RN,São Francisco do Oeste,Q1802806
+RN,São Gonçalo do Amarante,Q2088944
+RN,São José de Mipibu,Q734571
+RN,São José do Campestre,Q1802815
+RN,São José do Seridó,Q945450
+RN,São João do Sabugi,Q1786769
+RN,São Miguel,Q2090942
+RN,São Miguel do Gostoso,Q988901
+RN,São Paulo do Potengi,Q1802399
+RN,São Pedro,Q2068898
+RN,São Rafael,Q1812846
+RN,São Tomé,Q2016592
+RN,São Vicente,Q2021824
+RN,Sítio Novo,Q1125401
+RN,Taboleiro Grande,Q1802579
+RN,Taipu,Q1802310
+RN,Tangará,Q2011631
+RN,Tenente Ananias,Q1802650
+RN,Tenente Laurentino Cruz,Q1786757
+RN,Tibau,Q1802343
+RN,Tibau do Sul,Q1759083
+RN,Timbaúba dos Batistas,Q1786689
+RN,Touros,Q1797006
+RN,Triunfo Potiguar,Q1802221
+RN,Umarizal,Q22014854
+RN,Upanema,Q22014885
+RN,Venha-Ver,Q1802298
+RN,Vera Cruz,Q586682
+RN,Vila Flor,Q1920821
+RN,Viçosa,Q2309735
+RN,Várzea,Q600510
+RN,Água Nova,Q1786703
+RO,Alta Floresta D'Oeste,
+RO,Alto Alegre dos Parecis,Q1802050
+RO,Alto Paraíso,Q607036
+RO,Alvorada D'Oeste,
+RO,Ariquemes,Q1646975
+RO,Buritis,Q1921800
+RO,Cabixi,Q940433
+RO,Cacaulândia,Q1750177
+RO,Cacoal,Q1761637
+RO,Campo Novo de Rondônia,Q2089179
+RO,Candeias do Jamari,Q2078405
+RO,Castanheiras,Q1785860
+RO,Cerejeiras,Q1803210
+RO,Chupinguaia,Q735454
+RO,Colorado do Oeste,Q1785819
+RO,Corumbiara,Q927349
+RO,Costa Marques,Q656758
+RO,Cujubim,Q1803135
+RO,Espigão D'Oeste,
+RO,Governador Jorge Teixeira,Q964725
+RO,Guajará-Mirim,Q983810
+RO,Itapuã do Oeste,Q1802170
+RO,Jaru,Q988755
+RO,Ji-Paraná,Q983815
+RO,Machadinho D'Oeste,
+RO,Ministro Andreazza,Q775204
+RO,Mirante da Serra,Q2079711
+RO,Monte Negro,Q2014320
+RO,Nova Brasilândia D'Oeste,
+RO,Nova Mamoré,Q993507
+RO,Nova União,Q2364475
+RO,Novo Horizonte do Oeste,Q2013150
+RO,Ouro Preto do Oeste,Q1803223
+RO,Parecis,Q1803114
+RO,Pimenta Bueno,Q1803175
+RO,Pimenteiras do Oeste,Q1803105
+RO,Porto Velho,Q172512
+RO,Presidente Médici,Q1871362
+RO,Primavera de Rondônia,Q1802123
+RO,Rio Crespo,Q1786495
+RO,Rolim de Moura,Q1784242
+RO,Santa Luzia D'Oeste,
+RO,Seringueiras,Q727950
+RO,São Felipe D'Oeste,
+RO,São Francisco do Guaporé,Q1802095
+RO,São Miguel do Guaporé,Q1807456
+RO,Teixeirópolis,Q1802088
+RO,Theobroma,Q647208
+RO,Urupá,Q2089326
+RO,Vale do Anari,Q1807445
+RO,Vale do Paraíso,Q2013187
+RO,Vilhena,Q1749958
+RR,Alto Alegre,Q1763240
+RR,Amajari,Q1646965
+RR,Boa Vista,Q181056
+RR,Bonfim,Q1763254
+RR,Cantá,Q1646914
+RR,Caracaraí,Q772563
+RR,Caroebe,Q748315
+RR,Iracema,Q1786374
+RR,Mucajaí,Q1637423
+RR,Normandia,Q1750038
+RR,Pacaraima,Q1647045
+RR,Rorainópolis,Q1646932
+RR,São João da Baliza,Q1646960
+RR,São Luiz,
+RR,Uiramutã,Q1637434
+RS,Aceguá,Q913259
+RS,Agudo,Q398173
+RS,Ajuricaba,Q22067761
+RS,Alecrim,Q995308
+RS,Alegrete,Q851276
+RS,Alegria,Q601127
+RS,Almirante Tamandaré do Sul,Q957758
+RS,Alpestre,Q957796
+RS,Alto Alegre,Q1806753
+RS,Alto Feliz,Q33958
+RS,Alvorada,Q449593
+RS,Amaral Ferrador,Q33955
+RS,Ametista do Sul,Q33945
+RS,André da Rocha,Q22067757
+RS,Anta Gorda,Q33944
+RS,Antônio Prado,Q33949
+RS,Arambaré,Q33953
+RS,Araricá,Q626331
+RS,Aratiba,Q33961
+RS,Arroio Grande,Q950879
+RS,Arroio do Meio,Q22047906
+RS,Arroio do Padre,Q510698
+RS,Arroio do Sal,Q1648525
+RS,Arroio do Tigre,Q33964
+RS,Arroio dos Ratos,Q1750199
+RS,Arvorezinha,Q1749878
+RS,Augusto Pestana,Q600118
+RS,Bagé,Q119140
+RS,Balneário Pinhal,Q1648530
+RS,Barra Funda,Q584762
+RS,Barra do Guarita,Q1757715
+RS,Barra do Quaraí,Q654843
+RS,Barra do Ribeiro,Q808802
+RS,Barra do Rio Azul,Q1112822
+RS,Barracão,Q970961
+RS,Barros Cassal,Q1786797
+RS,Barão,Q1758344
+RS,Barão de Cotegipe,Q1786792
+RS,Barão do Triunfo,Q1750098
+RS,Benjamin Constant do Sul,Q1786627
+RS,Bento Gonçalves,Q548652
+RS,Boa Vista das Missões,Q1758280
+RS,Boa Vista do Buricá,Q1786675
+RS,Boa Vista do Cadeado,Q2007792
+RS,Boa Vista do Incra,Q1803204
+RS,Boa Vista do Sul,Q1757685
+RS,Bom Jesus,Q891720
+RS,Bom Princípio,Q1648506
+RS,Bom Progresso,Q570340
+RS,Bom Retiro do Sul,Q1758844
+RS,Boqueirão do Leão,Q1758759
+RS,Bossoroca,Q1786682
+RS,Bozano,Q347692
+RS,Braga,Q614230
+RS,Brochier,Q1750187
+RS,Butiá,Q640384
+RS,Cacequi,Q1757709
+RS,Cachoeira do Sul,Q166378
+RS,Cachoeirinha,Q957697
+RS,Cacique Doble,Q1786666
+RS,Caibaté,Q742521
+RS,Caiçara,Q1786846
+RS,Camaquã,Q22067725
+RS,Camargo,Q1822931
+RS,Cambará do Sul,Q612092
+RS,Campestre da Serra,Q1031008
+RS,Campina das Missões,Q1786644
+RS,Campinas do Sul,Q1807790
+RS,Campo Bom,Q388073
+RS,Campo Novo,Q1786685
+RS,Campos Borges,Q1758309
+RS,Candelária,Q1786799
+RS,Candiota,Q1749864
+RS,Canela,Q3735
+RS,Canguçu,Q984559
+RS,Canoas,Q194325
+RS,Canudos do Vale,Q645413
+RS,Capela de Santana,Q642247
+RS,Capitão,Q1758752
+RS,Capivari do Sul,Q1750182
+RS,Capão Bonito do Sul,Q765830
+RS,Capão da Canoa,Q958607
+RS,Capão do Cipó,Q1803147
+RS,Capão do Leão,Q1749867
+RS,Carazinho,Q772910
+RS,Caraá,Q973169
+RS,Carlos Barbosa,Q1757704
+RS,Carlos Gomes,Q1758557
+RS,Casca,Q1786658
+RS,Caseiros,Q950522
+RS,Catuípe,Q592766
+RS,Caxias do Sul,Q110017
+RS,Caçapava do Sul,Q1749869
+RS,Centenário,Q387167
+RS,Cerrito,Q1785871
+RS,Cerro Branco,Q1758795
+RS,Cerro Grande,Q1758274
+RS,Cerro Grande do Sul,Q684946
+RS,Cerro Largo,Q1786013
+RS,Chapada,Q1758303
+RS,Charqueadas,Q1751344
+RS,Charrua,Q1803097
+RS,Chiapetta,Q600802
+RS,Chuvisca,Q921983
+RS,Chuí,Q665968
+RS,Cidreira,Q1749883
+RS,Ciríaco,Q1784232
+RS,Colinas,Q1759203
+RS,Colorado,Q1185008
+RS,Condor,Q600843
+RS,Constantina,Q1996363
+RS,Coqueiro Baixo,Q1785829
+RS,Coqueiros do Sul,Q1749866
+RS,Coronel Barros,Q600835
+RS,Coronel Bicaco,Q600830
+RS,Coronel Pilar,Q1803215
+RS,Cotiporã,Q1757465
+RS,Coxilha,Q671644
+RS,Crissiumal,Q279130
+RS,Cristal,Q2662293
+RS,Cristal do Sul,Q1784929
+RS,Cruz Alta,Q985966
+RS,Cruzaltense,Q2007550
+RS,Cruzeiro do Sul,Q2008079
+RS,Cândido Godói,Q942053
+RS,David Canabarro,Q612650
+RS,Derrubadas,Q638794
+RS,Dezesseis de Novembro,Q1784407
+RS,Dilermando de Aguiar,Q630661
+RS,Dois Irmãos,Q783009
+RS,Dois Irmãos das Missões,Q1784275
+RS,Dois Lajeados,Q588452
+RS,Dom Feliciano,Q1750443
+RS,Dom Pedrito,Q1749875
+RS,Dom Pedro de Alcântara,Q1749957
+RS,Dona Francisca,Q1757149
+RS,Doutor Maurício Cardoso,Q1785476
+RS,Doutor Ricardo,Q1758892
+RS,Eldorado do Sul,Q1754600
+RS,Encantado,Q226009
+RS,Encruzilhada do Sul,Q600808
+RS,Engenho Velho,Q1786448
+RS,Entre Rios do Sul,Q749754
+RS,Entre-Ijuís,Q590326
+RS,Erebango,Q776015
+RS,Erechim,Q642088
+RS,Ernestina,Q174286
+RS,Erval Grande,Q590650
+RS,Erval Seco,Q1785508
+RS,Esmeralda,Q1803126
+RS,Esperança do Sul,Q1784225
+RS,Espumoso,Q1749871
+RS,Estação,Q1803196
+RS,Esteio,Q958661
+RS,Estrela,Q779064
+RS,Estrela Velha,Q940700
+RS,Estância Velha,Q985499
+RS,Eugênio de Castro,Q1784295
+RS,Fagundes Varela,Q1786383
+RS,Farroupilha,Q535531
+RS,Faxinal do Soturno,Q1758171
+RS,Faxinalzinho,Q1758357
+RS,Fazenda Vilanova,Q1758834
+RS,Feliz,Q1750056
+RS,Flores da Cunha,Q1757597
+RS,Floriano Peixoto,Q1786719
+RS,Fontoura Xavier,Q630520
+RS,Formigueiro,Q1784334
+RS,Forquetinha,Q1803240
+RS,Fortaleza dos Valos,Q961448
+RS,Frederico Westphalen,Q22045367
+RS,Garibaldi,Q385465
+RS,Garruchos,Q1754446
+RS,Gaurama,Q1785519
+RS,General Câmara,Q1754588
+RS,Gentil,Q1252673
+RS,Getúlio Vargas,Q1750452
+RS,Giruá,Q1785990
+RS,Glorinha,Q985511
+RS,Gramado,Q694833
+RS,Gramado Xavier,Q1758731
+RS,Gramado dos Loureiros,Q1786434
+RS,Gravataí,Q694822
+RS,Guabiju,Q1785836
+RS,Guaporé,Q1758136
+RS,Guarani das Missões,Q1758128
+RS,Guaíba,Q957668
+RS,Harmonia,Q1151685
+RS,Herval,Q1756956
+RS,Herveiras,Q1758745
+RS,Horizontina,Q785177
+RS,Hulha Negra,Q1750097
+RS,Humaitá,Q1008223
+RS,Ibarama,Q1785844
+RS,Ibiaçá,Q1784309
+RS,Ibiraiaras,Q956087
+RS,Ibirapuitã,Q1774765
+RS,Ibirubá,Q194423
+RS,Igrejinha,Q926647
+RS,Ijuí,Q194374
+RS,Ilópolis,Q1757392
+RS,Imbé,Q592652
+RS,Imigrante,Q736649
+RS,Independência,Q2077905
+RS,Inhacorá,Q348258
+RS,Ipiranga do Sul,Q1786472
+RS,Ipê,Q741764
+RS,Iraí,Q1757726
+RS,Itaara,Q1757446
+RS,Itacurubi,Q1757590
+RS,Itapuca,Q1757396
+RS,Itaqui,Q1750103
+RS,Itati,Q1785875
+RS,Itatiba do Sul,Q1758338
+RS,Ivorá,Q1757439
+RS,Ivoti,Q22042868
+RS,Jaboticaba,Q1758334
+RS,Jacuizinho,Q194286
+RS,Jacutinga,Q2077978
+RS,Jaguari,Q634501
+RS,Jaguarão,Q942201
+RS,Jaquirana,Q947648
+RS,Jari,Q984569
+RS,Jóia,Q194507
+RS,Júlio de Castilhos,Q1754330
+RS,Lagoa Bonita do Sul,Q1785881
+RS,Lagoa Vermelha,Q985575
+RS,Lagoa dos Três Cantos,Q586905
+RS,Lagoão,Q1774445
+RS,Lajeado,Q1012550
+RS,Lajeado do Bugre,Q1758290
+RS,Lavras do Sul,Q1750149
+RS,Liberato Salzano,Q1784434
+RS,Lindolfo Collor,Q1648535
+RS,Linha Nova,Q733173
+RS,Machadinho,Q1757409
+RS,Mampituba,Q1750179
+RS,Manoel Viana,Q1750110
+RS,Maquiné,Q983509
+RS,Maratá,Q1750080
+RS,Marau,Q1784401
+RS,Marcelino Ramos,Q1757733
+RS,Mariana Pimentel,Q957142
+RS,Mariano Moro,Q1786003
+RS,Marques de Souza,Q985567
+RS,Mata,Q960563
+RS,Mato Castelhano,Q1784286
+RS,Mato Leitão,Q1758925
+RS,Mato Queimado,Q1785815
+RS,Maximiliano de Almeida,Q1757239
+RS,Maçambará,Q1750082
+RS,Minas do Leão,Q1750029
+RS,Miraguaí,Q1786369
+RS,Montauri,Q1757423
+RS,Monte Alegre dos Campos,Q985495
+RS,Monte Belo do Sul,Q1757428
+RS,Montenegro,Q1001470
+RS,Mormaço,Q1757400
+RS,Morrinhos do Sul,Q1750064
+RS,Morro Redondo,Q505340
+RS,Morro Reuter,Q749214
+RS,Mostardas,Q1754551
+RS,Muitos Capões,Q985572
+RS,Muliterno,Q1785451
+RS,Muçum,Q776428
+RS,Nicolau Vergueiro,Q956006
+RS,Nonoai,Q10337320
+RS,Nova Alvorada,Q1758157
+RS,Nova Araçá,Q1757678
+RS,Nova Bassano,Q985493
+RS,Nova Boa Vista,Q1758296
+RS,Nova Bréscia,Q1758820
+RS,Nova Candelária,Q734270
+RS,Nova Esperança do Sul,Q520098
+RS,Nova Hartz,Q984557
+RS,Nova Palma,Q1758164
+RS,Nova Petrópolis,Q983710
+RS,Nova Prata,Q1758146
+RS,Nova Pádua,Q1750269
+RS,Nova Ramada,Q348265
+RS,Nova Roma do Sul,Q1772678
+RS,Nova Santa Rita,Q985571
+RS,Novo Barreiro,Q1758121
+RS,Novo Cabrais,Q1758800
+RS,Novo Hamburgo,Q321331
+RS,Novo Machado,Q1784419
+RS,Novo Tiradentes,Q1786019
+RS,Novo Xingu,Q2007711
+RS,Não-Me-Toque,Q600814
+RS,Osório,
+RS,Paim Filho,Q1784411
+RS,Palmares do Sul,Q1750076
+RS,Palmeira das Missões,Q1750240
+RS,Palmitinho,Q653410
+RS,Panambi,Q348206
+RS,Pantano Grande,Q1758814
+RS,Paraí,Q1757405
+RS,Paraíso do Sul,Q972360
+RS,Pareci Novo,Q936625
+RS,Parobé,Q983702
+RS,Passa Sete,
+RS,Passo Fundo,Q525647
+RS,Passo do Sobrado,Q677252
+RS,Paulo Bento,Q2007799
+RS,Paverama,Q1758766
+RS,Pedras Altas,Q1785825
+RS,Pedro Osório,Q1749863
+RS,Pejuçara,Q348237
+RS,Pelotas,Q109188
+RS,Picada Café,Q958545
+RS,Pinhal,Q1785855
+RS,Pinhal Grande,Q1757154
+RS,Pinhal da Serra,Q2007765
+RS,Pinheirinho do Vale,Q550186
+RS,Pinheiro Machado,Q590279
+RS,Pinto Bandeira,Q10349880
+RS,Pirapó,Q596649
+RS,Piratini,Q1638441
+RS,Planalto,Q1950470
+RS,Ponte Preta,Q1803155
+RS,Pontão,Q1757433
+RS,Porto Alegre,Q40269
+RS,Porto Lucena,Q1784701
+RS,Porto Mauá,Q658425
+RS,Porto Vera Cruz,Q1784253
+RS,Porto Xavier,Q430313
+RS,Portão,Q985582
+RS,Pouso Novo,Q1758919
+RS,Poço das Antas,Q538120
+RS,Presidente Lucena,Q224690
+RS,Progresso,Q1803253
+RS,Protásio Alves,Q1757450
+RS,Putinga,Q1757456
+RS,Quaraí,Q22036797
+RS,Quatro Irmãos,Q596343
+RS,Quevedos,Q1785797
+RS,Quinze de Novembro,Q194362
+RS,Redentora,Q1786499
+RS,Relvado,Q1758900
+RS,Restinga Sêca,
+RS,Rio Grande,Q869571
+RS,Rio Pardo,Q514256
+RS,Rio dos Índios,Q1758315
+RS,Riozinho,Q983513
+RS,Roca Sales,Q785702
+RS,Rodeio Bonito,Q679055
+RS,Rolador,Q1802196
+RS,Rolante,Q984550
+RS,Ronda Alta,Q949556
+RS,Rondinha,Q946941
+RS,Roque Gonzales,Q985566
+RS,Rosário do Sul,Q266960
+RS,Sagrada Família,Q2007720
+RS,Saldanha Marinho,Q195200
+RS,Salto do Jacuí,Q194389
+RS,Salvador das Missões,Q1758176
+RS,Salvador do Sul,Q519083
+RS,Sananduva,Q1110228
+RS,Sant'Ana do Livramento,Q22034828
+RS,Santa Bárbara do Sul,Q194357
+RS,Santa Cecília do Sul,Q2007657
+RS,Santa Clara do Sul,Q601869
+RS,Santa Cruz do Sul,Q781510
+RS,Santa Margarida do Sul,Q730999
+RS,Santa Maria,Q740833
+RS,Santa Maria do Herval,Q379483
+RS,Santa Rosa,Q995326
+RS,Santa Tereza,Q1757691
+RS,Santa Vitória do Palmar,Q984562
+RS,Santana da Boa Vista,Q1749815
+RS,Santiago,Q996716
+RS,Santo Antônio da Patrulha,Q984547
+RS,Santo Antônio das Missões,Q1784305
+RS,Santo Antônio do Palma,Q1784920
+RS,Santo Antônio do Planalto,Q1749870
+RS,Santo Augusto,Q347700
+RS,Santo Cristo,Q988779
+RS,Santo Expedito do Sul,Q1784442
+RS,Santo Ângelo,Q824031
+RS,Sapiranga,Q983717
+RS,Sapucaia do Sul,Q942122
+RS,Sarandi,Q430538
+RS,Seberi,Q1784912
+RS,Sede Nova,Q1784935
+RS,Segredo,Q577838
+RS,Selbach,Q1785790
+RS,Senador Salgado Filho,Q533379
+RS,Sentinela do Sul,Q1750201
+RS,Serafina Corrêa,Q1757416
+RS,Sertão,Q2077786
+RS,Sertão Santana,Q1750021
+RS,Sete de Setembro,Q601766
+RS,Severiano de Almeida,Q523277
+RS,Silveira Martins,Q1757698
+RS,Sinimbu,Q523701
+RS,Sobradinho,Q2008068
+RS,Soledade,Q1785706
+RS,São Borja,Q385327
+RS,São Domingos do Sul,Q1785981
+RS,São Francisco de Assis,Q1750146
+RS,São Francisco de Paula,Q578627
+RS,São Gabriel,Q929890
+RS,São Jerônimo,Q1639741
+RS,São Jorge,Q2006981
+RS,São José das Missões,Q958481
+RS,São José do Herval,
+RS,São José do Hortêncio,Q179219
+RS,São José do Inhacorá,Q588156
+RS,São José do Norte,Q1749857
+RS,São José do Ouro,Q1786428
+RS,São José do Sul,Q944254
+RS,São José dos Ausentes,Q984564
+RS,São João da Urtiga,Q1786488
+RS,São João do Polêsine,Q1750271
+RS,São Leopoldo,Q688275
+RS,São Lourenço do Sul,Q326349
+RS,São Luiz Gonzaga,Q647406
+RS,São Marcos,Q671925
+RS,São Martinho,Q1803249
+RS,São Martinho da Serra,Q1757137
+RS,São Miguel das Missões,Q2107884
+RS,São Nicolau,Q2008008
+RS,São Paulo das Missões,Q1758286
+RS,São Pedro da Serra,Q1750059
+RS,São Pedro das Missões,Q1802212
+RS,São Pedro do Butiá,Q1758141
+RS,São Pedro do Sul,Q2007743
+RS,São Sebastião do Caí,Q1750236
+RS,São Sepé,Q1757144
+RS,São Valentim,Q1803245
+RS,São Valentim do Sul,Q1757583
+RS,São Valério do Sul,Q347722
+RS,São Vendelino,Q680577
+RS,São Vicente do Sul,Q606638
+RS,Sério,Q1758932
+RS,Tabaí,Q1758828
+RS,Tapejara,Q2045002
+RS,Tapera,Q1749888
+RS,Tapes,Q1785886
+RS,Taquara,Q967715
+RS,Taquari,Q1646949
+RS,Taquaruçu do Sul,Q1785461
+RS,Tavares,Q1803256
+RS,Tenente Portela,Q1784447
+RS,Terra de Areia,Q1750218
+RS,Teutônia,Q985568
+RS,Tio Hugo,Q617526
+RS,Tiradentes do Sul,Q1803162
+RS,Toropi,Q672721
+RS,Torres,Q952674
+RS,Tramandaí,Q187160
+RS,Travesseiro,Q1785809
+RS,Trindade do Sul,Q986519
+RS,Triunfo,Q606083
+RS,Três Arroios,Q1785530
+RS,Três Cachoeiras,Q1750024
+RS,Três Coroas,Q984552
+RS,Três Forquilhas,Q1750233
+RS,Três Palmeiras,Q531078
+RS,Três Passos,Q728608
+RS,Três de Maio,Q1786482
+RS,Tucunduva,Q1785493
+RS,Tunas,Q1803262
+RS,Tupanci do Sul,Q1784425
+RS,Tupanciretã,Q1756630
+RS,Tupandi,Q744647
+RS,Tuparendi,Q1784901
+RS,Turuçu,Q1749856
+RS,Ubiretama,Q1774466
+RS,Unistalda,Q1754325
+RS,União da Serra,Q1754333
+RS,Uruguaiana,Q22067455
+RS,Vacaria,Q941580
+RS,Vale Real,Q1758328
+RS,Vale Verde,Q594012
+RS,Vale do Sol,Q1758912
+RS,Vanini,Q1788290
+RS,Venâncio Aires,Q983517
+RS,Vera Cruz,Q1802230
+RS,Veranópolis,Q1101945
+RS,Vespasiano Corrêa,Q1758738
+RS,Viadutos,Q772750
+RS,Viamão,Q732905
+RS,Vicente Dutra,Q1758321
+RS,Victor Graeff,Q1185250
+RS,Vila Flores,Q941364
+RS,Vila Lângaro,Q1785542
+RS,Vila Maria,Q1784456
+RS,Vila Nova do Sul,Q1754351
+RS,Vista Alegre,Q1774451
+RS,Vista Alegre do Prata,Q1754318
+RS,Vista Gaúcha,Q1774460
+RS,Vitória das Missões,Q1774423
+RS,Westfália,Q961485
+RS,Xangri-lá,Q546227
+RS,Água Santa,Q249795
+RS,Áurea,Q1786460
+SC,Abdon Batista,Q1637414
+SC,Abelardo Luz,Q1637506
+SC,Agrolândia,Q397387
+SC,Agronômica,Q1754594
+SC,Alfredo Wagner,Q1754557
+SC,Alto Bela Vista,Q1758023
+SC,Anchieta,Q1935710
+SC,Angelina,Q22063988
+SC,Anita Garibaldi,Q617657
+SC,Anitápolis,Q22063986
+SC,Antônio Carlos,Q22063985
+SC,Apiúna,Q1758008
+SC,Arabutã,Q374753
+SC,Araquari,Q607184
+SC,Araranguá,Q626231
+SC,Armazém,Q1764990
+SC,Arroio Trinta,Q1758088
+SC,Arvoredo,Q1758063
+SC,Ascurra,Q1758057
+SC,Atalanta,Q1815704
+SC,Aurora,Q2012016
+SC,Balneário Arroio do Silva,Q1758002
+SC,Balneário Barra do Sul,Q1764948
+SC,Balneário Camboriú,Q598016
+SC,Balneário Gaivota,Q1757752
+SC,Balneário Piçarras,Q285815
+SC,Balneário Rincão,Q2881477
+SC,Bandeirante,Q941669
+SC,Barra Bonita,Q1815639
+SC,Barra Velha,Q808787
+SC,Bela Vista do Toldo,Q1765028
+SC,Belmonte,Q1799364
+SC,Benedito Novo,Q817098
+SC,Biguaçu,Q1754582
+SC,Blumenau,Q155557
+SC,Bocaina do Sul,Q1750759
+SC,Bom Jardim da Serra,Q939572
+SC,Bom Jesus,Q769692
+SC,Bom Jesus do Oeste,Q616028
+SC,Bom Retiro,Q891740
+SC,Bombinhas,Q891934
+SC,Botuverá,Q894929
+SC,Braço do Norte,Q903373
+SC,Braço do Trombudo,Q1784745
+SC,Brunópolis,Q1765062
+SC,Brusque,Q329488
+SC,Caibi,Q1758966
+SC,Calmon,Q1784723
+SC,Camboriú,Q22063961
+SC,Campo Alegre,Q2087030
+SC,Campo Belo do Sul,Q1765051
+SC,Campo Erê,Q1757768
+SC,Campos Novos,Q1764972
+SC,Canelinha,Q957908
+SC,Canoinhas,Q1799304
+SC,Capinzal,Q22047297
+SC,Capivari de Baixo,Q1750765
+SC,Capão Alto,Q1112283
+SC,Catanduvas,Q2087108
+SC,Caxambu do Sul,Q1758980
+SC,Caçador,Q22049016
+SC,Celso Ramos,Q1750758
+SC,Cerro Negro,Q1799348
+SC,Chapadão do Lageado,Q1784522
+SC,Chapecó,Q817387
+SC,Cocal do Sul,Q1765012
+SC,Concórdia,Q749798
+SC,Cordilheira Alta,Q1758999
+SC,Coronel Freitas,Q1758946
+SC,Coronel Martins,Q1784467
+SC,Correia Pinto,Q1764914
+SC,Corupá,Q1020408
+SC,Criciúma,Q1439157
+SC,Cunha Porã,Q1758938
+SC,Cunhataí,Q1759005
+SC,Curitibanos,Q1765072
+SC,Descanso,Q1784557
+SC,Dionísio Cerqueira,Q1757773
+SC,Dona Emma,Q986564
+SC,Doutor Pedrinho,Q1784602
+SC,Entre Rios,Q1815627
+SC,Ermo,Q1815677
+SC,Erval Velho,Q927128
+SC,Faxinal dos Guedes,Q1799399
+SC,Flor do Sertão,Q1758986
+SC,Florianópolis,Q132997
+SC,Formosa do Sul,Q1759017
+SC,Forquilhinha,Q1784729
+SC,Fraiburgo,Q543046
+SC,Frei Rogério,Q1765020
+SC,Galvão,Q1784498
+SC,Garopaba,Q612191
+SC,Garuva,Q1784623
+SC,Gaspar,Q856583
+SC,Governador Celso Ramos,Q1765043
+SC,Gravatal,Q1764929
+SC,Grão Pará,Q39517
+SC,Guabiruba,Q1758034
+SC,Guaraciaba,Q1799361
+SC,Guaramirim,Q22042245
+SC,Guarujá do Sul,Q986566
+SC,Guatambú,
+SC,Herval d'Oeste,Q1784481
+SC,Ibiam,Q1784512
+SC,Ibicaré,Q1799339
+SC,Ibirama,Q747403
+SC,Ilhota,Q1799373
+SC,Imaruí,Q1750764
+SC,Imbituba,Q986545
+SC,Imbuia,Q1815721
+SC,Indaial,Q1784570
+SC,Iomerê,Q1784584
+SC,Ipira,Q968703
+SC,Iporã do Oeste,Q1757758
+SC,Ipuaçu,Q647194
+SC,Ipumirim,Q1758047
+SC,Iraceminha,Q1758989
+SC,Irani,Q732916
+SC,Irati,Q767579
+SC,Irineópolis,Q1784615
+SC,Itaiópolis,Q1796811
+SC,Itajaí,Q842713
+SC,Itapema,Q1750776
+SC,Itapiranga,Q595033
+SC,Itapoá,Q1758956
+SC,Ituporanga,Q1758267
+SC,Itá,Q1774437
+SC,Içara,Q1764963
+SC,Jaborá,Q612795
+SC,Jacinto Machado,Q1799312
+SC,Jaguaruna,Q22039744
+SC,Jaraguá do Sul,Q849584
+SC,Jardinópolis,Q1815648
+SC,Joaçaba,Q22039914
+SC,Joinville,Q156819
+SC,José Boiteux,Q1784463
+SC,Jupiá,Q664255
+SC,Lacerdópolis,Q1799404
+SC,Lages,Q762009
+SC,Laguna,Q1615291
+SC,Lajeado Grande,Q1784377
+SC,Laurentino,Q1784534
+SC,Lauro Müller,Q651077
+SC,Lebon Régis,Q1799343
+SC,Leoberto Leal,Q1765068
+SC,Lindóia do Sul,Q1757818
+SC,Lontras,Q1784684
+SC,Luiz Alves,Q1784358
+SC,Luzerna,Q1758351
+SC,Macieira,Q1815712
+SC,Mafra,Q1020414
+SC,Major Gercino,Q1765004
+SC,Major Vieira,Q1799281
+SC,Maracajá,Q1799325
+SC,Maravilha,Q1815756
+SC,Marema,Q1815686
+SC,Massaranduba,Q980131
+SC,Matos Costa,Q1784736
+SC,Meleiro,Q1799434
+SC,Mirim Doce,Q1799318
+SC,Modelo,Q1796806
+SC,Mondaí,Q1758042
+SC,Monte Carlo,Q1815693
+SC,Monte Castelo,Q2011999
+SC,Morro Grande,Q1784594
+SC,Morro da Fumaça,Q1758949
+SC,Navegantes,Q1010299
+SC,Nova Erechim,Q955577
+SC,Nova Itaberaba,Q1758973
+SC,Nova Trento,Q1637513
+SC,Nova Veneza,Q961509
+SC,Novo Horizonte,Q926081
+SC,Orleans,Q1784752
+SC,Otacílio Costa,Q956998
+SC,Ouro,Q1784491
+SC,Ouro Verde,Q1994858
+SC,Paial,Q1758019
+SC,Painel,Q1764975
+SC,Palhoça,Q973513
+SC,Palma Sola,Q1799425
+SC,Palmeira,Q1784383
+SC,Palmitos,Q588170
+SC,Papanduva,Q1796797
+SC,Paraíso,Q428892
+SC,Passo de Torres,Q1799402
+SC,Passos Maia,Q1799357
+SC,Paulo Lopes,Q1750773
+SC,Pedras Grandes,Q1121962
+SC,Penha,Q1784611
+SC,Peritiba,Q1758031
+SC,Pescaria Brava,Q3136609
+SC,Petrolândia,Q747168
+SC,Pinhalzinho,Q2011993
+SC,Pinheiro Preto,Q1799392
+SC,Piratuba,Q952174
+SC,Planalto Alegre,Q1758995
+SC,Pomerode,Q326651
+SC,Ponte Alta,Q1764920
+SC,Ponte Alta do Norte,Q1777271
+SC,Ponte Serrada,Q1784813
+SC,Porto Belo,Q1799285
+SC,Porto União,Q1784679
+SC,Pouso Redondo,Q1796818
+SC,Praia Grande,Q1822575
+SC,Presidente Castello Branco,Q1815669
+SC,Presidente Getúlio,Q1757828
+SC,Presidente Nereu,Q1799367
+SC,Princesa,Q960413
+SC,Quilombo,Q2012005
+SC,Rancho Queimado,Q1764967
+SC,Rio Fortuna,Q1765038
+SC,Rio Negrinho,Q1784714
+SC,Rio Rufino,Q1765047
+SC,Rio das Antas,Q606838
+SC,Rio do Campo,Q1784673
+SC,Rio do Oeste,Q775857
+SC,Rio do Sul,Q1784001
+SC,Rio dos Cedros,Q1784005
+SC,Riqueza,Q691288
+SC,Rodeio,Q2012010
+SC,Romelândia,Q1757763
+SC,Salete,Q1784692
+SC,Saltinho,Q2011982
+SC,Salto Veloso,Q289981
+SC,Sangão,Q945132
+SC,Santa Cecília,Q931280
+SC,Santa Helena,Q2020284
+SC,Santa Rosa de Lima,Q706547
+SC,Santa Rosa do Sul,Q1799409
+SC,Santa Terezinha,Q2314224
+SC,Santa Terezinha do Progresso,Q1759023
+SC,Santiago do Sul,Q1758231
+SC,Santo Amaro da Imperatriz,Q22034896
+SC,Saudades,Q1757999
+SC,Schroeder,Q22032767
+SC,Seara,Q1784472
+SC,Serra Alta,Q1757812
+SC,Siderópolis,Q1759010
+SC,Sombrio,Q22032964
+SC,Sul Brasil,Q549349
+SC,São Bento do Sul,Q1765057
+SC,São Bernardino,Q1758962
+SC,São Bonifácio,Q1784638
+SC,São Carlos,Q1815617
+SC,São Cristóvão do Sul,Q639952
+SC,São Domingos,Q617155
+SC,São Francisco do Sul,Q986536
+SC,São Joaquim,Q904782
+SC,São José,Q173849
+SC,São José do Cedro,Q545508
+SC,São José do Cerrito,Q1764954
+SC,São João Batista,Q2023825
+SC,São João do Itaperiú,Q1799384
+SC,São João do Oeste,Q599623
+SC,São João do Sul,Q1799427
+SC,São Lourenço do Oeste,Q1759029
+SC,São Ludgero,Q2662610
+SC,São Martinho,Q2065307
+SC,São Miguel da Boa Vista,Q1757994
+SC,São Miguel do Oeste,Q1757748
+SC,São Pedro de Alcântara,Q1750756
+SC,Taió,Q1759213
+SC,Tangará,Q921105
+SC,Tigrinhos,Q1758053
+SC,Tijucas,Q951660
+SC,Timbé do Sul,Q1799417
+SC,Timbó,Q773783
+SC,Timbó Grande,Q614626
+SC,Treviso,Q1799332
+SC,Treze Tílias,Q339414
+SC,Treze de Maio,Q1764936
+SC,Trombudo Central,Q1784066
+SC,Três Barras,Q1784369
+SC,Tubarão,Q1815730
+SC,Tunápolis,Q1758036
+SC,Turvo,Q1833591
+SC,União do Oeste,Q1758015
+SC,Urubici,Q1646925
+SC,Urupema,Q1765034
+SC,Urussanga,Q22063758
+SC,Vargem,Q22063756
+SC,Vargem Bonita,Q609989
+SC,Vargeão,Q1758111
+SC,Vidal Ramos,Q1784642
+SC,Videira,Q1799400
+SC,Vitor Meireles,Q1784631
+SC,Witmarsum,Q1000671
+SC,Xanxerê,Q1758153
+SC,Xavantina,Q923208
+SC,Xaxim,Q1751322
+SC,Zortéa,Q1648503
+SC,Água Doce,Q1750762
+SC,Águas Frias,Q1796824
+SC,Águas Mornas,Q249844
+SC,Águas de Chapecó,Q1750761
+SE,Amparo de São Francisco,Q1802043
+SE,Aquidabã,Q2013098
+SE,Aracaju,Q170578
+SE,Arauá,Q1802037
+SE,Areia Branca,Q949854
+SE,Barra dos Coqueiros,Q1784872
+SE,Boquim,Q746187
+SE,Brejo Grande,Q1802013
+SE,Campo do Brito,Q1801972
+SE,Canhoba,Q1801984
+SE,Canindé de São Francisco,Q22023803
+SE,Capela,Q726730
+SE,Carira,Q2013076
+SE,Carmópolis,Q1801997
+SE,Cedro de São João,Q2013083
+SE,Cristinápolis,Q1802492
+SE,Cumbe,Q656402
+SE,Divina Pastora,Q1802021
+SE,Estância,Q1005942
+SE,Feira Nova,Q2078439
+SE,Frei Paulo,Q588822
+SE,Gararu,Q2013193
+SE,General Maynard,Q1802002
+SE,Gracho Cardoso,
+SE,Ilha das Flores,Q1801964
+SE,Indiaroba,Q2013163
+SE,Itabaiana,Q1784050
+SE,Itabaianinha,Q1802007
+SE,Itabi,Q1929327
+SE,Itaporanga d'Ajuda,Q1807361
+SE,Japaratuba,Q2013178
+SE,Japoatã,Q1112881
+SE,Lagarto,Q2288052
+SE,Laranjeiras,Q2014486
+SE,Macambira,Q2013214
+SE,Malhada dos Bois,Q2078302
+SE,Malhador,Q22040615
+SE,Maruim,Q609459
+SE,Moita Bonita,Q1857645
+SE,Monte Alegre de Sergipe,Q2079721
+SE,Muribeca,Q2079696
+SE,Neópolis,Q2011928
+SE,Nossa Senhora Aparecida,Q2089228
+SE,Nossa Senhora da Glória,Q22038534
+SE,Nossa Senhora das Dores,Q1924777
+SE,Nossa Senhora de Lourdes,Q2011901
+SE,Nossa Senhora do Socorro,Q1800687
+SE,Pacatuba,Q2307488
+SE,Pedra Mole,Q2078330
+SE,Pedrinhas,Q2013116
+SE,Pinhão,Q2171696
+SE,Pirambu,Q1809608
+SE,Porto da Folha,Q2014466
+SE,Poço Redondo,Q430927
+SE,Poço Verde,Q2014476
+SE,Propriá,Q1807371
+SE,Riachuelo,Q2347679
+SE,Riachão do Dantas,Q2078413
+SE,Ribeirópolis,Q2079747
+SE,Rosário do Catete,Q2013205
+SE,Salgado,Q2013090
+SE,Santa Luzia do Itanhy,Q2089266
+SE,Santa Rosa de Lima,Q2083175
+SE,Santana do São Francisco,Q668375
+SE,Santo Amaro das Brotas,Q371369
+SE,Simão Dias,Q1848973
+SE,Siriri,Q1975957
+SE,São Cristóvão,Q839003
+SE,São Domingos,Q1999718
+SE,São Francisco,Q2331416
+SE,São Miguel do Aleixo,Q2089289
+SE,Telha,Q2079737
+SE,Tobias Barreto,Q2013156
+SE,Tomar do Geru,Q615936
+SE,Umbaúba,Q22033891
+SP,Adamantina,Q1637498
+SP,Adolfo,Q676044
+SP,Aguaí,Q1760037
+SP,Agudos,Q1750166
+SP,Alambari,Q513601
+SP,Alfredo Marcondes,Q596678
+SP,Altair,Q305132
+SP,Altinópolis,Q1112482
+SP,Alto Alegre,Q1806762
+SP,Alumínio,Q642894
+SP,Alvinlândia,Q1750195
+SP,Americana,Q467421
+SP,Amparo,Q930321
+SP,Américo Brasiliense,Q376503
+SP,Américo de Campos,
+SP,Analândia,Q1754575
+SP,Andradina,Q1646937
+SP,Angatuba,Q1750222
+SP,Anhembi,Q942392
+SP,Anhumas,Q1774430
+SP,Aparecida,Q617702
+SP,Aparecida d'Oeste,Q1759370
+SP,Apiaí,Q1760259
+SP,Aramina,Q930883
+SP,Arandu,Q1754457
+SP,Arapeí,Q1749953
+SP,Araraquara,Q626247
+SP,Araras,Q580366
+SP,Araçariguama,Q765185
+SP,Araçatuba,Q626835
+SP,Araçoiaba da Serra,Q1754621
+SP,Arco-Íris,Q1750192
+SP,Arealva,Q1647782
+SP,Areias,Q1800701
+SP,Areiópolis,Q1750214
+SP,Ariranha,Q1750254
+SP,Artur Nogueira,Q1754345
+SP,Arujá,
+SP,Aspásia,Q268193
+SP,Assis,Q742227
+SP,Atibaia,Q1637405
+SP,Auriflama,Q268956
+SP,Avanhandava,Q1646956
+SP,Avaré,Q782812
+SP,Avaí,Q371734
+SP,Bady Bassitt,Q268782
+SP,Balbinos,Q268906
+SP,Bananal,Q268774
+SP,Barbosa,Q1795422
+SP,Bariri,Q1759107
+SP,Barra Bonita,Q1759461
+SP,Barra do Chapéu,Q1760579
+SP,Barra do Turvo,Q1760650
+SP,Barretos,Q1637488
+SP,Barrinha,Q1760074
+SP,Barueri,
+SP,Barão de Antonina,Q430127
+SP,Bastos,Q971397
+SP,Batatais,Q650500
+SP,Bauru,Q241645
+SP,Bebedouro,Q1817181
+SP,Bento de Abreu,Q1750448
+SP,Bernardino de Campos,Q920204
+SP,Bertioga,Q828319
+SP,Bilac,Q1648315
+SP,Birigui,Q963648
+SP,Biritiba Mirim,
+SP,Boa Esperança do Sul,Q268938
+SP,Bocaina,Q1759088
+SP,Bofete,Q1749936
+SP,Boituva,Q1759350
+SP,Bom Jesus dos Perdões,Q1760959
+SP,Bom Sucesso de Itararé,Q734464
+SP,Boracéia,
+SP,Borborema,Q978870
+SP,Borebi,Q544311
+SP,Borá,Q568394
+SP,Botucatu,Q1625598
+SP,Bragança Paulista,Q897232
+SP,Braúna,Q1222856
+SP,Brejo Alegre,Q1754561
+SP,Brodowski,Q924792
+SP,Brotas,Q1648408
+SP,Buri,Q1816107
+SP,Buritama,Q1750100
+SP,Buritizal,Q764489
+SP,Bálsamo,Q1750436
+SP,Cabreúva,Q1760058
+SP,Cabrália Paulista,Q268806
+SP,Cachoeira Paulista,Q1760112
+SP,Caconde,Q983521
+SP,Cafelândia,Q1759688
+SP,Caiabu,Q958717
+SP,Caieiras,
+SP,Caiuá,Q769984
+SP,Cajamar,Q1760376
+SP,Cajati,Q1760947
+SP,Cajobi,Q1750207
+SP,Cajuru,Q1760370
+SP,Campina do Monte Alegre,Q1759806
+SP,Campinas,Q171617
+SP,Campo Limpo Paulista,Q1754452
+SP,Campos Novos Paulista,Q1760953
+SP,Campos do Jordão,Q851253
+SP,Cananéia,Q1751347
+SP,Canas,Q1795838
+SP,Canitar,Q383979
+SP,Capela do Alto,Q610390
+SP,Capivari,Q1750439
+SP,Capão Bonito,Q1798802
+SP,Caraguatatuba,Q983498
+SP,Carapicuíba,
+SP,Cardoso,Q1649954
+SP,Casa Branca,Q1760459
+SP,Castilho,Q607594
+SP,Catanduva,Q983683
+SP,Catiguá,Q578408
+SP,Caçapava,Q1759103
+SP,Cedral,Q1658493
+SP,Cerqueira César,Q1750093
+SP,Cerquilho,Q1759399
+SP,Cesário Lange,Q593009
+SP,Charqueada,Q983515
+SP,Chavantes,Q1795758
+SP,Clementina,Q1796388
+SP,Colina,Q1761606
+SP,Colômbia,Q1760531
+SP,Conchal,Q1759722
+SP,Conchas,Q1760352
+SP,Cordeirópolis,Q1750107
+SP,Coroados,Q1761110
+SP,Coronel Macedo,
+SP,Corumbataí,Q1750113
+SP,Cosmorama,Q1800779
+SP,Cosmópolis,Q1754569
+SP,Cotia,
+SP,Cravinhos,Q1798797
+SP,Cristais Paulista,Q1759841
+SP,Cruzeiro,Q1003429
+SP,Cruzália,Q787070
+SP,Cubatão,Q817954
+SP,Cunha,Q1003456
+SP,Cássia dos Coqueiros,Q1760292
+SP,Cândido Mota,Q1761075
+SP,Cândido Rodrigues,Q737416
+SP,Descalvado,Q1761089
+SP,Diadema,
+SP,Dirce Reis,Q533932
+SP,Divinolândia,Q588987
+SP,Dobrada,Q1750204
+SP,Dois Córregos,Q685613
+SP,Dolcinópolis,Q1750096
+SP,Dourado,Q1761435
+SP,Dracena,Q1762529
+SP,Duartina,Q303413
+SP,Dumont,Q270048
+SP,Echaporã,Q1759751
+SP,Eldorado,Q921644
+SP,Elias Fausto,Q1750262
+SP,Elisiário,Q928262
+SP,Embaúba,Q657923
+SP,Embu das Artes,
+SP,Embu-Guaçu,
+SP,Emilianópolis,Q928234
+SP,Engenheiro Coelho,Q952726
+SP,Espírito Santo do Pinhal,Q1649813
+SP,Espírito Santo do Turvo,Q1760344
+SP,Estiva Gerbi,Q738934
+SP,Estrela d'Oeste,Q1648136
+SP,Estrela do Norte,Q1795726
+SP,Euclides da Cunha Paulista,Q1760977
+SP,Fartura,Q536230
+SP,Fernando Prestes,Q595318
+SP,Fernandópolis,Q1648179
+SP,Fernão,Q301590
+SP,Ferraz de Vasconcelos,
+SP,Flora Rica,Q1761725
+SP,Floreal,Q1760305
+SP,Florínea,Q1761119
+SP,Flórida Paulista,Q1761450
+SP,Franca,Q504587
+SP,Francisco Morato,
+SP,Franco da Rocha,
+SP,Gabriel Monteiro,Q765636
+SP,Garça,Q940614
+SP,Gastão Vidigal,Q1760507
+SP,Gavião Peixoto,Q673597
+SP,General Salgado,Q1649675
+SP,Getulina,Q390022
+SP,Glicério,Q1649685
+SP,Guaimbê,Q1759791
+SP,Guaiçara,Q1759801
+SP,Guapiara,Q1798851
+SP,Guapiaçu,Q1649865
+SP,Guaraci,Q986503
+SP,Guarani d'Oeste,Q1649834
+SP,Guarantã,Q1649691
+SP,Guararapes,Q739292
+SP,Guararema,
+SP,Guaratinguetá,Q905157
+SP,Guaraçaí,Q1750066
+SP,Guareí,Q1798860
+SP,Guariba,Q1759773
+SP,Guarujá,Q271374
+SP,Guarulhos,
+SP,Guará,Q985569
+SP,Guatapará,Q1795651
+SP,Guaíra,Q2013622
+SP,Guzolândia,Q1648425
+SP,Gália,Q1795526
+SP,Herculândia,Q1759097
+SP,Holambra,Q1638389
+SP,Hortolândia,Q952617
+SP,Iacanga,Q1648361
+SP,Iacri,Q1759390
+SP,Iaras,Q1648366
+SP,Ibaté,Q1760989
+SP,Ibirarema,Q1760903
+SP,Ibirá,Q1751341
+SP,Ibitinga,Q1649661
+SP,Ibiúna,Q1795639
+SP,Icém,Q967899
+SP,Iepê,Q1760911
+SP,Igarapava,Q578124
+SP,Igaratá,Q1759478
+SP,Igaraçu do Tietê,Q1120318
+SP,Iguape,Q1646941
+SP,Ilha Comprida,Q1645056
+SP,Ilha Solteira,Q1649828
+SP,Ilhabela,Q945061
+SP,Indaiatuba,Q616650
+SP,Indiana,Q2287960
+SP,Indiaporã,Q1649876
+SP,Inúbia Paulista,Q1761742
+SP,Ipaussu,Q1648200
+SP,Iperó,Q1760282
+SP,Ipeúna,Q1648184
+SP,Ipiguá,Q1648118
+SP,Iporanga,Q593535
+SP,Ipuã,Q1759394
+SP,Iracemápolis,Q733787
+SP,Irapuru,Q748218
+SP,Irapuã,Q1800682
+SP,Itaberá,Q920242
+SP,Itajobi,Q1759769
+SP,Itaju,Q926176
+SP,Itanhaém,
+SP,Itaoca,Q1760856
+SP,Itapecerica da Serra,
+SP,Itapetininga,Q942071
+SP,Itapeva,Q1808590
+SP,Itapevi,
+SP,Itapira,Q1760028
+SP,Itapirapuã Paulista,Q1761081
+SP,Itaporanga,Q1808177
+SP,Itapura,Q1649848
+SP,Itapuí,Q1759716
+SP,Itaquaquecetuba,
+SP,Itararé,Q985581
+SP,Itariri,Q579753
+SP,Itatiba,Q773065
+SP,Itatinga,Q1648194
+SP,Itaí,Q1648305
+SP,Itirapina,Q1759703
+SP,Itirapuã,Q1760228
+SP,Itobi,Q1648420
+SP,Itu,Q957653
+SP,Itupeva,Q734333
+SP,Ituverava,Q1649852
+SP,Itápolis,Q745307
+SP,Jaborandi,Q1808261
+SP,Jaboticabal,Q938162
+SP,Jacareí,Q655363
+SP,Jaci,Q1760848
+SP,Jacupiranga,Q985506
+SP,Jaguariúna,Q1645067
+SP,Jales,Q1649949
+SP,Jambeiro,Q1759377
+SP,Jandira,
+SP,Jardinópolis,Q1798789
+SP,Jarinu,Q639848
+SP,Jaú,Q1759235
+SP,Jeriquara,Q550446
+SP,Joanópolis,Q1760327
+SP,José Bonifácio,Q595976
+SP,João Ramalho,Q1760921
+SP,Jumirim,
+SP,Jundiaí,Q275109
+SP,Junqueirópolis,Q1754616
+SP,Juquitiba,
+SP,Juquiá,Q1760417
+SP,Júlio Mesquita,Q1759758
+SP,Lagoinha,Q1759587
+SP,Laranjal Paulista,Q1795659
+SP,Lavrinhas,Q1760064
+SP,Lavínia,Q1648319
+SP,Leme,Q582880
+SP,Lençóis Paulista,Q1649601
+SP,Limeira,Q841241
+SP,Lindóia,Q1439170
+SP,Lins,Q1750605
+SP,Lorena,Q1948966
+SP,Lourdes,Q679297
+SP,Louveira,Q1795673
+SP,Lucianópolis,Q1649645
+SP,Lucélia,Q1761493
+SP,Luiziânia,Q1761054
+SP,Lupércio,Q1796418
+SP,Lutécia,Q1649656
+SP,Luís Antônio,Q1760024
+SP,Macatuba,Q1653558
+SP,Macaubal,Q1649831
+SP,Macedônia,Q522002
+SP,Magda,Q1796340
+SP,Mairinque,
+SP,Mairiporã,
+SP,Manduri,Q1800707
+SP,Marabá Paulista,Q1760917
+SP,Maracaí,Q1760928
+SP,Marapoama,Q1759832
+SP,Marinópolis,Q1648293
+SP,Mariápolis,Q1795750
+SP,Martinópolis,Q1800770
+SP,Marília,Q737660
+SP,Matão,Q1649629
+SP,Mauá,
+SP,Mendonça,Q1800752
+SP,Meridiano,Q946326
+SP,Mesópolis,Q1759241
+SP,Miguelópolis,Q1759485
+SP,Mineiros do Tietê,Q1759649
+SP,Mira Estrela,Q1649682
+SP,Miracatu,Q1760269
+SP,Mirandópolis,Q1645072
+SP,Mirante do Paranapanema,Q383765
+SP,Mirassol,Q648757
+SP,Mirassolândia,Q953341
+SP,Mococa,Q1760484
+SP,Mogi Guaçu,Q956172
+SP,Mogi Mirim,Q600310
+SP,Mogi das Cruzes,
+SP,Mombuca,Q745014
+SP,Mongaguá,Q983529
+SP,Monte Alegre do Sul,Q1750211
+SP,Monte Alto,
+SP,Monte Aprazível,Q1648289
+SP,Monte Azul Paulista,
+SP,Monte Castelo,Q510736
+SP,Monte Mor,Q784207
+SP,Monteiro Lobato,Q1760453
+SP,Monções,Q1774484
+SP,Morro Agudo,Q1759626
+SP,Morungaba,Q985507
+SP,Motuca,Q1761747
+SP,Murutinga do Sul,Q1649943
+SP,Nantes,Q1119526
+SP,Narandiba,Q1760403
+SP,Natividade da Serra,Q1759364
+SP,Nazaré Paulista,Q1760585
+SP,Neves Paulista,Q1648196
+SP,Nhandeara,Q1649650
+SP,Nipoã,Q1649872
+SP,Nova Aliança,Q1648146
+SP,Nova Campina,Q946930
+SP,Nova Canaã Paulista,Q526722
+SP,Nova Castilho,Q282667
+SP,Nova Europa,Q1761695
+SP,Nova Granada,Q1648342
+SP,Nova Guataporanga,Q1760106
+SP,Nova Independência,Q1649857
+SP,Nova Luzitânia,Q1648351
+SP,Nova Odessa,Q1648345
+SP,Novais,Q567821
+SP,Novo Horizonte,Q1815907
+SP,Nuporanga,Q664158
+SP,Ocauçu,Q773141
+SP,Olímpia,Q636096
+SP,Onda Verde,Q1760526
+SP,Oriente,Q677348
+SP,Orindiúva,
+SP,Orlândia,Q1759384
+SP,Osasco,
+SP,Oscar Bressane,Q1759798
+SP,Osvaldo Cruz,Q1761462
+SP,Ourinhos,Q985605
+SP,Ouro Verde,Q1815951
+SP,Ouroeste,Q1649670
+SP,Pacaembu,Q1795852
+SP,Palestina,Q1816305
+SP,Palmares Paulista,Q1760543
+SP,Palmeira d'Oeste,Q1645095
+SP,Palmital,Q1760365
+SP,Panorama,Q955544
+SP,Paraguaçu Paulista,Q1760760
+SP,Paraibuna,Q1759639
+SP,Paranapanema,Q1760996
+SP,Paranapuã,Q633898
+SP,Parapuã,Q1761717
+SP,Paraíso,Q1760478
+SP,Pardinho,Q933191
+SP,Pariquera-Açu,Q1760286
+SP,Parisi,Q523550
+SP,Patrocínio Paulista,Q1759984
+SP,Paulicéia,Q1649677
+SP,Paulistânia,Q1648436
+SP,Paulo de Faria,Q1648123
+SP,Paulínia,Q40706
+SP,Pederneiras,Q1795537
+SP,Pedra Bela,Q1649666
+SP,Pedranópolis,Q952230
+SP,Pedregulho,Q1760087
+SP,Pedreira,Q786140
+SP,Pedrinhas Paulista,Q1761002
+SP,Pedro de Toledo,Q570464
+SP,Penápolis,Q986508
+SP,Pereira Barreto,Q928154
+SP,Pereiras,Q1795718
+SP,Peruíbe,Q912136
+SP,Piacatu,Q1795562
+SP,Piedade,
+SP,Pilar do Sul,
+SP,Pindamonhangaba,Q974642
+SP,Pindorama,Q1648152
+SP,Pinhalzinho,Q1649843
+SP,Piquerobi,Q1761094
+SP,Piquete,Q1760068
+SP,Piracaia,Q1760752
+SP,Piracicaba,Q330175
+SP,Piraju,Q1795515
+SP,Pirajuí,Q985494
+SP,Pirangi,Q1759848
+SP,Pirapora do Bom Jesus,
+SP,Pirapozinho,Q1760765
+SP,Pirassununga,Q1750431
+SP,Piratininga,Q1648432
+SP,Pitangueiras,Q939666
+SP,Planalto,Q1795617
+SP,Platina,Q1808246
+SP,Poloni,Q1760554
+SP,Pompéia,
+SP,Pongaí,Q728178
+SP,Pontal,Q1759836
+SP,Pontalinda,Q617400
+SP,Pontes Gestal,Q743048
+SP,Populina,Q1759221
+SP,Porangaba,Q1759470
+SP,Porto Feliz,
+SP,Porto Ferreira,Q1772643
+SP,Potim,Q1795824
+SP,Potirendaba,Q1648299
+SP,Poá,
+SP,Pracinha,Q1761735
+SP,Pradópolis,Q1649607
+SP,Praia Grande,Q851292
+SP,Pratânia,Q944467
+SP,Presidente Alves,Q1750185
+SP,Presidente Bernardes,Q1816203
+SP,Presidente Epitácio,Q983495
+SP,Presidente Prudente,Q525618
+SP,Presidente Venceslau,Q1645733
+SP,Promissão,Q431377
+SP,Quadra,Q1795680
+SP,Quatá,Q1760383
+SP,Queiroz,Q1759072
+SP,Queluz,Q1816194
+SP,Quintana,Q951645
+SP,Rafard,Q544881
+SP,Rancharia,Q1760603
+SP,Redenção da Serra,Q1759632
+SP,Regente Feijó,Q1760843
+SP,Reginópolis,Q958001
+SP,Registro,Q1798084
+SP,Restinga,Q1795805
+SP,Ribeira,Q1808722
+SP,Ribeirão Bonito,Q1760595
+SP,Ribeirão Branco,Q734937
+SP,Ribeirão Corrente,Q682868
+SP,Ribeirão Grande,Q667439
+SP,Ribeirão Pires,
+SP,Ribeirão Preto,Q188892
+SP,Ribeirão do Sul,Q1761103
+SP,Ribeirão dos Índios,Q1760983
+SP,Rifaina,Q1760079
+SP,Rincão,Q744399
+SP,Rinópolis,Q1761556
+SP,Rio Claro,Q291277
+SP,Rio Grande da Serra,
+SP,Rio das Pedras,Q1760134
+SP,Riolândia,Q1759077
+SP,Riversul,Q985613
+SP,Rosana,Q1795604
+SP,Roseira,Q1648728
+SP,Rubinéia,
+SP,Rubiácea,Q602128
+SP,Sabino,Q1760536
+SP,Sagres,Q1796404
+SP,Sales,Q584240
+SP,Sales Oliveira,Q1649639
+SP,Salesópolis,
+SP,Salmourão,Q1761702
+SP,Saltinho,Q605693
+SP,Salto,
+SP,Salto Grande,Q1760400
+SP,Salto de Pirapora,
+SP,Sandovalina,Q597804
+SP,Santa Adélia,Q1760559
+SP,Santa Albertina,Q1648356
+SP,Santa Branca,Q1759617
+SP,Santa Bárbara d'Oeste,Q983747
+SP,Santa Clara d'Oeste,Q1649614
+SP,Santa Cruz da Conceição,Q922039
+SP,Santa Cruz da Esperança,Q1760390
+SP,Santa Cruz das Palmeiras,Q1648129
+SP,Santa Cruz do Rio Pardo,Q1646321
+SP,Santa Ernestina,Q1760235
+SP,Santa Fé do Sul,Q1648142
+SP,Santa Gertrudes,Q1222916
+SP,Santa Isabel,
+SP,Santa Lúcia,Q1948975
+SP,Santa Maria da Serra,Q1759992
+SP,Santa Mercedes,Q1649817
+SP,Santa Rita d'Oeste,Q1649615
+SP,Santa Rita do Passa Quatro,Q1649619
+SP,Santa Rosa de Viterbo,Q1097771
+SP,Santa Salete,Q1649808
+SP,Santana da Ponte Pensa,Q587790
+SP,Santana de Parnaíba,
+SP,Santo Anastácio,Q1800625
+SP,Santo André,
+SP,Santo Antônio da Alegria,Q584881
+SP,Santo Antônio de Posse,Q1760121
+SP,Santo Antônio do Aracanguá,Q1658515
+SP,Santo Antônio do Jardim,Q1658504
+SP,Santo Antônio do Pinhal,Q1760210
+SP,Santo Expedito,Q1798847
+SP,Santos,Q81882
+SP,Santópolis do Aguapeí,Q1760320
+SP,Sarapuí,
+SP,Sarutaiá,Q1760940
+SP,Sebastianópolis do Sul,Q1649838
+SP,Serra Azul,Q1760125
+SP,Serra Negra,Q1439179
+SP,Serrana,Q374548
+SP,Sertãozinho,Q1795634
+SP,Sete Barras,Q738959
+SP,Severínia,Q1760500
+SP,Silveiras,Q1761063
+SP,Socorro,Q1797503
+SP,Sorocaba,Q188901
+SP,Sud Mennucci,Q1761710
+SP,Sumaré,Q942135
+SP,Suzano,
+SP,Suzanápolis,Q1750257
+SP,São Bento do Sapucaí,Q1760047
+SP,São Bernardo do Campo,
+SP,São Caetano do Sul,
+SP,São Carlos,Q194338
+SP,São Francisco,Q1759712
+SP,São Joaquim da Barra,Q1759699
+SP,São José da Bela Vista,Q1759853
+SP,São José do Barreiro,Q1750230
+SP,São José do Rio Pardo,Q984555
+SP,São José do Rio Preto,Q192181
+SP,São José dos Campos,Q191642
+SP,São João da Boa Vista,Q925419
+SP,São João das Duas Pontes,Q1750087
+SP,São João de Iracema,Q967110
+SP,São João do Pau d'Alho,
+SP,São Lourenço da Serra,
+SP,São Luiz do Paraitinga,Q1646919
+SP,São Manuel,Q1760298
+SP,São Miguel Arcanjo,
+SP,São Paulo,
+SP,São Pedro,Q924342
+SP,São Pedro do Turvo,Q1760853
+SP,São Roque,
+SP,São Sebastião,Q587013
+SP,São Sebastião da Grama,Q1648307
+SP,São Simão,Q1808922
+SP,São Vicente,
+SP,Tabapuã,Q301283
+SP,Tabatinga,Q1815939
+SP,Taboão da Serra,
+SP,Taciba,Q1760336
+SP,Taguaí,Q1760276
+SP,Taiaçu,Q1760116
+SP,Taiúva,
+SP,Tambaú,Q650146
+SP,Tanabi,Q923862
+SP,Tapiratiba,Q1658532
+SP,Tapiraí,
+SP,Taquaral,Q1796324
+SP,Taquaritinga,Q1645082
+SP,Taquarituba,Q1759780
+SP,Taquarivaí,Q1759820
+SP,Tarabai,Q1798813
+SP,Tarumã,Q1649959
+SP,Tatuí,Q1795613
+SP,Taubaté,Q170540
+SP,Tejupá,Q1760311
+SP,Teodoro Sampaio,Q1760393
+SP,Terra Roxa,Q1759814
+SP,Tietê,Q542815
+SP,Timburi,Q1760263
+SP,Torre de Pedra,Q1759645
+SP,Torrinha,Q1751333
+SP,Trabiju,Q1761480
+SP,Tremembé,Q1772599
+SP,Três Fronteiras,Q1750027
+SP,Tuiuti,Q1760934
+SP,Tupi Paulista,Q1760131
+SP,Tupã,Q961143
+SP,Turiúba,Q1761124
+SP,Turmalina,Q1762903
+SP,Ubarana,Q1750070
+SP,Ubatuba,Q596931
+SP,Ubirajara,Q1646327
+SP,Uchoa,Q1658522
+SP,União Paulista,Q1658483
+SP,Uru,Q1795600
+SP,Urupês,Q1759763
+SP,Urânia,Q1759227
+SP,Valentim Gentil,Q947263
+SP,Valinhos,Q983511
+SP,Valparaíso,Q1763552
+SP,Vargem,Q1760599
+SP,Vargem Grande Paulista,
+SP,Vargem Grande do Sul,Q767854
+SP,Vera Cruz,Q1808155
+SP,Vinhedo,Q983534
+SP,Viradouro,Q1760032
+SP,Vista Alegre do Alto,Q1759858
+SP,Vitória Brasil,Q1750221
+SP,Votorantim,Q942083
+SP,Votuporanga,Q1759612
+SP,Várzea Paulista,Q1759112
+SP,Zacarias,Q1760645
+SP,Águas da Prata,Q1647805
+SP,Águas de Lindóia,Q249869
+SP,Águas de Santa Bárbara,Q22066
+SP,Águas de São Pedro,Q249900
+SP,Álvares Florence,Q1754608
+SP,Álvares Machado,Q1750446
+SP,Álvaro de Carvalho,Q1749940
+SP,Óleo,Q658024
+TO,Abreulândia,Q1784836
+TO,Aguiarnópolis,Q1802133
+TO,Aliança do Tocantins,Q1802116
+TO,Almas,Q22060165
+TO,Alvorada,Q2102493
+TO,Ananás,Q1948373
+TO,Angico,Q2011594
+TO,Aparecida do Rio Negro,Q1802077
+TO,Aragominas,Q1801778
+TO,Araguacema,Q1801734
+TO,Araguanã,Q957649
+TO,Araguatins,Q1783966
+TO,Araguaçu,Q593716
+TO,Araguaína,Q22060155
+TO,Arapoema,Q609102
+TO,Arraias,Q1801696
+TO,Augustinópolis,Q1801708
+TO,Aurora do Tocantins,Q1801726
+TO,Axixá do Tocantins,Q1801670
+TO,Babaçulândia,Q1801746
+TO,Bandeirantes do Tocantins,Q2011614
+TO,Barra do Ouro,Q512635
+TO,Barrolândia,Q1801737
+TO,Bernardo Sayão,Q2011573
+TO,Bom Jesus do Tocantins,Q599288
+TO,Brasilândia do Tocantins,Q1801749
+TO,Brejinho de Nazaré,Q1801741
+TO,Buriti do Tocantins,Q1801703
+TO,Cachoeirinha,Q2289907
+TO,Campos Lindos,Q1801753
+TO,Cariri do Tocantins,Q1801690
+TO,Carmolândia,Q1801654
+TO,Carrasco Bonito,Q1801716
+TO,Caseara,Q1801760
+TO,Centenário,Q2116769
+TO,Chapada da Natividade,Q1801647
+TO,Chapada de Areia,Q773264
+TO,Colinas do Tocantins,Q1801758
+TO,Colméia,Q1801662
+TO,Combinado,Q746335
+TO,Conceição do Tocantins,Q1801713
+TO,Couto Magalhães,
+TO,Cristalândia,Q1798698
+TO,Crixás do Tocantins,Q1801175
+TO,Darcinópolis,Q1801100
+TO,Dianópolis,Q1801150
+TO,Divinópolis do Tocantins,Q649398
+TO,Dois Irmãos do Tocantins,Q967767
+TO,Dueré,Q1800970
+TO,Esperantina,Q977277
+TO,Figueirópolis,Q1801233
+TO,Filadélfia,Q690299
+TO,Formoso do Araguaia,Q1801246
+TO,Fortaleza do Tabocão,Q1801070
+TO,Fátima,Q2196935
+TO,Goianorte,Q1801208
+TO,Goiatins,Q1801197
+TO,Guaraí,Q1801179
+TO,Gurupi,Q1784265
+TO,Ipueiras,Q946408
+TO,Itacajá,Q535056
+TO,Itaguatins,Q1801108
+TO,Itapiratins,Q1800939
+TO,Itaporã do Tocantins,Q770338
+TO,Jaú do Tocantins,Q1801212
+TO,Juarina,Q374444
+TO,Lagoa da Confusão,Q1801577
+TO,Lagoa do Tocantins,Q1801591
+TO,Lajeado,Q2085548
+TO,Lavandeira,Q1801192
+TO,Lizarda,Q1786619
+TO,Luzinópolis,Q1801642
+TO,Marianópolis do Tocantins,Q1801628
+TO,Mateiros,Q1801064
+TO,Maurilândia do Tocantins,Q1801042
+TO,Miracema do Tocantins,Q993530
+TO,Miranorte,Q1800924
+TO,Monte Santo do Tocantins,Q2011582
+TO,Monte do Carmo,Q1801517
+TO,Muricilândia,Q1801142
+TO,Natividade,Q1801567
+TO,Nazaré,Q2289927
+TO,Nova Olinda,Q2079727
+TO,Nova Rosalândia,Q1801604
+TO,Novo Acordo,Q1801572
+TO,Novo Alegre,Q1801587
+TO,Novo Jardim,Q1801252
+TO,Oliveira de Fátima,Q1801609
+TO,Palmas,Q178993
+TO,Palmeirante,Q523587
+TO,Palmeiras do Tocantins,Q1801156
+TO,Palmeirópolis,Q1801038
+TO,Paranã,Q1801570
+TO,Paraíso do Tocantins,Q978148
+TO,Pau D'Arco,
+TO,Pedro Afonso,Q1801535
+TO,Peixe,
+TO,Pequizeiro,Q1801219
+TO,Pindorama do Tocantins,Q1800896
+TO,Piraquê,Q962028
+TO,Pium,Q1800961
+TO,Ponte Alta do Bom Jesus,Q1800881
+TO,Ponte Alta do Tocantins,Q1801637
+TO,Porto Alegre do Tocantins,Q677566
+TO,Porto Nacional,Q1784315
+TO,Praia Norte,Q1801132
+TO,Presidente Kennedy,Q2085534
+TO,Pugmil,Q1801581
+TO,Recursolândia,Q1801075
+TO,Riachinho,Q2197944
+TO,Rio Sono,Q1801199
+TO,Rio da Conceição,Q1801085
+TO,Rio dos Bois,Q580856
+TO,Sampaio,Q1801137
+TO,Sandolândia,Q1801094
+TO,Santa Fé do Araguaia,Q991120
+TO,Santa Maria do Tocantins,Q522587
+TO,Santa Rita do Tocantins,Q1801241
+TO,Santa Rosa do Tocantins,Q1801204
+TO,Santa Tereza do Tocantins,Q1801050
+TO,Santa Terezinha do Tocantins,Q929170
+TO,Silvanópolis,Q1801168
+TO,Sucupira,Q2011603
+TO,São Bento do Tocantins,Q1801161
+TO,São Félix do Tocantins,Q1801186
+TO,São Miguel do Tocantins,Q1800932
+TO,São Salvador do Tocantins,Q1800952
+TO,São Sebastião do Tocantins,Q1801056
+TO,São Valério,
+TO,Sítio Novo do Tocantins,Q1801080
+TO,Taguatinga,Q2078623
+TO,Taipas do Tocantins,Q1800947
+TO,Talismã,Q1801633
+TO,Tocantinópolis,Q587927
+TO,Tocantínia,Q1801598
+TO,Tupirama,Q1801526
+TO,Tupiratins,Q1801621
+TO,Wanderlândia,Q1798710
+TO,Xambioá,Q635920

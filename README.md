@@ -1,39 +1,57 @@
 # Data Commons Brasil
-## How to run code in uranus
-Build docker image:
 
-``` bash
-$ ./dockercmd.sh build 
-``` 
+## How get data from downloading to importing step by step
 
-Run docker container for a specific file:
+### Downloading data from given source:
 
-``` bash
-$ ./dockercmd.sh run <file_path>
-``` 
+1. Within the `downloader` directory, create a new module and name it according to the chosen source;
 
-Copy contents from `downloads` (inside the container) to host:
+2. In the same folder, include the new source in the `downloaders.py` file within the `pick_downloader` function (you don't need to modify anything else there);
 
-``` bash
-$ ./dockercmd.sh copy <container_name> 
-``` 
+3. Note that the signature of the function that actually downloads the data can only have one parameter: the output path; 
 
-Remove container:
+4. Finally, to download the data via docker, use the command bellow:
 
-``` bash
-$ ./dockercmd.sh remove <container_name> 
-``` 
+    ``` bash
+    $ ./dockercmd.sh download [source] 
+    ```
+  
+The command above will create a container, execute the downloader and the data will be saved at `.output/downloader/<source>/<time-stamp>/`. When this process is done, the container will be automatically stoped and removed from Docker. 
+
+### Processing data from given source:
+
+1. Within the `processor` directory, create a new module and name it according to the chosen source (the same name used for the downloader);
+
+2. In the same folder, include the new source in the `processor.py` file within the `pick_processor` function; 
+
+3. Finally, to process the data via docker, use the command bellow:
+
+    ``` bash
+    $ ./dockercmd.sh process [source] <timestamp>
+    ``` 
+
+The command above will process data (from a given source) with the latest timestamp by default. Resulting data can be found in the path `./output/process/<source>`. 
+
+_If data from the same source is processed more than once, older results will be replaced._
+
+### Creating files to be imported from given source:
+
+1. Simply execute the command bellow:
+
+    ``` bash
+    $ ./dockercmd.sh import <source> 
+    ```
+
+The command above will create a database formatted specifically to be imported into the data commons environment.
 
 ### Example
-Using IPEA downloader:
+Using IPEA source:
 
 ``` bash
-$ ./dockercmd.sh build 
+$ ./dockercmd.sh download ipea 
 
-$ ./dockercmd.sh run downloaders/ipea/ipea.py
+$ ./dockercmd.sh process ipea
 
-$ ./dockercmd.sh copy data_commons-ipea
-
-$ ./dockercmd.sh remove data_commons-ipea
+$ ./dockercmd.sh import ipea
 ``` 
-The commands listed above download files from IPEA e save them identified by the name of the source and a unix timestamp in the host's `downloads` folder, in this case `downloads/ipea/1704910194/`.
+The commands listed above download, process and format data from IPEA (assuming that the modules included in the source code work properly). 

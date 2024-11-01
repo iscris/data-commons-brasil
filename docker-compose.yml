@@ -1,0 +1,29 @@
+services:
+  web:
+    image: gcr.io/datcom-ci/datacommons-services:stable
+    volumes:
+      - ${PWD}/custom_dc/sample:${PWD}/custom_dc/sample
+      - ${PWD}/output/processor:/app/output/processor
+      - ${PWD}/output/importer:/app/output/importer
+    environment:
+      - INPUT_DIR=/app/output/processor
+      - OUTPUT_DIR=/app/output/importer
+      - DEBUG=true
+    env_file: .dc.env
+    ports:
+      - 8080:8080
+    networks:
+      - web_network
+    tty: true
+
+  nginx:
+    build:
+      context: ./deploy/nginx
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+    networks:
+      - web_network
+
+networks:
+  web_network:
