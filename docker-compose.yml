@@ -40,7 +40,7 @@ services:
     environment:
       - INPUT_DIR=/app/output/processor
       - OUTPUT_DIR=/app/output/importer
-      - DEBUG=true
+      - DEBUG=false
     env_file: .env
     ports:
       - 8080:8080
@@ -48,10 +48,12 @@ services:
       - web_network
     tty: true
 
- nginx:
+  nginx:
     build:
       context: ./deploy/nginx
       dockerfile: Dockerfile
+    environment:
+      - ENVIRONMENT=${ENVIRONMENT}
     ports:
       - 80:80
       - 443:443

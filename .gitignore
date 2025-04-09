@@ -2,3 +2,6 @@ output
 __pycache__
 .env*
 .dc.env
+gcp.json
+
+!.env.example
