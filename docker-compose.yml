@@ -1,6 +1,38 @@
 services:
+  datatools:
+    image: ghcr.io/iscris/datatools:latest
+    tty: true
+
+  download:
+    image: ghcr.io/iscris/datatools:latest
+    entrypoint: ["python", "-m", "datatools", "--", "download", "--source"]
+    volumes:
+      - $PWD/output/downloader:/app/output/downloader
+    tty: true
+
+  process:
+    image: ghcr.io/iscris/datatools:latest
+    entrypoint: ["python", "-m", "datatools", "--", "process", "--source"]
+    volumes:
+      - $PWD/output/downloader/ipea/20241027_221112:/app/output/downloader/ipea
+      - $PWD/output/processor:/app/output/processor
+    tty: true
+
+  import:
+    image: ghcr.io/iscris/our-custom-data:latest
+    volumes:
+      - ${PWD}/output/processor:/app/output/processor
+      - ${PWD}/output/importer:/app/output/importer
+      - ${PWD}/.env:/app/.env
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/gcp/creds.json
+      - INPUT_DIR=/app/output/processor
+      - OUTPUT_DIR=/app/output/importer
+    env_file: .env
+    tty: true
+
   web:
-    image: gcr.io/datcom-ci/datacommons-services:stable
+    image: ghcr.io/iscris/dc-brasil-services:latest
     volumes:
       - ${PWD}/custom_dc/sample:${PWD}/custom_dc/sample
       - ${PWD}/output/processor:/app/output/processor
@@ -8,8 +40,8 @@ services:
     environment:
       - INPUT_DIR=/app/output/processor
       - OUTPUT_DIR=/app/output/importer
-      - DEBUG=true
-    env_file: .dc.env
+      - DEBUG=false
+    env_file: .env
     ports:
       - 8080:8080
     networks:
@@ -20,10 +52,16 @@ services:
     build:
       context: ./deploy/nginx
       dockerfile: Dockerfile
+    environment:
+      - ENVIRONMENT=${ENVIRONMENT}
     ports:
       - 80:80
+      - 443:443
     networks:
       - web_network
+    volumes:
+      - /var/www/certbot:/var/www/certbot
+      - /etc/letsencrypt:/etc/letsencrypt:ro
 
 networks:
   web_network:
