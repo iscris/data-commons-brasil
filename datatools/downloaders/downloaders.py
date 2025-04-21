@@ -5,6 +5,7 @@ from uuid import uuid4
 
 from .ipea.ipea import download_ipea_data
 from .ibge.localidades import download_ibge_localidades
+from .ibge.agregados import download_ibge_agregados
 
 
 # In this function, download_path represents a temporary directory.
@@ -17,6 +18,8 @@ def pick_downloader(source: str, tmp_download_path: str):
             download_ipea_data(tmp_download_path)
         case "ibge_localidades":
             download_ibge_localidades(tmp_download_path)
+        case "ibge_agregados":
+            download_ibge_agregados(tmp_download_path)
         case _:
             raise NotImplementedError
 

@@ -14,7 +14,7 @@ importer_output=$output_dir/importer
 
 case $1 in
     download)
-        flags="-d --rm"
+        flags="--rm"
         container_name=downloader_$2
         volumes="-v $downloader_output:/app/output/downloader"
         image=ghcr.io/iscris/datatools:latest
