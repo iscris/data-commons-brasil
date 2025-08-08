@@ -1,7 +1,8 @@
 import requests
 import json
 import logging
-from ratelimit import limits, sleep_and_retry
+
+from datatools.downloaders.utils import rate_limit, retry
 
 logger = logging.getLogger("downloader: IBGE agregados")
 
@@ -11,8 +12,7 @@ MAX_CALLS_PER_INTERVAL = 120
 INTERVAL = 60
 
 
-@sleep_and_retry
-@limits(calls=MAX_CALLS_PER_INTERVAL, period=INTERVAL)
+@retry(max_attempts=10, delay=2*60, backoff_factor=3)
 def make_api_call(url: str):
     logger.debug(f"Making API call: {url}")
     r = requests.get(url)
@@ -29,12 +29,14 @@ def get_aggregates() -> dict:
     return make_api_call("https://servicodados.ibge.gov.br/api/v3/agregados")
 
 
+@rate_limit(calls=120, period=30)
 def get_aggregates_metadata(aggregate_id: str) -> dict:
     return make_api_call(
         f"https://servicodados.ibge.gov.br/api/v3/agregados/{aggregate_id}/metadados"
     )
 
 
+@rate_limit(calls=120, period=60)
 def get_values(aggregate_id: str, variable_id: str, place_id: str):
     return make_api_call(
         f"https://servicodados.ibge.gov.br/api/v3/agregados/{aggregate_id}/periodos/-100/variaveis/{variable_id}?localidades={place_id}"

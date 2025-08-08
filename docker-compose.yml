@@ -48,20 +48,5 @@ services:
       - web_network
     tty: true
 
-  nginx:
-    build:
-      context: ./deploy/nginx
-      dockerfile: Dockerfile
-    environment:
-      - ENVIRONMENT=${ENVIRONMENT}
-    ports:
-      - 80:80
-      - 443:443
-    networks:
-      - web_network
-    volumes:
-      - /var/www/certbot:/var/www/certbot
-      - /etc/letsencrypt:/etc/letsencrypt:ro
-
 networks:
   web_network:
