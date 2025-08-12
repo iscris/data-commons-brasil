@@ -9,6 +9,7 @@ dependencies = [
     "anyio==4.6.0",
     "attrs==23.1.0",
     "automat==22.10.0",
+    "beautifulsoup4==4.12.2",
     "certifi==2023.11.17",
     "cffi==1.16.0",
     "charset-normalizer==3.3.2",

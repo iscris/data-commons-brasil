@@ -1,8 +1,9 @@
-from datatools.main import main
 import logging
 
+from datatools.main import main
+
 logging.basicConfig(
-    level=logging.DEBUG, format="[%(levelname)s] [%(name)s] [%(asctime)s]: %(message)s"
+    level=logging.INFO, format="[%(levelname)s] [%(name)s] [%(asctime)s]: %(message)s"
 )
 
 main()
