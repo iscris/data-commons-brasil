@@ -1,0 +1,135 @@
+[
+    {
+        "Name": "Doses aplicadas pelo Programa de Nacional de Imuniza\u00e7\u00f5es (PNI) - 2025",
+        "Link": "https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2025",
+        "Sensitive information": "Vacina administrada ao paciente.",
+        "QIDs": ["tp_sexo_paciente", "co_raca_cor_paciente", "co_municipio_paciente", "co_pais_paciente", "ds_nacionalidade_paciente", "co_cnes_estabelecimento", "nu_idade_paciente"],
+        "Sensitive attributes": ["co_vacina", "co_condicao_maternal"]
+    },
+    {
+        "Name": "Doses aplicadas pelo Programa de Nacional de Imuniza\u00e7\u00f5es (PNI) - 2024",
+        "Link": "https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2024",
+        "Sensitive information": "Vacina administrada ao paciente.",
+        "QIDs": ["tp_sexo_paciente", "co_raca_cor_paciente", "co_municipio_paciente", "co_pais_paciente", "ds_nacionalidade_paciente", "co_cnes_estabelecimento", "nu_idade_paciente"],
+        "Sensitive attributes": ["co_vacina", "co_condicao_maternal"]
+    },
+    {
+        "Name": "Doses aplicadas pelo Programa de Nacional de Imuniza\u00e7\u00f5es (PNI) - 2023",
+        "Link": "https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2024",
+        "Sensitive information": "Vacina administrada ao paciente.",
+        "QIDs": ["tp_sexo_paciente", "co_raca_cor_paciente", "co_municipio_paciente", "co_pais_paciente", "ds_nacionalidade_paciente", "co_cnes_estabelecimento", "nu_idade_paciente"],
+        "Sensitive attributes": ["co_vacina", "co_condicao_maternal"]
+    },
+    {
+        "Name": "Doses aplicadas pelo Programa de Nacional de Imuniza\u00e7\u00f5es (PNI) - 2022",
+        "Link": "https://opendatasus.saude.gov.br/dataset/dataset-doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni_2022",
+        "Sensitive information": "Vacina administrada ao paciente.",
+        "QIDs": ["tp_sexo_paciente", "co_raca_cor_paciente", "co_municipio_paciente", "co_pais_paciente", "ds_nacionalidade_paciente", "co_cnes_estabelecimento", "nu_idade_paciente"],
+        "Sensitive attributes": ["co_vacina", "co_condicao_maternal"]
+    },
+    {
+        "Name": "Doses aplicadas pelo Programa de Nacional de Imuniza\u00e7\u00f5es (PNI) - 2021",
+        "Link": "https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2024",
+        "Sensitive information": "Vacina administrada ao paciente.",
+        "QIDs": ["tp_sexo_paciente", "co_raca_cor_paciente", "co_municipio_paciente", "co_pais_paciente", "ds_nacionalidade_paciente", "co_cnes_estabelecimento", "nu_idade_paciente"],
+        "Sensitive attributes": ["co_vacina", "co_condicao_maternal"]
+    },
+    {
+        "Name": "Doses aplicadas pelo Programa de Nacional de Imuniza\u00e7\u00f5es (PNI) - 2020",
+        "Link": "https://opendatasus.saude.gov.br/dataset/doses-aplicadas-pelo-programa-de-nacional-de-imunizacoes-pni-2024",
+        "Sensitive information": "Vacina administrada ao paciente.",
+        "QIDs": ["tp_sexo_paciente", "co_raca_cor_paciente", "co_municipio_paciente", "co_pais_paciente", "ds_nacionalidade_paciente", "co_cnes_estabelecimento", "nu_idade_paciente"],
+        "Sensitive attributes": ["co_vacina", "co_condicao_maternal"]
+    },
+    {
+        "Name": "e-SUS Sinan/Mpox",
+        "Link": "https://opendatasus.saude.gov.br/dataset/mpox",
+        "Sensitive information": "Comportamento sexual, orienta\u00e7\u00e3o sexual, sintomas, ISTs.",
+        "QIDs": [],
+        "Sensitive attributes": []
+    },
+    {
+        "Name": "ESAVI - Dados sobre Eventos Supostamente Atribu\u00edveis a Vacina\u00e7\u00e3o",
+        "Link": "https://opendatasus.saude.gov.br/dataset/esavi",
+        "Sensitive information": "Doen\u00e7as pr\u00e9-existentes, medicamentos utilizados.",
+        "QIDs": [],
+        "Sensitive attributes": []
+    },
+    {
+        "Name": "Estudo Nacional de Alimenta\u00e7\u00e3o e Nutri\u00e7\u00e3o Infantil: ENANI-2019",
+        "Link": "https://opendatasus.saude.gov.br/dataset/estudo-nacional-de-alimentacao-e-nutricao-infantil-enani-2019",
+        "Sensitive information": "Informa\u00e7\u00f5es sens\u00edveis sobre crian\u00e7as, como doen\u00e7as (autismo, s\u00edndromes), caracter\u00edsticas f\u00edsicas, etc.\nAlgumas informa\u00e7\u00f5es sobre os respons\u00e1veis.",
+        "QIDs": [],
+        "Sensitive attributes": []
+    },
+    {
+        "Name": "Febre Amarela em humanos e primatas n\u00e3o-humanos - 1994 a 2025",
+        "Link": "https://opendatasus.saude.gov.br/dataset/febre-amarela-em-humanos-e-primatas-nao-humanos",
+        "Sensitive information": "A presen\u00e7a do indiv\u00edduo no dataset indica que ele tem/teve febre amarela. H\u00e1 outras informa\u00e7\u00f5es como data que se iniciou/terminou e \u00f3bitos.",
+        "QIDs": [],
+        "Sensitive attributes": []
+    },
+    {
+        "Name": "Sa\u00fade Ind\u00edgena - Indicadores de enfrentamento e monitoramento \u00e0 covid-19 dos Povos Ind\u00edgenas Brasileiros e a\u00e7\u00f5es relacionadas aos Povos Ind\u00edgenas Isolados e de Recente Contato",
+        "Link": "https://opendatasus.saude.gov.br/dataset/indicadores-de-enfrentamento-e-monitoramento-a-covid-19-dos-povos-indigenas-do-brasil",
+        "Sensitive information": "Administra\u00e7\u00e3o de vacinas e sintomas.",
+        "QIDs": [],
+        "Sensitive attributes": []
+    },
+    {
+        "Name": "Sinan/Dengue",
+        "Link": "https://opendatasus.saude.gov.br/dataset/arboviroses-dengue",
+        "Sensitive information": "Dados sobre dengue, sintomas e doen\u00e7as pr\u00e9-existentes.",
+        "QIDs": [],
+        "Sensitive attributes": []
+    },
+    {
+        "Name": "Sinan/Febre de Chikungunya",
+        "Link": "https://opendatasus.saude.gov.br/dataset/arboviroses-febre-de-chikungunya",
+        "Sensitive information": "Dados sobre chikunguya, sintomas e doen\u00e7as pr\u00e9-existentes.",
+        "QIDs": [],
+        "Sensitive attributes": []
+    },
+    {
+        "Name": "Sinan/V\u00edrus Zika",
+        "Link": "https://opendatasus.saude.gov.br/dataset/arboviroses-zika-virus",
+        "Sensitive information": "Dados sobre zika v\u00edrus.",
+        "QIDs": [],
+        "Sensitive attributes": []
+    },
+    {
+        "Name": "SRAG 2019 - Banco de Dados de S\u00edndrome Respirat\u00f3ria Aguda Grave",
+        "Link": "https://opendatasus.saude.gov.br/dataset/srag-2019",
+        "Sensitive information": "Informa\u00e7\u00f5es sobre vacinas, comorbidades, e sintomas.",
+        "QIDs": [],
+        "Sensitive attributes": []
+    },
+    {
+        "Name": "SRAG 2009 a 2012 - Banco de Dados de S\u00edndroma Respirat\u00f3ria Aguda Grave",
+        "Link": "https://opendatasus.saude.gov.br/dataset/srag-2009-2012",
+        "Sensitive information": "Informa\u00e7\u00f5es sobre vacinas, comorbidades, e sintomas.",
+        "QIDs": [],
+        "Sensitive attributes": []
+    },
+    {
+        "Name": "SRAG 2013 a 2018 - Banco de Dados de S\u00edndrome Respirat\u00f3ria Aguda Grave",
+        "Link": "https://opendatasus.saude.gov.br/dataset/srag-2013-2018",
+        "Sensitive information": "Informa\u00e7\u00f5es sobre vacinas, comorbidades, e sintomas.",
+        "QIDs": [],
+        "Sensitive attributes": []
+    },
+    {
+        "Name": "SRAG 2020 - Banco de Dados de S\u00edndrome Respirat\u00f3ria Aguda Grave - incluindo dados da COVID-19",
+        "Link": "https://opendatasus.saude.gov.br/dataset/srag-2020",
+        "Sensitive information": "Informa\u00e7\u00f5es sobre vacinas, comorbidades, e sintomas.",
+        "QIDs": [],
+        "Sensitive attributes": []
+    },
+    {
+        "Name": "SRAG 2019 a 2025 - Banco de Dados de S\u00edndrome Respirat\u00f3ria Aguda Grave - incluindo dados da COVID-19",
+        "Link": "https://opendatasus.saude.gov.br/dataset/srag-2021-a-2024",
+        "Sensitive information": "Informa\u00e7\u00f5es sobre vacinas, comorbidades, e sintomas.",
+        "QIDs": [],
+        "Sensitive attributes": []
+    }
+]
