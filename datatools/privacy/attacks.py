@@ -3,6 +3,9 @@ from pathlib import Path
 from datetime import datetime
 import json
 import os
+import sys
+import argparse
+import textwrap
 
 def read_data(dataset_path:str, qids:list[str], sensitive:list[str], encoding="latin1"):
     """Read a dataset and return only the columns corresponding to quasi-identifiers and sensitive attributes.
@@ -67,34 +70,72 @@ def main():
     # Log function
     log = lambda msg : print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {msg}")
 
+    # Create the parser
+    parser = argparse.ArgumentParser(
+        description=textwrap.dedent("""Re-identification and attribute inference analysis.\n"""+
+        """The script's output are going to be saved in the 'results' folder containing one CSV file per datset provided in --datasets parameter."""), formatter_class=argparse.RawTextHelpFormatter
+    )
+
+    # Add arguments
+    parser.add_argument(
+        "--datasets",
+        type=str,
+        required=True,
+        help=textwrap.dedent("""\
+                            JSON file (relative path) with information about the datasets to be analized.
+                            It must containg a list of dictionaries where each dictionary contains the following fields about a dataset:
+                                - Name: Dataset's name.
+                                - Link: Link to the dataset's source.
+                                - Sensitive information: String describing the sensitive information contained in the dataset.
+                                - QIDs: List of quasi-identifiers (column names).
+                                - Sensitive attributes: List of sensitive attributes (column names).
+                                - Path: Relative path of the dataset's CSV file.""")
+    )
+    parser.add_argument("--processes", type=int, default=1, help="Number of processes to run in parallel.")
+
+    # Parse arguments
+    args = parser.parse_args()
+    
+    # JSON file containing the following fields: Name, Link, Sensitive Information, QIDs, Sensitive attributes, Path.
+    datasets_info_path = Path().cwd() / args.datasets
+    with open(datasets_info_path, "r", encoding="utf-8") as f:
+        datasets_info = json.load(f)
+
+    # Number of processes
+    n_processes = args.processes
+
     # Create results folder
     results_path = Path().cwd() / "results"
     if not results_path.exists():
         os.mkdir(results_path.absolute())
 
-    # JSON file containing the following fields: Name, Link, Sensitive Information, QIDs, Sensitive attributes, Path.
-    datasets_info_path = Path().cwd() / "datasus_datasets_info.json"
-    with open(datasets_info_path, "r", encoding="utf-8") as f:
-        datasets_info = json.load(f)
+    log(f"Starting privacy analysis")
+    log(f"Command line: {' '.join(sys.argv)}")
+    log(f"Running with {n_processes} {'process' if n_processes == 1 else 'processes'}")
 
+    # Run attacks
     for dataset in datasets_info:
-        log(f"Starting privacy analysis of dataset {dataset['Name']}")
+        dataset_path = Path().cwd() / Path(dataset["Path"]) # Relative path to this script
+        dataset_results = results_path / f"{dataset_path.stem}_results.csv"
+
+        # Skip the dataset if the results file already exists
+        if dataset_results.exists():
+            log(f"Skipping analysis for \"{dataset['Name']}\", the result file {dataset_results} alerady exists.")
+            continue
+
+        log(f"Analyzing dataset \"{dataset['Name']}\"")
         qids = dataset["QIDs"]
         sensitive = dataset["Sensitive attributes"]
-        dataset_path = Path(dataset["Path"])
 
-        log(f"Reading data")
+        log(f"Reading data...")
         data = read_data(dataset_path.absolute(), qids, sensitive)
-        log(f"Finished reading")
 
-        log(f"Running attacks")
+        log(f"Running attacks...")
         priors, posteriors = run_attacks(data, qids, sensitive)
-        log(f"Finished attacks")
 
-        log(f"Saving results")
-        dataset_results = results_path / f"{dataset_path.stem}_results.csv"
+        log(f"Saving results...")
         save_results(priors, posteriors, sensitive, dataset_results)
-        log(f"Results saved at '{dataset_results}'")
+        log(f"Results saved at \"{dataset_results}\".")
 
 if __name__ == "__main__":
     main()
