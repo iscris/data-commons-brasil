@@ -134,6 +134,78 @@ def get_highest_priority_format(resources):
     return best_format
 
 
+def handle_api_download(resource_page, item, dataset_name, resource_name, output_dir, PRE_URL_API):
+    return elastic_search_api_download(resource_page, item, dataset_name, resource_name, output_dir, PRE_URL_API)
+
+
+def elastic_search_api_download(resource_page, item, dataset_name, resource_name, output_dir, PRE_URL_API):
+    usuario = None
+    senha = None
+
+    paragraph_tags = resource_page.find_all("p")
+    for tag in paragraph_tags:
+        try:
+            text = tag.get_text()
+            if "Usuário:" in text:
+                usuario = text.split("Usuário:")[1].strip()
+            elif "Senha:" in text:
+                senha = text.split("Senha:")[1].strip()
+        except Exception as e:
+            logger.warning(f"Error parsing credentials: {e}")
+
+    basic = ""
+    if usuario is None or senha is None:
+        try:
+            apidata = get_page_content(item["href"])
+            if apidata:
+                script_tags = apidata.find_all("script")
+
+                for script_tag in script_tags:
+                    javascript_code = (
+                        script_tag.string
+                        if script_tag
+                        else None
+                    )
+
+                    if (
+                        javascript_code
+                        and "var user_config" in javascript_code
+                    ):
+                        lines = javascript_code.split("\n")
+
+                        for line in lines:
+                            if "var user_config" in line:
+                                url_start = line.find(
+                                    '"url": "'
+                                ) + len('"url": "')
+                                url_end = line.find(
+                                    '"', url_start
+                                )
+                                if (
+                                    url_start > 7
+                                    and url_end > url_start
+                                ):
+                                    url = line[
+                                        url_start:url_end
+                                    ]
+                                    item["href"] = (
+                                        PRE_URL_API + url
+                                    )
+                                    break
+        except Exception as e:
+            logger.warning(f"Error extracting API URL: {e}")
+    else:
+        basic = HTTPBasicAuth(usuario, senha)
+
+    file_name = f"{dataset_name}_{resource_name}.json"
+    file_path = os.path.join(output_dir, file_name)
+    download_resource(item["href"], file_path, basic)
+
+
+def openapi_download():
+    pass
+
+
 def download_datasus_data(output_dir: str):
     URL = "https://opendatasus.saude.gov.br/organization/ministerio-da-saude"
     PRE_URL = "https://opendatasus.saude.gov.br"
@@ -250,67 +322,7 @@ def download_datasus_data(output_dir: str):
                             download_resource(download_url, file_path)
 
                         elif file_type == "api":
-                            usuario = None
-                            senha = None
-
-                            paragraph_tags = resource_page.find_all("p")
-                            for tag in paragraph_tags:
-                                try:
-                                    text = tag.get_text()
-                                    if "Usuário:" in text:
-                                        usuario = text.split("Usuário:")[1].strip()
-                                    elif "Senha:" in text:
-                                        senha = text.split("Senha:")[1].strip()
-                                except Exception as e:
-                                    logger.warning(f"Error parsing credentials: {e}")
-
-                            basic = ""
-                            if usuario is None or senha is None:
-                                try:
-                                    apidata = get_page_content(item["href"])
-                                    if apidata:
-                                        script_tags = apidata.find_all("script")
-
-                                        for script_tag in script_tags:
-                                            javascript_code = (
-                                                script_tag.string
-                                                if script_tag
-                                                else None
-                                            )
-
-                                            if (
-                                                javascript_code
-                                                and "var user_config" in javascript_code
-                                            ):
-                                                lines = javascript_code.split("\n")
-
-                                                for line in lines:
-                                                    if "var user_config" in line:
-                                                        url_start = line.find(
-                                                            '"url": "'
-                                                        ) + len('"url": "')
-                                                        url_end = line.find(
-                                                            '"', url_start
-                                                        )
-                                                        if (
-                                                            url_start > 7
-                                                            and url_end > url_start
-                                                        ):
-                                                            url = line[
-                                                                url_start:url_end
-                                                            ]
-                                                            item["href"] = (
-                                                                PRE_URL_API + url
-                                                            )
-                                                            break
-                                except Exception as e:
-                                    logger.warning(f"Error extracting API URL: {e}")
-                            else:
-                                basic = HTTPBasicAuth(usuario, senha)
-
-                            file_name = f"{dataset_name}_{resource_name}.json"
-                            file_path = os.path.join(output_dir, file_name)
-                            download_resource(item["href"], file_path, basic)
+                            handle_api_download(resource_page, item, dataset_name, resource_name, output_dir, PRE_URL_API)
 
                         elif file_type == "csv":
                             csvlist = resource_page.find("div", class_="prose notes")

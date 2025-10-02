@@ -51,16 +51,16 @@
         "Name": "e-SUS Sinan/Mpox",
         "Link": "https://opendatasus.saude.gov.br/dataset/mpox",
         "Sensitive information": "Comportamento sexual, orienta\u00e7\u00e3o sexual, sintomas, ISTs.",
-        "QIDs": [],
-        "Sensitive attributes": [],
+        "QIDs": ["no_uf_residencia", "no_uf_notificacao", "co_municipio_notificacao", "co_municipio_residencia", "nu_idade", "tp_sexo", "tp_ident_genero", "tp_raca_cor"],
+        "Sensitive attributes": ["comp__sexual", "tp_orienta_sexual", "st_sintoma", "pac_ist_ativa", "pac_imunodeprimido", "ist_gonorreia", "ist_clamidea", "ist_sifilis", "ist_herpes_genital", "ist_cancro_mole", "ist_trichomoma_vaginalis", "ist_linfogranuloma", "ist_mycoplasma_genital", "ist_hpv", "ist_dip", "ist_donovanose", "ist_infec_virus_linfotropico", "ist_verruga_genital", "tp_coleta_amostra_swab_ves", "tp_gestante", "pac_hiv"],
         "Path": ""
     },
     {
         "Name": "ESAVI - Dados sobre Eventos Supostamente Atribu\u00edveis a Vacina\u00e7\u00e3o",
         "Link": "https://opendatasus.saude.gov.br/dataset/esavi",
         "Sensitive information": "Doen\u00e7as pr\u00e9-existentes, medicamentos utilizados.",
-        "QIDs": [],
-        "Sensitive attributes": [],
+        "QIDs": ["ds_sexo", "no_estado", "ds_raca_cor_mae", "no_estado_notificacao", "nu_idade", "ds_raca_cor", "no_municipio", "ds_estrangeiro", "ds_profissional_saude", "no_estado_mae", "no_mun_mae", "no_mun_notificacao", "no_estado_estab_atendimento", "no_mun_estab_atendimento", "ds_medicamento"],
+        "Sensitive attributes": ["nu_mes_gestante", "ds_gestante", "ds_crianca_aleitamento", "ds_medicamento_uso", "ds_evolucao_caso", "ds_diagnostico", "ds_doencas_pre_existentes"],
         "Path": ""
     },
     {
@@ -75,7 +75,7 @@
         "Name": "Febre Amarela em humanos e primatas n\u00e3o-humanos - 1994 a 2025",
         "Link": "https://opendatasus.saude.gov.br/dataset/febre-amarela-em-humanos-e-primatas-nao-humanos",
         "Sensitive information": "A presen\u00e7a do indiv\u00edduo no dataset indica que ele tem/teve febre amarela. H\u00e1 outras informa\u00e7\u00f5es como data que se iniciou/terminou e \u00f3bitos.",
-        "QIDs": [],
+        "QIDs": ["MACRORREG_LPI", "UF_LPI", "MUN_LPI", "SEXO", "IDADE", "OBITO", "DT_OBITO"],
         "Sensitive attributes": [],
         "Path": ""
     },
@@ -91,48 +91,48 @@
         "Name": "Sinan/Dengue",
         "Link": "https://opendatasus.saude.gov.br/dataset/arboviroses-dengue",
         "Sensitive information": "Dados sobre dengue, sintomas e doen\u00e7as pr\u00e9-existentes.",
-        "QIDs": [],
-        "Sensitive attributes": [],
+        "QIDs": ["sg_uf_not", "id_municip", "id_regiona", "id_unidade", "ano_nasc", "nu_idade_n", "cs_sexo", "cs_raca", "cs_escol_n", "sg_uf", "id_mn_resi", "id_rg_resi", "id_ocupa_n", "coufinf", "municipio"],
+        "Sensitive attributes": ["id_agravo", "cs_gestant", "febre", "mialgia", "cefaleia", "exantema", "vomito", "nausea", "dor_costas", "conjuntvit", "artrite", "artralgia", "petequia_n", "leucopenia", "laco", "dor_retro", "diabetes", "hematolog", "hepatopat", "renal", "hipertensa", "acido_pept", "auto_imune", "res_chiks1", "res_chiks2", "resul_prnt", "resul_soro", "resul_ns1", "resul_vi_n", "resul_pcr_", "histopa_n", "imunoh_n", "hospitaliz"],
         "Path": ""
     },
     {
         "Name": "Sinan/Febre de Chikungunya",
         "Link": "https://opendatasus.saude.gov.br/dataset/arboviroses-febre-de-chikungunya",
         "Sensitive information": "Dados sobre chikunguya, sintomas e doen\u00e7as pr\u00e9-existentes.",
-        "QIDs": [],
-        "Sensitive attributes": [],
+        "QIDs": ["sg_uf_not", "id_municip", "id_regiona", "id_unidade", "ano_nasc", "nu_idade_n", "cs_sexo", "cs_raca", "cs_escol_n", "sg_uf", "id_mn_resi", "id_rg_resi", "id_pais", "id_ocupa_n", "uf", "municipio", "coufinf", "copaisinf", "comuninf", "dt_obito"],
+        "Sensitive attributes": ["id_agravo", "cs_gestant", "febre", "mialgia", "cefaleia", "exantema", "vomito", "nausea", "dor_costas", "conjuntvit", "artrite", "artralgia", "petequia_n", "leucopenia", "laco", "dor_retro", "diabetes", "hematolog", "hepatopat", "renal", "hipertensa", "acido_pept", "auto_imune", "res_chiks1", "res_chiks2", "resul_prnt", "resul_soro", "resul_ns1", "resul_vi_n", "resul_pcr_", "histopa_n", "imunoh_n", "hospitaliz", "classi_fin", "alrm_hipot", "alrm_plaq", "alrm_vom", "alrm_sang", "alrm_hemat", "alrm_abdom", "alrm_letar", "alrm_hepat", "alrm_liq", "grav_pulso", "grav_conv", "grav_ench", "grav_insuf", "grav_taqui", "grav_extre", "grav_hipot", "grav_hemat", "grav_melen", "grav_metro", "grav_sang", "grav_ast", "grav_mioc", "grav_consc", "grav_orgao", "mani_hemor", "epistaxe", "gengivo", "metro", "petequias", "hematura", "sangram", "laco_n", "plasmatico", "plaq_menor", "con_fhd", "complica"],
         "Path": ""
     },
     {
         "Name": "Sinan/V\u00edrus Zika",
         "Link": "https://opendatasus.saude.gov.br/dataset/arboviroses-zika-virus",
         "Sensitive information": "Dados sobre zika v\u00edrus.",
-        "QIDs": [],
-        "Sensitive attributes": [],
+        "QIDs": ["id_agravo", "sg_uf_not", "id_municip", "id_regiona", "id_unidade", "ano_nasc", "nu_idade_n", "cs_sexo", "cs_raca", "cs_escol_n", "sg_uf", "id_mn_resi", "id_rg_resi", "id_pais", "id_ocupa_n", "coufinf", "copaisinf", "comuninf", "dt_obito"],
+        "Sensitive attributes": ["cs_gestant", "classi_fin", "evolucao"],
         "Path": ""
     },
     {
         "Name": "SRAG 2019 - Banco de Dados de S\u00edndrome Respirat\u00f3ria Aguda Grave",
         "Link": "https://opendatasus.saude.gov.br/dataset/srag-2019",
         "Sensitive information": "Informa\u00e7\u00f5es sobre vacinas, comorbidades, e sintomas.",
-        "QIDs": [],
-        "Sensitive attributes": [],
+        "QIDs": ["SG_UF_NOT", "ID_MUNICIP", "CO_MUN_NOT", "ID_REGIONA", "CO_REGIONA", "ID_UNIDADE", "CO_UNI_NOT", "NU_CPF", "NM_PACIENT", "CS_SEXO", "DT_NASC", "NU_IDADE_N", "CS_RACA", "CS_ETINIA", "CS_ESCOL_N", "NM_MAE_PAC", "NU_CEP", "SG_UF", "ID_RG_RESI", "CO_RG_RESI", "ID_MN_RESI", "CO_MUN_RES", "NM_BAIRRO", "NM_LOGRADO", "NU_NUMERO", "NM_COMPLEM", "NU_DDD_TEL", "NU_TELEFON", "CS_ZONA", "ID_PAIS", "CO_PAIS", "SG_UF_INTE", "ID_RG_INTE", "CO_RG_INTE", "ID_MN_INTE", "CO_MU_INTE", "ID_UN_INTE", "CO_UN_INTE"],
+        "Sensitive attributes": ["CS_GESTANT", "SURTO_SG", "NOSOCOMIAL", "FEBRE", "TOSSE", "GARGANTA", "DISPNEIA", "DESC_RESP", "SATURACAO", "DIARREIA", "VOMITO", "OUTRO_SIN", "OUTRO_DES", "PUERPERA", "CARDIOPATI", "HEMATOLOGI", "SIND_DOWN", "HEPATICA", "ASMA", "DIABETES", "NEUROLOGIC", "PNEUMOPATI", "IMUNODEPRE", "RENAL", "OBESIDADE", "OBES_IMC", "OUT_MORBI", "MORB_DESC", "VACINA", "MAE_VAC", "M_AMAMENTA", "ANTIVIRAL", "TP_ANTIVIR", "OUT_ANTIV", "HOSPITAL", "UTI", "SUPORT_VEN", "RAIOX_RES", "RAIOX_OUT", "AMOSTRA", "TP_AMOSTRA", "OUT_AMOST", "IF_RESUL", "POS_IF_FLU", "TP_FLU_IF", "POS_IF_OUT", "IF_VSR", "IF_PARA1", "IF_PARA2", "IF_PARA3", "IF_ADENO", "IF_OUTRO", "DS_IF_OUT", "PCR_RESUL", "POS_PCRFLU", "TP_FLU_PCR", "PCR_FLUASU", "FLUASU_OUT", "PCR_FLUBLI", "FLUBLI_OUT", "POS_PCROUT", "PCR_VSR", "PCR_PARA1", "PCR_PARA2", "PCR_PARA3", "PCR_PARA4", "PCR_ADENO", "PCR_METAP", "PCR_BOCA", "PCR_RINO", "PCR_OUTRO", "DS_PCR_OUT", "CLASSI_FIN", "CLASSI_OUT", "EVOLUCAO", "OBSERVA", "NOME_PROF", "REG_PROF"],
         "Path": ""
     },
     {
         "Name": "SRAG 2009 a 2012 - Banco de Dados de S\u00edndroma Respirat\u00f3ria Aguda Grave",
         "Link": "https://opendatasus.saude.gov.br/dataset/srag-2009-2012",
         "Sensitive information": "Informa\u00e7\u00f5es sobre vacinas, comorbidades, e sintomas.",
-        "QIDs": [],
-        "Sensitive attributes": [],
+        "QIDs": ["co_cbo_ocup acao", "co_uf_desloc1", "co_uf_desloc2", "co_uf_desloc3", "co_municipio_desloc1", "co_municipio_desloc2", "co_municipio_desloc3", "co_pais_desloc1", "co_pais_desloc2", "co_pais_desloc3", "co_uf_internacao", "co_municipio_internacao", "co_unidade_internacao", "co_uf_infeccao", "co_pais_infeccao", "co_municipio_infeccao", "co_distrito_infeccão", "co_bairro_inf eccao", "no_bairro_infeccao", "dt_obito"],
+        "Sensitive attributes": ["st_vacina_gripe", "st_vacina_pneumococica", "st_sintoma_febre", "st_sintoma_tosse", "st_sintoma_calafrio", "st_sintoma_dispneia", "st_sintoma_garganta", "st_sintoma_artralgia", "st_sintoma_mialgia", "st_sintoma_conjuntivite", "st_sintoma_coriza", "st_sintoma_diarreia", "st_sintoma_outro", "ds_sintoma_outro", "st_comorb_cardiopatia", "st_comorb_pneumopatia", "st_comorb_renal", "st_comorb_h emoglobinopatia", "st_comorb_imunodeprimido", "st_comorb_tabagismo", "st_comorb_metabolica", "st_comorb_outro", "ds_comorb_outro", "st_hospitalizacao", "tp_resultado_pcr", "tp_diagnostico_etiologico_pcr", "tp_diagnostico_etiol_inibicao", "tp_resultado_raiox", "ds_resultado_raiox", "tp_classificacao_final", "ds_classificacao_final", "tp_evolucao_ caso", "ds_evolucao_caso_outro", "ds_observacao", "st_monitoramento"],
         "Path": ""
     },
     {
         "Name": "SRAG 2013 a 2018 - Banco de Dados de S\u00edndrome Respirat\u00f3ria Aguda Grave",
         "Link": "https://opendatasus.saude.gov.br/dataset/srag-2013-2018",
         "Sensitive information": "Informa\u00e7\u00f5es sobre vacinas, comorbidades, e sintomas.",
-        "QIDs": [],
-        "Sensitive attributes": [],
+        "QIDs": ["co_uf_notificacao", "co_municipio_notificacao", "co_unidade_notificacao", "no_nome_paciente", "nu_cartao_sus", "dt_nascimento", "nu_idade", "tp_sexo", "tp_raca_cor", "tp_escolaridade", "no_nome_mae", "co_uf_residencia", "co_municipio_residencia", "co_distrito_residencia", "co_bairro_residencia", "no_bairro_residencia", "co_logradouro_residencia", "nu_residencia", "ds_complemento_residencia", "ds_referencia_residencia", "nu_cep_residencia", "nu_ddd_residencia", "nu_telefone_residencia", "co_pais_residencia", "co_uf_internacao", "co_municipio_internacao", "co_unidade_internacao"],
+        "Sensitive attributes": ["tp_gestante", "st_vacina_gripe", "st_sintoma_febre", "st_sintoma_tosse", "st_sintoma_garganta", "st_sintoma_dispneia", "st_sintoma_mialgia", "st_sintoma_saturacao", "st_sintoma_desconforto", "st_sintoma_outro", "ds_sintoma_outro", "st_comorb_pneumopatia", "st_comorb_cardiopatia", "st_comorb_imunodeprimido", "st_comorb_renal", "st_comorb_metabolica", "st_comorb_outro", "ds_comorb_outro", "st_hospitalizacao", "tp_classificacao_final", "tp_classificacao_final_outroae", "tp_evolucao_caso", "ds_evolucao_caso_outro"],
         "Path": ""
     },
     {
@@ -147,8 +147,8 @@
         "Name": "SRAG 2019 a 2025 - Banco de Dados de S\u00edndrome Respirat\u00f3ria Aguda Grave - incluindo dados da COVID-19",
         "Link": "https://opendatasus.saude.gov.br/dataset/srag-2021-a-2024",
         "Sensitive information": "Informa\u00e7\u00f5es sobre vacinas, comorbidades, e sintomas.",
-        "QIDs": [],
-        "Sensitive attributes": [],
+        "QIDs": ["SG_UF_NOT", "ID_MUNICIP", "CO_MUN_NOT", "ID_REGIONA", "CO_REGIONA", "ID_UNIDADE", "CO_UNI_NOT", "NU_CPF", "ESTRANG", "NU_CNS", "NM_PACIENT", "CS_SEXO", "DT_NASC", "NU_IDADE_N", "CS_RACA", "CS_ETINIA", "CS_ESCOL_N", "PAC_COCBO", "PAC_DSCBO", "NM_MAE_PAC", "NU_CEP", "SG_UF", "ID_RG_RESI", "CO_RG_RESI", "ID_MN_RESI", "CO_MUN_RES", "NM_BAIRRO", "NM_LOGRADO", "NU_NUMERO", "NM_COMPLEM", "NU_DDD_TEL", "NU_TELEFON", "CS_ZONA", "ID_PAIS", "CO_PA", "AVE_SUINO", "OUT_ANIM", "HOSPITAL", "SG_UF_INTE", "ID_RG_INTE", "CO_RG_INTE", "ID_MN_INTE", "CO_MU_INTE", "ID_UN_INTE", "CO_UN_INTE", "NU_DO"],
+        "Sensitive attributes": ["CS_GESTANT", "TP_POV_CT", "NOSOCOMIAL", "FEBRE", "TOSSE", "GARGANTA", "DISPNEIA", "DESC_RESP", "SATURACAO", "DIARREIA", "VOMITO", "DOR_ABD", "FADIGA", "PERD_OLFT", "PERD_PALA", "OUTRO_SIN", "OUTRO_DES", "FATOR_RISC", "PUERPERA", "CARDIOPATI", "HEMATOLOGI", "SIND_DOWN", "HEPATICA", "ASMA", "DIABETES", "NEUROLOGIC", "PNEUMOPATI", "IMUNODEPRE", "RENAL", "OBESIDADE", "OBES_IMC", "TABAG", "OUT_MORBI", "MORB_DESC", "VACINA_COV", "VACINA", "MAE_VAC", "M_AMAMENTA", "ANTIVIRAL", "TP_ANTIVIR", "OUT_ANTIV", "TRAT_COV", "TIPO_TRAT", "OUT_TRAT", "UTI", "SUPORT_VEN", "RAIOX_RES", "RAIOX_OUT", "TOMO_RES", "TOMO_OUT", "AMOSTRA", "RES_AN", "POS_AN_FLU", "TP_FLU_AN", "POS_AN_OUT", "AN_SARS2", "AN_VSR", "AN_PARA1", "AN_PARA2", "AN_PARA3", "AN_ADENO", "AN_OUTRO", "DS_AN_OUT", "PCR_RESUL", "POS_PCRFLU", "TP_FLU_PCR", "PCR_FLUASU", "FLUASU_OUT", "PCR_FLUBLI", "FLUBLI_OUT", "POS_PCROUT", "PCR_ SARS2", "PCR_VSR", "PCR_PARA1", "PCR_PARA2", "PCR_PARA3", "PCR_PARA4", "PCR_ADENO", "PCR_METAP", "PCR_BOCA", "PCR_RINO", "PCR_OUTRO", "DS_PCR_OUT", "RES_IGG", "RES_IGM", "RES_IGA", "CO-DETEC", "CLASSI_FIN", "CLASSI_OUT", "EVOLUCAO", "VG_REINF"],
         "Path": ""
     }
 ]
