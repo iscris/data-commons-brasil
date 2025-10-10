@@ -30,6 +30,7 @@ dependencies = [
     "itemloaders==1.1.0",
     "jiter==0.5.0",
     "jmespath==1.0.1",
+    "json5>=0.12.1",
     "lxml==4.9.4",
     "numpy==1.26.2",
     "openai==1.51.0",
