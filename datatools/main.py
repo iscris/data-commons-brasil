@@ -11,6 +11,12 @@ def main():
     downloader_parser = subparser.add_parser("download", help="")
     downloader_parser.add_argument("--source", type=str, required=True, help="")
     downloader_parser.add_argument("--skip", type=str, help="")
+    downloader_parser.add_argument(
+        "--workers",
+        type=int,
+        default=4,
+        help="Number of parallel workers for downloading (default: 4)",
+    )
 
     processor_parser = subparser.add_parser("process", help="")
     processor_parser.add_argument("--source", type=str, required=True, help="")
@@ -20,7 +26,9 @@ def main():
     base_output_path = "output"
 
     if args.command == "download":
-        download_from_source(args.source, "output/downloader", args.skip)
+        download_from_source(
+            args.source, "output/downloader", args.skip, args.workers
+        )
     elif args.command == "process":
         process_source(args.source, args.input, f"{base_output_path}/processor")
     else:

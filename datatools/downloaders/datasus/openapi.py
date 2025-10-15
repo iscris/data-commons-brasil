@@ -1,7 +1,9 @@
 import logging
 import os
+import shutil
 import time
 from datetime import datetime
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 import json5
@@ -87,6 +89,62 @@ def save_data(filepath: str, data: List[Any], metadata: Dict[str, Any]):
         json5.dump(output, f, ensure_ascii=False, indent=2)
 
 
+def find_complete_file_in_previous_runs(
+    filename: str, current_output_dir: str
+) -> Optional[str]:
+    """
+    Search for a complete OpenAPI file in previous timestamped runs.
+
+    Args:
+        filename: The filename to search for (e.g., "cnes_estabelecimentos.json")
+        current_output_dir: Current openapi directory (e.g., ".../tmp_uuid/openapi")
+
+    Returns:
+        Path to complete file if found, None otherwise
+    """
+    try:
+        # Get parent of openapi dir (tmp_uuid)
+        tmp_dir = Path(current_output_dir).parent
+        # Get parent of tmp_uuid (datasus)
+        datasus_dir = tmp_dir.parent
+
+        if not datasus_dir.exists():
+            return None
+
+        # Search in timestamped directories (format: YYYYMMDD_HHMMSS)
+        for subdir in datasus_dir.iterdir():
+            if subdir.is_dir() and not subdir.name.startswith("tmp_"):
+                # Check if openapi subdir exists
+                openapi_dir = subdir / "openapi"
+                if not openapi_dir.exists():
+                    continue
+
+                # Check if file exists
+                candidate_file = openapi_dir / filename
+                if not candidate_file.exists():
+                    continue
+
+                # Check if file is complete
+                try:
+                    with open(candidate_file, "r", encoding="utf-8") as f:
+                        data = json5.load(f)
+                        metadata = data.get("metadata", {})
+                        if metadata.get("status") == "complete":
+                            logger.info(
+                                f"Found complete file in previous run: {subdir.name}/{filename} "
+                                f"({metadata.get('total_records', 0)} records)"
+                            )
+                            return str(candidate_file)
+                except Exception as e:
+                    logger.debug(f"Failed to check {candidate_file}: {e}")
+                    continue
+
+        return None
+    except Exception as e:
+        logger.warning(f"Error searching for previous files: {e}")
+        return None
+
+
 def download_endpoint(endpoint_info: Dict[str, Any], output_dir: str) -> bool:
     path = endpoint_info["path"]
     max_limit = endpoint_info["max_limit"]
@@ -99,6 +157,40 @@ def download_endpoint(endpoint_info: Dict[str, Any], output_dir: str) -> bool:
 
     filename = sanitize_filename(path)
     filepath = os.path.join(output_dir, filename)
+
+    # Check if file already exists and is complete in current directory
+    if os.path.exists(filepath):
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                data = json5.load(f)
+                metadata = data.get("metadata", {})
+                if metadata.get("status") == "complete":
+                    logger.info(
+                        f"Endpoint {path} already complete "
+                        f"({metadata.get('total_records', 0)} records). Skipping."
+                    )
+                    return True
+                else:
+                    logger.info(
+                        f"Endpoint {path} incomplete (status: {metadata.get('status')}). Re-downloading."
+                    )
+        except Exception as e:
+            logger.warning(f"Failed to check existing file: {e}. Re-downloading.")
+    else:
+        # File doesn't exist in current dir, check previous runs
+        previous_file = find_complete_file_in_previous_runs(filename, output_dir)
+        if previous_file:
+            try:
+                # Copy the complete file from previous run
+                shutil.copy2(previous_file, filepath)
+                logger.info(
+                    f"Reused complete file from previous run: {filename}"
+                )
+                return True
+            except Exception as e:
+                logger.warning(
+                    f"Failed to copy file from previous run: {e}. Re-downloading."
+                )
 
     all_data = []
     offset = 0

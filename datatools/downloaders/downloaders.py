@@ -13,7 +13,9 @@ from .ipea.ipea import download_ipea_data
 # This directory will only exist until the download completes and the
 # data is transferred to its final destination—a permanent directory
 # named with a unique identifying timestamp.
-def pick_downloader(source: str, tmp_download_path: str, skip_files: list[str]):
+def pick_downloader(
+    source: str, tmp_download_path: str, skip_files: list[str], max_workers: int = 4
+):
     match source:
         case "ipea":
             download_ipea_data(tmp_download_path)
@@ -22,19 +24,21 @@ def pick_downloader(source: str, tmp_download_path: str, skip_files: list[str]):
         case "ibge_agregados":
             download_ibge_agregados(tmp_download_path, skip_files)
         case "datasus":
-            download_datasus_data(tmp_download_path)
+            download_datasus_data(tmp_download_path, max_workers)
         case _:
             raise NotImplementedError
 
 
 # Nothing bellow this comment needs to be modified when adding
 # a new downloading source
-def download_from_source(source: str, download_path: str, skip: str | None):
+def download_from_source(
+    source: str, download_path: str, skip: str | None, max_workers: int = 4
+):
     download_id = uuid4()
     tmp_path = f"{download_path}/{source}/tmp_{download_id}"
     os.makedirs(tmp_path, exist_ok=True)
     skip_files = read_skip_file(skip) if skip else []
-    pick_downloader(source, tmp_path, skip_files)
+    pick_downloader(source, tmp_path, skip_files, max_workers)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     final_path = f"{download_path}/{source}/{timestamp}/"

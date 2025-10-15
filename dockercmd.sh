@@ -3,7 +3,12 @@
 set -e
 
 if [ "$#" -lt 2 ]; then
-    echo "Usage: $0 [download|process|import] <source>"
+    echo "Usage: $0 [download|process|import] <source> [options]"
+    echo ""
+    echo "Commands:"
+    echo "  download <source> [workers]  - Download data from source (optional: number of workers, default: 4)"
+    echo "  process <source> [timestamp] - Process downloaded data (optional: specific timestamp)"
+    echo "  import <source>              - Import processed data to Data Commons"
     exit 1
 fi
 
@@ -17,8 +22,19 @@ case $1 in
         flags="--rm"
         container_name=downloader_$2
         volumes="-v $downloader_output:/app/output/downloader"
-        image=ghcr.io/iscris/datatools:latest
-        command="download --source $2"
+        # image=ghcr.io/iscris/datatools:latest
+        image=datatools
+
+        # Check if workers argument is provided
+        if [ -n "$3" ]; then
+            workers=$3
+            command="download --source $2 --workers $workers"
+            echo "Starting download with $workers parallel workers..."
+        else
+            command="download --source $2"
+            echo "Starting download with default (4) parallel workers..."
+        fi
+
         docker run $flags --name $container_name $volumes $image $command
         ;;
     process)

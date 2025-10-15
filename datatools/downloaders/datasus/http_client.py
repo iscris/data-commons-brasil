@@ -150,17 +150,17 @@ def extract_api_url_from_javascript(item: any) -> Optional[str]:
     return None
 
 
-def handle_api_download(ctx: DownloadContext) -> None:
+def handle_api_download(ctx: DownloadContext) -> bool:
     api_link = ctx.resource_page.select_one("div.row.wrapper > section > div > p > a")
 
     if OPEN_API_URL in api_link["href"]:
-        logger.info("Skipping ")
-        return
+        logger.info("Skipping OpenAPI link (handled separately)")
+        return True  # Not an error, just skipped
     else:
         return handle_basic_api_download(ctx)
 
 
-def handle_basic_api_download(ctx: DownloadContext) -> None:
+def handle_basic_api_download(ctx: DownloadContext) -> bool:
     usuario, senha = extract_api_credentials(ctx.resource_page)
     auth = None
     if usuario is None or senha is None:
@@ -172,7 +172,7 @@ def handle_basic_api_download(ctx: DownloadContext) -> None:
 
     file_name = f"{ctx.dataset_name}_{ctx.resource_name}.json"
     file_path = os.path.join(ctx.output_dir, file_name)
-    download_file(ctx.download_item["href"], file_path, auth)
+    return download_file(ctx.download_item["href"], file_path, auth)
 
 
 def create_api_function(endpoint_path: str, spec: dict[str, Any], base_url: str):
@@ -255,11 +255,13 @@ def find_all_download_links(ctx: DownloadContext, file_type: str) -> list[dict]:
     return download_links
 
 
-def handle_file_download(ctx: DownloadContext) -> None:
+def handle_file_download(ctx: DownloadContext) -> bool:
     file_extension = "zip" if ctx.file_type == "zip csv" else ctx.file_type
 
     all_links = find_all_download_links(ctx, file_extension)
     logger.info(f"Found {len(all_links)} download links")
+
+    all_successful = True
 
     if all_links:
         for idx, link in enumerate(all_links):
@@ -270,16 +272,25 @@ def handle_file_download(ctx: DownloadContext) -> None:
             )
             file_path = os.path.join(ctx.output_dir, file_name)
             download_url = build_full_url(link)
-            download_file(download_url, file_path)
+            success = download_file(download_url, file_path)
+            if not success:
+                all_successful = False
+                logger.error(f"Failed to download file {idx + 1}/{len(all_links)}")
     else:
         file_name = f"{ctx.dataset_name}_{ctx.resource_name}.{file_extension}"
         file_path = os.path.join(ctx.output_dir, file_name)
         download_url = build_full_url(ctx.download_item["href"])
-        download_file(download_url, file_path)
+        all_successful = download_file(download_url, file_path)
+
+    return all_successful
 
 
-def download_resource(ctx: DownloadContext) -> None:
+def download_resource(ctx: DownloadContext) -> bool:
+    """
+    Download a resource (file or API data).
+    Returns True if download was successful, False otherwise.
+    """
     if ctx.file_type == "api":
-        handle_api_download(ctx)
+        return handle_api_download(ctx)
     else:
-        handle_file_download(ctx)
+        return handle_file_download(ctx)
